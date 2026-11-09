@@ -45,4 +45,4 @@ archive = shutil.make_archive(
 files.download(archive)
 ```
 
-其他长度档只替换 `--input-tokens` 和 `--output-dir`：`1920` / `long_L2048`、`896` / `long_L1024`、`384` / `long_L512`。容量压力档改用 `--batch-sizes 16 32 64`，输出到新的 `pressure_L4096` 目录；预算敏感性每档也用不同输出目录。正式命令、原始文件和结果分析在实际运行后再补入量化报告。免费 Colab GPU 配额当前已满；用户不方便完成 Kaggle 手机验证，故不以 Kaggle 作为当前执行路径。
+其他长度档只替换 `--input-tokens` 和 `--output-dir`：`1920` / `long_L2048`、`896` / `long_L1024`、`384` / `long_L512`。容量压力档改用 `--batch-sizes 16 32 64`，输出到新的 `pressure_L4096` 目录；预算敏感性每档也用不同输出目录。正式命令、原始文件和结果分析在实际运行后再补入量化报告。2026-11-10 用户确认 Colab 仍提示 GPU 用量限额，并选择等待免费配额恢复；不改用 Kaggle 手机验证或付费 T4。恢复后先重新核对 GPU、环境版本与 smoke test，再逐档实测。
