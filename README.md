@@ -176,7 +176,7 @@ python run_experiment.py
 
 LRU 换出已在元数据层实现。已确认的 GPU 验证方式是使用真实推理引擎做 A/B，同时用本项目仿真器验证机制；本分配器不会直接管理真实 KV 张量。设计与评测细节见 `docs/系统设计文档.md` 和 `docs/量化评测报告.md`。
 
-Colab T4 的环境检查、两引擎单批 smoke test 和 512 输入 + 128 输出的三轮配对 A/B 已完成。正式原始证据在 `review_outputs/gpu_formal/main_512_128/`，汇总与解释在 `docs/量化评测报告.md`；复跑方法见 `gpu_validation/Colab快速开始.md`。这组数据比较的是完整引擎，长上下文和容量压力仍待实测。
+Colab T4 的环境检查、两引擎单批 smoke test 和 512 输入 + 128 输出的三轮配对 A/B 已完成。正式原始证据在 `review_outputs/gpu_formal/main_512_128/`，汇总与解释在 `docs/量化评测报告.md`；复跑方法见 `gpu_validation/Colab快速开始.md`。这组数据比较的是完整引擎，长上下文和容量压力仍待实测；已确认的后续实验配置见 `docs/GPU长上下文与压力测试计划.md`。
 
 ---
 

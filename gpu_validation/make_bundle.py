@@ -11,6 +11,7 @@ FILES = [
     ROOT / "run_trace_experiment.py",
     ROOT / "review_outputs" / "sharegpt" / "trace.json",
     ROOT / "docs" / "云端GPU验证记录模板.md",
+    ROOT / "docs" / "GPU长上下文与压力测试计划.md",
 ]
 
 

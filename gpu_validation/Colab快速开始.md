@@ -36,7 +36,7 @@ with zipfile.ZipFile("gpu_validation_bundle.zip") as archive:
 ```python
 !python -m pip -q install uv
 !uv venv /content/kv_task/.venv --python python3
-!uv pip install --python /content/kv_task/.venv/bin/python vllm transformers --torch-backend=auto
+!uv pip install --python /content/kv_task/.venv/bin/python 'torch==2.14.0' 'vllm==0.33.0' 'transformers==5.20.2' --torch-backend=auto
 !uv pip freeze --python /content/kv_task/.venv/bin/python > environment.txt
 !CUDA_VISIBLE_DEVICES=0 /content/kv_task/.venv/bin/python gpu_validation/bench.py --backend hf_static --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 --gpu-index 0 --output hf_smoke.json
 !CUDA_VISIBLE_DEVICES=0 VLLM_WORKER_MULTIPROC_METHOD=spawn /content/kv_task/.venv/bin/python gpu_validation/bench.py --backend vllm --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 --gpu-index 0 --output vllm_smoke.json
@@ -44,6 +44,8 @@ with zipfile.ZipFile("gpu_validation_bundle.zip") as archive:
 ```
 
 两种引擎由两个命令分别启动为新进程；若前一个进程异常退出、残留 GPU 占用或 Colab 重启，先检查 `nvidia-smi` 再启动下一种。JSON 应同时为 `status=complete`，同卡 `gpu_uuid` 与 prompt 哈希应一致。**smoke test 成功只证明流程可运行，不等于完成正式 A/B**。
+
+以上版本与 2026-11-09 已成功的 T4 主负载一致。新会话若驱动、CUDA 后端或安装解析与原记录不同，先保存环境输出并重新做 smoke test；不能把不同版本的结果直接并入原来的三轮均值。
 
 ## 4. 正式 A/B
 
