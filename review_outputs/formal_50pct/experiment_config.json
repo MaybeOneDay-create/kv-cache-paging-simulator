@@ -1,0 +1,27 @@
+{
+  "main": {
+    "requests": 800,
+    "seed": 42,
+    "arrival_mean": 0.15,
+    "total_length_range": [
+      128,
+      1024
+    ],
+    "max_context": 2048
+  },
+  "long_context": {
+    "requests_per_length": 100,
+    "seed": 2026,
+    "total_lengths": [
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "max_context": 4096
+  },
+  "block_size": 16,
+  "prompt_fraction": 0.5,
+  "dynamic_growth_timing": "uniform generated tokens over request duration",
+  "dynamic_cpu_swap_blocks": 0
+}

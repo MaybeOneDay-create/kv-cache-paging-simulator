@@ -1,0 +1,8022 @@
+{
+  "metadata": {
+    "dataset_id": "anon8231489123/ShareGPT_Vicuna_unfiltered",
+    "dataset_revision": "192ab2185289094fc556ec8ce5ce1e8e587154ca",
+    "dataset_file": "ShareGPT_V3_unfiltered_cleaned_split.json",
+    "dataset_sha256": "35f0e213ce091ed9b9af2a1f0755e9d39f9ccec34ab281cd4ca60d70f6479ba4",
+    "tokenizer_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "tokenizer_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "requests": 800,
+    "seed": 42,
+    "min_total_tokens": 128,
+    "max_context": 4096,
+    "arrival_mean": 0.15,
+    "duration_range": [
+      8.0,
+      25.0
+    ],
+    "timing": "synthetic Poisson arrivals and uniform durations"
+  },
+  "requests": [
+    {
+      "id": 0,
+      "ta": 0.04605255877324809,
+      "dur": 14.309002098629193,
+      "L": 973,
+      "M": 4096,
+      "prompt_tokens": 560,
+      "generated_tokens": 413,
+      "source_id": "Fmivq5V_29"
+    },
+    {
+      "id": 1,
+      "ta": 0.37532027645832733,
+      "dur": 8.619200466457727,
+      "L": 2218,
+      "M": 4096,
+      "prompt_tokens": 1530,
+      "generated_tokens": 688,
+      "source_id": "aSGXnFA_0"
+    },
+    {
+      "id": 2,
+      "ta": 0.4685399752173556,
+      "dur": 11.961099673891368,
+      "L": 1165,
+      "M": 4096,
+      "prompt_tokens": 754,
+      "generated_tokens": 411,
+      "source_id": "UnjngE7_8"
+    },
+    {
+      "id": 3,
+      "ta": 0.5031505365414972,
+      "dur": 15.687264141390584,
+      "L": 1260,
+      "M": 4096,
+      "prompt_tokens": 1038,
+      "generated_tokens": 222,
+      "source_id": "RwNX5pB_0"
+    },
+    {
+      "id": 4,
+      "ta": 0.6094645783735382,
+      "dur": 11.85500704309675,
+      "L": 200,
+      "M": 4096,
+      "prompt_tokens": 47,
+      "generated_tokens": 153,
+      "source_id": "UoexrGJ_0"
+    },
+    {
+      "id": 5,
+      "ta": 0.6883394851397957,
+      "dur": 10.01807201740262,
+      "L": 823,
+      "M": 4096,
+      "prompt_tokens": 186,
+      "generated_tokens": 637,
+      "source_id": "5yOfC65_0"
+    },
+    {
+      "id": 6,
+      "ta": 0.8249548817004662,
+      "dur": 17.859192945493092,
+      "L": 1146,
+      "M": 4096,
+      "prompt_tokens": 877,
+      "generated_tokens": 269,
+      "source_id": "BD3XlW7_37"
+    },
+    {
+      "id": 7,
+      "ta": 0.9864007301692738,
+      "dur": 21.16537981976185,
+      "L": 389,
+      "M": 4096,
+      "prompt_tokens": 88,
+      "generated_tokens": 301,
+      "source_id": "Ys9jddJ_0"
+    },
+    {
+      "id": 8,
+      "ta": 1.1081071588847622,
+      "dur": 9.588904156403126,
+      "L": 271,
+      "M": 4096,
+      "prompt_tokens": 78,
+      "generated_tokens": 193,
+      "source_id": "SpeI45i_0"
+    },
+    {
+      "id": 9,
+      "ta": 1.3630039943422239,
+      "dur": 19.045275018875348,
+      "L": 839,
+      "M": 4096,
+      "prompt_tokens": 594,
+      "generated_tokens": 245,
+      "source_id": "eIibBFp_15"
+    },
+    {
+      "id": 10,
+      "ta": 1.4001925547523326,
+      "dur": 21.834666477870726,
+      "L": 1539,
+      "M": 4096,
+      "prompt_tokens": 763,
+      "generated_tokens": 776,
+      "source_id": "UBSzn8r_6"
+    },
+    {
+      "id": 11,
+      "ta": 1.564716057783498,
+      "dur": 13.357672027451873,
+      "L": 297,
+      "M": 4096,
+      "prompt_tokens": 201,
+      "generated_tokens": 96,
+      "source_id": "0A1yFpE_0"
+    },
+    {
+      "id": 12,
+      "ta": 1.5874689068478895,
+      "dur": 19.41298697721031,
+      "L": 469,
+      "M": 4096,
+      "prompt_tokens": 61,
+      "generated_tokens": 408,
+      "source_id": "rp9NupP_0"
+    },
+    {
+      "id": 13,
+      "ta": 1.6411718719558532,
+      "dur": 21.74947619262084,
+      "L": 550,
+      "M": 4096,
+      "prompt_tokens": 73,
+      "generated_tokens": 477,
+      "source_id": "ZrFMLCE_0"
+    },
+    {
+      "id": 14,
+      "ta": 1.6960996138709499,
+      "dur": 14.739138507433726,
+      "L": 2355,
+      "M": 4096,
+      "prompt_tokens": 1950,
+      "generated_tokens": 405,
+      "source_id": "pb7XgKc_0"
+    },
+    {
+      "id": 15,
+      "ta": 2.1289171166679957,
+      "dur": 16.160461742418924,
+      "L": 1469,
+      "M": 4096,
+      "prompt_tokens": 1138,
+      "generated_tokens": 331,
+      "source_id": "Q05F5WA_44"
+    },
+    {
+      "id": 16,
+      "ta": 2.587216692695872,
+      "dur": 9.455244715247314,
+      "L": 1361,
+      "M": 4096,
+      "prompt_tokens": 646,
+      "generated_tokens": 715,
+      "source_id": "8L0NZfQ_9"
+    },
+    {
+      "id": 17,
+      "ta": 2.6528376095038646,
+      "dur": 9.212180077350432,
+      "L": 832,
+      "M": 4096,
+      "prompt_tokens": 92,
+      "generated_tokens": 740,
+      "source_id": "0L3Ew5W_0"
+    },
+    {
+      "id": 18,
+      "ta": 2.661204289996277,
+      "dur": 19.94666893761434,
+      "L": 2321,
+      "M": 4096,
+      "prompt_tokens": 1546,
+      "generated_tokens": 775,
+      "source_id": "inuIr9J_103"
+    },
+    {
+      "id": 19,
+      "ta": 2.9082421922449795,
+      "dur": 17.881121573450102,
+      "L": 2065,
+      "M": 4096,
+      "prompt_tokens": 1614,
+      "generated_tokens": 451,
+      "source_id": "jUo0Hhh_103"
+    },
+    {
+      "id": 20,
+      "ta": 3.2110323859318024,
+      "dur": 17.216705253103843,
+      "L": 1159,
+      "M": 4096,
+      "prompt_tokens": 499,
+      "generated_tokens": 660,
+      "source_id": "oB8jNym_0"
+    },
+    {
+      "id": 21,
+      "ta": 3.569794772919238,
+      "dur": 17.500103230789897,
+      "L": 1932,
+      "M": 4096,
+      "prompt_tokens": 1700,
+      "generated_tokens": 232,
+      "source_id": "CeBn7fI_63"
+    },
+    {
+      "id": 22,
+      "ta": 3.72060191762379,
+      "dur": 12.927636017665886,
+      "L": 1837,
+      "M": 4096,
+      "prompt_tokens": 1465,
+      "generated_tokens": 372,
+      "source_id": "l95lcJY_31"
+    },
+    {
+      "id": 23,
+      "ta": 3.8282233475022056,
+      "dur": 15.105946003874674,
+      "L": 1763,
+      "M": 4096,
+      "prompt_tokens": 1033,
+      "generated_tokens": 730,
+      "source_id": "IOBgrHd_0"
+    },
+    {
+      "id": 24,
+      "ta": 3.9722719325568914,
+      "dur": 21.304266026656812,
+      "L": 1249,
+      "M": 4096,
+      "prompt_tokens": 1219,
+      "generated_tokens": 30,
+      "source_id": "2CKVlKw_17"
+    },
+    {
+      "id": 25,
+      "ta": 4.190130720640061,
+      "dur": 11.665421943376192,
+      "L": 1641,
+      "M": 4096,
+      "prompt_tokens": 1564,
+      "generated_tokens": 77,
+      "source_id": "eBFyLcr_45"
+    },
+    {
+      "id": 26,
+      "ta": 4.317095831257731,
+      "dur": 20.549933483705697,
+      "L": 464,
+      "M": 4096,
+      "prompt_tokens": 53,
+      "generated_tokens": 411,
+      "source_id": "7TSR3ux_0"
+    },
+    {
+      "id": 27,
+      "ta": 4.566279119399483,
+      "dur": 11.147978071175736,
+      "L": 1550,
+      "M": 4096,
+      "prompt_tokens": 1272,
+      "generated_tokens": 278,
+      "source_id": "scYJCro_0"
+    },
+    {
+      "id": 28,
+      "ta": 4.574187837783475,
+      "dur": 23.205102766896943,
+      "L": 1773,
+      "M": 4096,
+      "prompt_tokens": 1739,
+      "generated_tokens": 34,
+      "source_id": "Dwy7GNE_14"
+    },
+    {
+      "id": 29,
+      "ta": 4.593590655828833,
+      "dur": 13.139557161825362,
+      "L": 895,
+      "M": 4096,
+      "prompt_tokens": 601,
+      "generated_tokens": 294,
+      "source_id": "AFBfqs0_92"
+    },
+    {
+      "id": 30,
+      "ta": 4.612527278581382,
+      "dur": 21.91762544519629,
+      "L": 607,
+      "M": 4096,
+      "prompt_tokens": 313,
+      "generated_tokens": 294,
+      "source_id": "u5oBTjT_0"
+    },
+    {
+      "id": 31,
+      "ta": 4.725427567454371,
+      "dur": 9.51358801216462,
+      "L": 342,
+      "M": 4096,
+      "prompt_tokens": 48,
+      "generated_tokens": 294,
+      "source_id": "LpD6zLx_0"
+    },
+    {
+      "id": 32,
+      "ta": 5.007830019317632,
+      "dur": 21.53448347988467,
+      "L": 2077,
+      "M": 4096,
+      "prompt_tokens": 1887,
+      "generated_tokens": 190,
+      "source_id": "LASdFFl_7"
+    },
+    {
+      "id": 33,
+      "ta": 5.202302082996486,
+      "dur": 11.861412489005248,
+      "L": 2042,
+      "M": 4096,
+      "prompt_tokens": 1762,
+      "generated_tokens": 280,
+      "source_id": "IXuD6zD_13"
+    },
+    {
+      "id": 34,
+      "ta": 5.23797460380589,
+      "dur": 15.318609724800204,
+      "L": 518,
+      "M": 4096,
+      "prompt_tokens": 293,
+      "generated_tokens": 225,
+      "source_id": "XxwMP9O_25"
+    },
+    {
+      "id": 35,
+      "ta": 5.366258490805685,
+      "dur": 11.658229987859924,
+      "L": 1055,
+      "M": 4096,
+      "prompt_tokens": 514,
+      "generated_tokens": 541,
+      "source_id": "zkviCE6_0"
+    },
+    {
+      "id": 36,
+      "ta": 5.544517786081804,
+      "dur": 19.763128452312223,
+      "L": 1446,
+      "M": 4096,
+      "prompt_tokens": 937,
+      "generated_tokens": 509,
+      "source_id": "3fqfF3t_0"
+    },
+    {
+      "id": 37,
+      "ta": 5.7490870955270355,
+      "dur": 18.322887609498117,
+      "L": 162,
+      "M": 4096,
+      "prompt_tokens": 55,
+      "generated_tokens": 107,
+      "source_id": "L5sIiR5_0"
+    },
+    {
+      "id": 38,
+      "ta": 5.955713695073978,
+      "dur": 9.899275271257787,
+      "L": 1000,
+      "M": 4096,
+      "prompt_tokens": 816,
+      "generated_tokens": 184,
+      "source_id": "f2WAtE5_74"
+    },
+    {
+      "id": 39,
+      "ta": 5.9714272896492835,
+      "dur": 14.764989816915435,
+      "L": 1046,
+      "M": 4096,
+      "prompt_tokens": 917,
+      "generated_tokens": 129,
+      "source_id": "vHHLIFV_0"
+    },
+    {
+      "id": 40,
+      "ta": 6.34712184892314,
+      "dur": 22.240876562390085,
+      "L": 1305,
+      "M": 4096,
+      "prompt_tokens": 1177,
+      "generated_tokens": 128,
+      "source_id": "nPntgiK_0"
+    },
+    {
+      "id": 41,
+      "ta": 6.658032838262639,
+      "dur": 12.249727130282698,
+      "L": 470,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 432,
+      "source_id": "kaJIlnG_0"
+    },
+    {
+      "id": 42,
+      "ta": 7.073011152923512,
+      "dur": 22.944689503988016,
+      "L": 380,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 341,
+      "source_id": "inKC7UK_0"
+    },
+    {
+      "id": 43,
+      "ta": 7.152607535545575,
+      "dur": 22.264317674277656,
+      "L": 537,
+      "M": 4096,
+      "prompt_tokens": 320,
+      "generated_tokens": 217,
+      "source_id": "gBC9bgv_41"
+    },
+    {
+      "id": 44,
+      "ta": 7.156469575260606,
+      "dur": 24.750483933318286,
+      "L": 786,
+      "M": 4096,
+      "prompt_tokens": 542,
+      "generated_tokens": 244,
+      "source_id": "BPhweN9_0"
+    },
+    {
+      "id": 45,
+      "ta": 7.366587795681003,
+      "dur": 19.17672930511668,
+      "L": 1669,
+      "M": 4096,
+      "prompt_tokens": 1433,
+      "generated_tokens": 236,
+      "source_id": "3kLpI5c_89"
+    },
+    {
+      "id": 46,
+      "ta": 7.384976800023408,
+      "dur": 16.980972986323096,
+      "L": 344,
+      "M": 4096,
+      "prompt_tokens": 243,
+      "generated_tokens": 101,
+      "source_id": "C3dHSek_0"
+    },
+    {
+      "id": 47,
+      "ta": 7.471078167843447,
+      "dur": 8.62879460082682,
+      "L": 288,
+      "M": 4096,
+      "prompt_tokens": 37,
+      "generated_tokens": 251,
+      "source_id": "4xGFfoO_0"
+    },
+    {
+      "id": 48,
+      "ta": 7.748571381146421,
+      "dur": 16.564240060724245,
+      "L": 728,
+      "M": 4096,
+      "prompt_tokens": 563,
+      "generated_tokens": 165,
+      "source_id": "GsEnnRG_11"
+    },
+    {
+      "id": 49,
+      "ta": 7.765682546602097,
+      "dur": 18.99470616663711,
+      "L": 538,
+      "M": 4096,
+      "prompt_tokens": 228,
+      "generated_tokens": 310,
+      "source_id": "VecrpHZ_37"
+    },
+    {
+      "id": 50,
+      "ta": 7.776557010698907,
+      "dur": 23.353030002116867,
+      "L": 177,
+      "M": 4096,
+      "prompt_tokens": 37,
+      "generated_tokens": 140,
+      "source_id": "6lXnlN4_0"
+    },
+    {
+      "id": 51,
+      "ta": 7.804435597346086,
+      "dur": 14.387907672620805,
+      "L": 3284,
+      "M": 4096,
+      "prompt_tokens": 3099,
+      "generated_tokens": 185,
+      "source_id": "Ew5jUjB_4"
+    },
+    {
+      "id": 52,
+      "ta": 8.207451561575356,
+      "dur": 9.083308510320911,
+      "L": 1833,
+      "M": 4096,
+      "prompt_tokens": 1334,
+      "generated_tokens": 499,
+      "source_id": "yOvJ6iC_15"
+    },
+    {
+      "id": 53,
+      "ta": 8.415823951123746,
+      "dur": 9.175874221035436,
+      "L": 1969,
+      "M": 4096,
+      "prompt_tokens": 1849,
+      "generated_tokens": 120,
+      "source_id": "2x5IpnY_27"
+    },
+    {
+      "id": 54,
+      "ta": 8.642963933007122,
+      "dur": 20.435760192259707,
+      "L": 341,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 303,
+      "source_id": "Xw5lrEP_0"
+    },
+    {
+      "id": 55,
+      "ta": 8.655318546018988,
+      "dur": 21.970698681156694,
+      "L": 2563,
+      "M": 4096,
+      "prompt_tokens": 1925,
+      "generated_tokens": 638,
+      "source_id": "NCXh9wK_21"
+    },
+    {
+      "id": 56,
+      "ta": 8.794741923412937,
+      "dur": 14.254897430772864,
+      "L": 404,
+      "M": 4096,
+      "prompt_tokens": 391,
+      "generated_tokens": 13,
+      "source_id": "XCATsL4_119"
+    },
+    {
+      "id": 57,
+      "ta": 8.99793818094458,
+      "dur": 23.462897148817802,
+      "L": 2242,
+      "M": 4096,
+      "prompt_tokens": 1877,
+      "generated_tokens": 365,
+      "source_id": "LuI7aeo_7"
+    },
+    {
+      "id": 58,
+      "ta": 9.110198019039354,
+      "dur": 9.4735505525597,
+      "L": 1429,
+      "M": 4096,
+      "prompt_tokens": 1167,
+      "generated_tokens": 262,
+      "source_id": "YGp4bxG_381"
+    },
+    {
+      "id": 59,
+      "ta": 9.153890927913908,
+      "dur": 9.307843504471132,
+      "L": 1775,
+      "M": 4096,
+      "prompt_tokens": 1481,
+      "generated_tokens": 294,
+      "source_id": "nUFSjuD_16"
+    },
+    {
+      "id": 60,
+      "ta": 9.422675305005114,
+      "dur": 18.21865312589347,
+      "L": 1035,
+      "M": 4096,
+      "prompt_tokens": 758,
+      "generated_tokens": 277,
+      "source_id": "asoSnhq_37"
+    },
+    {
+      "id": 61,
+      "ta": 9.46767731147515,
+      "dur": 11.949699150597722,
+      "L": 390,
+      "M": 4096,
+      "prompt_tokens": 269,
+      "generated_tokens": 121,
+      "source_id": "QHzkne4_21"
+    },
+    {
+      "id": 62,
+      "ta": 9.805209869360947,
+      "dur": 16.794210314640463,
+      "L": 771,
+      "M": 4096,
+      "prompt_tokens": 431,
+      "generated_tokens": 340,
+      "source_id": "sPmyhRn_0"
+    },
+    {
+      "id": 63,
+      "ta": 10.031622270211905,
+      "dur": 11.533058063980324,
+      "L": 1383,
+      "M": 4096,
+      "prompt_tokens": 828,
+      "generated_tokens": 555,
+      "source_id": "iexDrKC_7"
+    },
+    {
+      "id": 64,
+      "ta": 10.07322326929762,
+      "dur": 23.149616927568733,
+      "L": 2345,
+      "M": 4096,
+      "prompt_tokens": 436,
+      "generated_tokens": 1909,
+      "source_id": "ZxqRNfi_6"
+    },
+    {
+      "id": 65,
+      "ta": 10.335489256205118,
+      "dur": 10.841999330631243,
+      "L": 285,
+      "M": 4096,
+      "prompt_tokens": 37,
+      "generated_tokens": 248,
+      "source_id": "IqfqFp8_0"
+    },
+    {
+      "id": 66,
+      "ta": 10.36277536706847,
+      "dur": 12.59206243775795,
+      "L": 1966,
+      "M": 4096,
+      "prompt_tokens": 1583,
+      "generated_tokens": 383,
+      "source_id": "3nqjo69_39"
+    },
+    {
+      "id": 67,
+      "ta": 10.37927361578473,
+      "dur": 18.101773999392258,
+      "L": 2033,
+      "M": 4096,
+      "prompt_tokens": 1303,
+      "generated_tokens": 730,
+      "source_id": "vD2rlfI_16"
+    },
+    {
+      "id": 68,
+      "ta": 10.506483280001968,
+      "dur": 15.150369714225203,
+      "L": 279,
+      "M": 4096,
+      "prompt_tokens": 31,
+      "generated_tokens": 248,
+      "source_id": "zcuLOot_0"
+    },
+    {
+      "id": 69,
+      "ta": 10.594485988753695,
+      "dur": 23.209192942355607,
+      "L": 1164,
+      "M": 4096,
+      "prompt_tokens": 615,
+      "generated_tokens": 549,
+      "source_id": "Db9cdoK_8"
+    },
+    {
+      "id": 70,
+      "ta": 10.886416850362671,
+      "dur": 23.806546512144358,
+      "L": 1969,
+      "M": 4096,
+      "prompt_tokens": 1654,
+      "generated_tokens": 315,
+      "source_id": "hPXeCOj_21"
+    },
+    {
+      "id": 71,
+      "ta": 11.004261229003511,
+      "dur": 19.925594101091463,
+      "L": 343,
+      "M": 4096,
+      "prompt_tokens": 123,
+      "generated_tokens": 220,
+      "source_id": "cvom2tj_0"
+    },
+    {
+      "id": 72,
+      "ta": 11.319247143871673,
+      "dur": 11.973870007187315,
+      "L": 2173,
+      "M": 4096,
+      "prompt_tokens": 1401,
+      "generated_tokens": 772,
+      "source_id": "9D0YLxw_5"
+    },
+    {
+      "id": 73,
+      "ta": 11.430920969135625,
+      "dur": 23.33984046195731,
+      "L": 1231,
+      "M": 4096,
+      "prompt_tokens": 891,
+      "generated_tokens": 340,
+      "source_id": "pJ2iZTe_17"
+    },
+    {
+      "id": 74,
+      "ta": 11.75533215274094,
+      "dur": 10.8074913419613,
+      "L": 415,
+      "M": 4096,
+      "prompt_tokens": 141,
+      "generated_tokens": 274,
+      "source_id": "FQgJmab_0"
+    },
+    {
+      "id": 75,
+      "ta": 12.015296073393976,
+      "dur": 19.24881192955176,
+      "L": 410,
+      "M": 4096,
+      "prompt_tokens": 89,
+      "generated_tokens": 321,
+      "source_id": "iklk5NG_0"
+    },
+    {
+      "id": 76,
+      "ta": 12.100008323100793,
+      "dur": 12.575783359525275,
+      "L": 773,
+      "M": 4096,
+      "prompt_tokens": 409,
+      "generated_tokens": 364,
+      "source_id": "Wh2RBbp_47"
+    },
+    {
+      "id": 77,
+      "ta": 12.265979222213263,
+      "dur": 15.70680186288109,
+      "L": 1934,
+      "M": 4096,
+      "prompt_tokens": 1372,
+      "generated_tokens": 562,
+      "source_id": "InzRsce_142"
+    },
+    {
+      "id": 78,
+      "ta": 12.703927656016388,
+      "dur": 16.36373122395286,
+      "L": 1993,
+      "M": 4096,
+      "prompt_tokens": 1735,
+      "generated_tokens": 258,
+      "source_id": "hIULog1_158"
+    },
+    {
+      "id": 79,
+      "ta": 12.908013569220765,
+      "dur": 23.55608339623979,
+      "L": 1446,
+      "M": 4096,
+      "prompt_tokens": 1216,
+      "generated_tokens": 230,
+      "source_id": "HhQpiE1_0"
+    },
+    {
+      "id": 80,
+      "ta": 13.11922131422945,
+      "dur": 10.669719463794618,
+      "L": 1760,
+      "M": 4096,
+      "prompt_tokens": 1199,
+      "generated_tokens": 561,
+      "source_id": "zjs7HNS_0"
+    },
+    {
+      "id": 81,
+      "ta": 13.762054450143907,
+      "dur": 11.453985481072454,
+      "L": 810,
+      "M": 4096,
+      "prompt_tokens": 486,
+      "generated_tokens": 324,
+      "source_id": "40KXY35_71"
+    },
+    {
+      "id": 82,
+      "ta": 13.820896262623144,
+      "dur": 13.644961948707191,
+      "L": 504,
+      "M": 4096,
+      "prompt_tokens": 68,
+      "generated_tokens": 436,
+      "source_id": "FAWUqZn_0"
+    },
+    {
+      "id": 83,
+      "ta": 13.865759575555936,
+      "dur": 12.427216991575945,
+      "L": 822,
+      "M": 4096,
+      "prompt_tokens": 734,
+      "generated_tokens": 88,
+      "source_id": "T1FDquy_0"
+    },
+    {
+      "id": 84,
+      "ta": 13.866422798727324,
+      "dur": 9.230019677581497,
+      "L": 184,
+      "M": 4096,
+      "prompt_tokens": 60,
+      "generated_tokens": 124,
+      "source_id": "CviyNLb_0"
+    },
+    {
+      "id": 85,
+      "ta": 14.010346226743824,
+      "dur": 11.718614971448293,
+      "L": 641,
+      "M": 4096,
+      "prompt_tokens": 581,
+      "generated_tokens": 60,
+      "source_id": "ka41izz_0"
+    },
+    {
+      "id": 86,
+      "ta": 14.040555304012535,
+      "dur": 24.135527768820445,
+      "L": 2199,
+      "M": 4096,
+      "prompt_tokens": 1784,
+      "generated_tokens": 415,
+      "source_id": "1jjEIai_195"
+    },
+    {
+      "id": 87,
+      "ta": 14.047806822482375,
+      "dur": 10.790878186734668,
+      "L": 651,
+      "M": 4096,
+      "prompt_tokens": 626,
+      "generated_tokens": 25,
+      "source_id": "xnYsKYh_33"
+    },
+    {
+      "id": 88,
+      "ta": 14.15395971105965,
+      "dur": 21.296218195997074,
+      "L": 1872,
+      "M": 4096,
+      "prompt_tokens": 1630,
+      "generated_tokens": 242,
+      "source_id": "xsVAZxD_17"
+    },
+    {
+      "id": 89,
+      "ta": 14.22716792263526,
+      "dur": 24.381810703198305,
+      "L": 3773,
+      "M": 4096,
+      "prompt_tokens": 3605,
+      "generated_tokens": 168,
+      "source_id": "ps48uS0_2"
+    },
+    {
+      "id": 90,
+      "ta": 14.299770441610228,
+      "dur": 11.406496058382071,
+      "L": 1106,
+      "M": 4096,
+      "prompt_tokens": 815,
+      "generated_tokens": 291,
+      "source_id": "gDYCd8p_0"
+    },
+    {
+      "id": 91,
+      "ta": 14.371201168971073,
+      "dur": 17.704729700970258,
+      "L": 182,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 144,
+      "source_id": "8vcmY8L_0"
+    },
+    {
+      "id": 92,
+      "ta": 14.774384165310186,
+      "dur": 12.877420150834475,
+      "L": 330,
+      "M": 4096,
+      "prompt_tokens": 53,
+      "generated_tokens": 277,
+      "source_id": "RwtsMBQ_0"
+    },
+    {
+      "id": 93,
+      "ta": 14.777246514759675,
+      "dur": 14.652815627807534,
+      "L": 685,
+      "M": 4096,
+      "prompt_tokens": 445,
+      "generated_tokens": 240,
+      "source_id": "YBdV3Qw_0"
+    },
+    {
+      "id": 94,
+      "ta": 15.050562557798239,
+      "dur": 13.123707296640037,
+      "L": 361,
+      "M": 4096,
+      "prompt_tokens": 63,
+      "generated_tokens": 298,
+      "source_id": "GLCvlsU_0"
+    },
+    {
+      "id": 95,
+      "ta": 15.335776019414924,
+      "dur": 9.132393111543653,
+      "L": 1906,
+      "M": 4096,
+      "prompt_tokens": 1680,
+      "generated_tokens": 226,
+      "source_id": "f7bqkTa_0"
+    },
+    {
+      "id": 96,
+      "ta": 15.350586789191038,
+      "dur": 19.272332830873776,
+      "L": 1817,
+      "M": 4096,
+      "prompt_tokens": 1797,
+      "generated_tokens": 20,
+      "source_id": "4sX4Vak_13"
+    },
+    {
+      "id": 97,
+      "ta": 15.52842087970964,
+      "dur": 24.702416441256574,
+      "L": 3126,
+      "M": 4096,
+      "prompt_tokens": 2988,
+      "generated_tokens": 138,
+      "source_id": "yBS3zVm_0"
+    },
+    {
+      "id": 98,
+      "ta": 16.15890918881027,
+      "dur": 16.93758255658805,
+      "L": 1443,
+      "M": 4096,
+      "prompt_tokens": 1312,
+      "generated_tokens": 131,
+      "source_id": "srq1sqS_2"
+    },
+    {
+      "id": 99,
+      "ta": 16.580832467215664,
+      "dur": 12.722729286760249,
+      "L": 138,
+      "M": 4096,
+      "prompt_tokens": 40,
+      "generated_tokens": 98,
+      "source_id": "hbSB6aL_0"
+    },
+    {
+      "id": 100,
+      "ta": 16.60114260363778,
+      "dur": 17.117984306336112,
+      "L": 1976,
+      "M": 4096,
+      "prompt_tokens": 1337,
+      "generated_tokens": 639,
+      "source_id": "iXr3Rc6_15"
+    },
+    {
+      "id": 101,
+      "ta": 16.66159187435999,
+      "dur": 20.83402995706441,
+      "L": 1210,
+      "M": 4096,
+      "prompt_tokens": 874,
+      "generated_tokens": 336,
+      "source_id": "d9F8HCC_31"
+    },
+    {
+      "id": 102,
+      "ta": 16.758334237437452,
+      "dur": 22.301079384718772,
+      "L": 1126,
+      "M": 4096,
+      "prompt_tokens": 376,
+      "generated_tokens": 750,
+      "source_id": "u1AM5RT_29"
+    },
+    {
+      "id": 103,
+      "ta": 17.013720278948846,
+      "dur": 19.52862577703713,
+      "L": 1621,
+      "M": 4096,
+      "prompt_tokens": 849,
+      "generated_tokens": 772,
+      "source_id": "lEdP5Eu_0"
+    },
+    {
+      "id": 104,
+      "ta": 17.321950456672067,
+      "dur": 8.344339954376279,
+      "L": 1839,
+      "M": 4096,
+      "prompt_tokens": 1172,
+      "generated_tokens": 667,
+      "source_id": "91KnotR_4"
+    },
+    {
+      "id": 105,
+      "ta": 17.838289440233137,
+      "dur": 19.633051363043265,
+      "L": 893,
+      "M": 4096,
+      "prompt_tokens": 811,
+      "generated_tokens": 82,
+      "source_id": "BytSp2M_0"
+    },
+    {
+      "id": 106,
+      "ta": 17.842877356283076,
+      "dur": 8.890187860820667,
+      "L": 587,
+      "M": 4096,
+      "prompt_tokens": 488,
+      "generated_tokens": 99,
+      "source_id": "kBDynqR_0"
+    },
+    {
+      "id": 107,
+      "ta": 17.843429154764344,
+      "dur": 24.865672309641155,
+      "L": 698,
+      "M": 4096,
+      "prompt_tokens": 444,
+      "generated_tokens": 254,
+      "source_id": "SrJiHmE_5"
+    },
+    {
+      "id": 108,
+      "ta": 17.956826816530313,
+      "dur": 23.35561551012101,
+      "L": 519,
+      "M": 4096,
+      "prompt_tokens": 380,
+      "generated_tokens": 139,
+      "source_id": "oImdsyw_0"
+    },
+    {
+      "id": 109,
+      "ta": 18.053217397865712,
+      "dur": 8.85673296311191,
+      "L": 1254,
+      "M": 4096,
+      "prompt_tokens": 713,
+      "generated_tokens": 541,
+      "source_id": "XckeqrD_7"
+    },
+    {
+      "id": 110,
+      "ta": 18.13812601246449,
+      "dur": 12.376325475922718,
+      "L": 2022,
+      "M": 4096,
+      "prompt_tokens": 1664,
+      "generated_tokens": 358,
+      "source_id": "0kcdnbX_39"
+    },
+    {
+      "id": 111,
+      "ta": 18.20901721980176,
+      "dur": 13.125010857610839,
+      "L": 973,
+      "M": 4096,
+      "prompt_tokens": 939,
+      "generated_tokens": 34,
+      "source_id": "5yrLy0f_226"
+    },
+    {
+      "id": 112,
+      "ta": 18.479365966643783,
+      "dur": 9.954991400228211,
+      "L": 1298,
+      "M": 4096,
+      "prompt_tokens": 846,
+      "generated_tokens": 452,
+      "source_id": "HU1diS7_0"
+    },
+    {
+      "id": 113,
+      "ta": 18.61033317465018,
+      "dur": 22.11624565435755,
+      "L": 1628,
+      "M": 4096,
+      "prompt_tokens": 1324,
+      "generated_tokens": 304,
+      "source_id": "jSdzUNi_13"
+    },
+    {
+      "id": 114,
+      "ta": 18.78849012011267,
+      "dur": 15.351805043100772,
+      "L": 1268,
+      "M": 4096,
+      "prompt_tokens": 756,
+      "generated_tokens": 512,
+      "source_id": "yMwEvl7_539"
+    },
+    {
+      "id": 115,
+      "ta": 18.919857953959824,
+      "dur": 15.7148875171066,
+      "L": 1028,
+      "M": 4096,
+      "prompt_tokens": 561,
+      "generated_tokens": 467,
+      "source_id": "cM3OvaA_0"
+    },
+    {
+      "id": 116,
+      "ta": 18.959834849327656,
+      "dur": 12.98790324107038,
+      "L": 2209,
+      "M": 4096,
+      "prompt_tokens": 1867,
+      "generated_tokens": 342,
+      "source_id": "4480OUZ_0"
+    },
+    {
+      "id": 117,
+      "ta": 19.1048596784089,
+      "dur": 24.44879839633028,
+      "L": 684,
+      "M": 4096,
+      "prompt_tokens": 52,
+      "generated_tokens": 632,
+      "source_id": "hpu99Xd_0"
+    },
+    {
+      "id": 118,
+      "ta": 19.39269503336379,
+      "dur": 16.05289738721497,
+      "L": 365,
+      "M": 4096,
+      "prompt_tokens": 43,
+      "generated_tokens": 322,
+      "source_id": "14IbRUY_0"
+    },
+    {
+      "id": 119,
+      "ta": 19.63796491100759,
+      "dur": 19.320799182303436,
+      "L": 976,
+      "M": 4096,
+      "prompt_tokens": 414,
+      "generated_tokens": 562,
+      "source_id": "iqJr8nh_9"
+    },
+    {
+      "id": 120,
+      "ta": 19.651280182952842,
+      "dur": 10.1532907199052,
+      "L": 2102,
+      "M": 4096,
+      "prompt_tokens": 1856,
+      "generated_tokens": 246,
+      "source_id": "wSHL4XZ_11"
+    },
+    {
+      "id": 121,
+      "ta": 19.728573510997894,
+      "dur": 14.122728330640186,
+      "L": 1860,
+      "M": 4096,
+      "prompt_tokens": 1154,
+      "generated_tokens": 706,
+      "source_id": "xHeSmKi_0"
+    },
+    {
+      "id": 122,
+      "ta": 19.863631069397442,
+      "dur": 17.297966816787614,
+      "L": 1782,
+      "M": 4096,
+      "prompt_tokens": 1401,
+      "generated_tokens": 381,
+      "source_id": "P6vaqBH_49"
+    },
+    {
+      "id": 123,
+      "ta": 19.955291820547213,
+      "dur": 17.011156820000636,
+      "L": 155,
+      "M": 4096,
+      "prompt_tokens": 148,
+      "generated_tokens": 7,
+      "source_id": "YeY3ac7_0"
+    },
+    {
+      "id": 124,
+      "ta": 19.960736227055563,
+      "dur": 20.704588936805926,
+      "L": 396,
+      "M": 4096,
+      "prompt_tokens": 66,
+      "generated_tokens": 330,
+      "source_id": "PJmlduQ_0"
+    },
+    {
+      "id": 125,
+      "ta": 20.01605017562896,
+      "dur": 14.116181202824198,
+      "L": 550,
+      "M": 4096,
+      "prompt_tokens": 37,
+      "generated_tokens": 513,
+      "source_id": "FJSne2u_0"
+    },
+    {
+      "id": 126,
+      "ta": 20.06144301732061,
+      "dur": 14.310810993120162,
+      "L": 284,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 246,
+      "source_id": "nfCkpVe_0"
+    },
+    {
+      "id": 127,
+      "ta": 20.158596155187272,
+      "dur": 17.691342054702382,
+      "L": 1500,
+      "M": 4096,
+      "prompt_tokens": 1376,
+      "generated_tokens": 124,
+      "source_id": "SodTOkS_18"
+    },
+    {
+      "id": 128,
+      "ta": 20.205438592657192,
+      "dur": 21.929549810624057,
+      "L": 1881,
+      "M": 4096,
+      "prompt_tokens": 1770,
+      "generated_tokens": 111,
+      "source_id": "dzC5nDw_24"
+    },
+    {
+      "id": 129,
+      "ta": 20.229232138159773,
+      "dur": 8.070061629559378,
+      "L": 1588,
+      "M": 4096,
+      "prompt_tokens": 802,
+      "generated_tokens": 786,
+      "source_id": "uPCccCa_13"
+    },
+    {
+      "id": 130,
+      "ta": 20.256835183966558,
+      "dur": 24.585045485306743,
+      "L": 316,
+      "M": 4096,
+      "prompt_tokens": 48,
+      "generated_tokens": 268,
+      "source_id": "3zOZrYg_0"
+    },
+    {
+      "id": 131,
+      "ta": 20.543062622069478,
+      "dur": 20.93470986840063,
+      "L": 711,
+      "M": 4096,
+      "prompt_tokens": 131,
+      "generated_tokens": 580,
+      "source_id": "KmWSb7U_0"
+    },
+    {
+      "id": 132,
+      "ta": 20.9844523494585,
+      "dur": 21.163748978270537,
+      "L": 903,
+      "M": 4096,
+      "prompt_tokens": 384,
+      "generated_tokens": 519,
+      "source_id": "5uAXMuz_15"
+    },
+    {
+      "id": 133,
+      "ta": 21.172457544252673,
+      "dur": 16.136917136258443,
+      "L": 1931,
+      "M": 4096,
+      "prompt_tokens": 1397,
+      "generated_tokens": 534,
+      "source_id": "f5cxzwO_9"
+    },
+    {
+      "id": 134,
+      "ta": 21.41182404077976,
+      "dur": 19.270942650853442,
+      "L": 905,
+      "M": 4096,
+      "prompt_tokens": 680,
+      "generated_tokens": 225,
+      "source_id": "wb35vUi_19"
+    },
+    {
+      "id": 135,
+      "ta": 21.481862392800345,
+      "dur": 8.986499593922572,
+      "L": 244,
+      "M": 4096,
+      "prompt_tokens": 44,
+      "generated_tokens": 200,
+      "source_id": "KV2iDhm_0"
+    },
+    {
+      "id": 136,
+      "ta": 21.713683364712935,
+      "dur": 20.243120983104717,
+      "L": 268,
+      "M": 4096,
+      "prompt_tokens": 192,
+      "generated_tokens": 76,
+      "source_id": "PX9OmtU_0"
+    },
+    {
+      "id": 137,
+      "ta": 21.80400316626517,
+      "dur": 10.699122741978865,
+      "L": 709,
+      "M": 4096,
+      "prompt_tokens": 93,
+      "generated_tokens": 616,
+      "source_id": "KvpGbsX_0"
+    },
+    {
+      "id": 138,
+      "ta": 21.834549579853274,
+      "dur": 19.94536304692725,
+      "L": 419,
+      "M": 4096,
+      "prompt_tokens": 264,
+      "generated_tokens": 155,
+      "source_id": "jF2DAD3_29"
+    },
+    {
+      "id": 139,
+      "ta": 22.158019356015625,
+      "dur": 9.531728138840478,
+      "L": 1573,
+      "M": 4096,
+      "prompt_tokens": 1374,
+      "generated_tokens": 199,
+      "source_id": "A7KJApk_9"
+    },
+    {
+      "id": 140,
+      "ta": 22.208581913992546,
+      "dur": 14.686447453450013,
+      "L": 524,
+      "M": 4096,
+      "prompt_tokens": 295,
+      "generated_tokens": 229,
+      "source_id": "3svP4dG_0"
+    },
+    {
+      "id": 141,
+      "ta": 22.236006539814355,
+      "dur": 23.53378406445021,
+      "L": 1559,
+      "M": 4096,
+      "prompt_tokens": 802,
+      "generated_tokens": 757,
+      "source_id": "h5IvK2h_5"
+    },
+    {
+      "id": 142,
+      "ta": 22.364184268556354,
+      "dur": 18.72804997384753,
+      "L": 2123,
+      "M": 4096,
+      "prompt_tokens": 1718,
+      "generated_tokens": 405,
+      "source_id": "opQbgPL_31"
+    },
+    {
+      "id": 143,
+      "ta": 22.41191888950462,
+      "dur": 11.540674874818318,
+      "L": 1201,
+      "M": 4096,
+      "prompt_tokens": 1086,
+      "generated_tokens": 115,
+      "source_id": "WIEY1XT_35"
+    },
+    {
+      "id": 144,
+      "ta": 22.443227163491482,
+      "dur": 18.555622264891575,
+      "L": 2104,
+      "M": 4096,
+      "prompt_tokens": 1868,
+      "generated_tokens": 236,
+      "source_id": "MEgLgtb_23"
+    },
+    {
+      "id": 145,
+      "ta": 22.633683238111853,
+      "dur": 9.336594834643016,
+      "L": 750,
+      "M": 4096,
+      "prompt_tokens": 531,
+      "generated_tokens": 219,
+      "source_id": "8LNoWNd_11"
+    },
+    {
+      "id": 146,
+      "ta": 22.85413651298545,
+      "dur": 14.893666809953492,
+      "L": 626,
+      "M": 4096,
+      "prompt_tokens": 326,
+      "generated_tokens": 300,
+      "source_id": "Un3BTYh_0"
+    },
+    {
+      "id": 147,
+      "ta": 22.877401543981055,
+      "dur": 16.687225371253138,
+      "L": 1004,
+      "M": 4096,
+      "prompt_tokens": 771,
+      "generated_tokens": 233,
+      "source_id": "0nfkYuj_0"
+    },
+    {
+      "id": 148,
+      "ta": 22.91029165769506,
+      "dur": 10.274587802754166,
+      "L": 1895,
+      "M": 4096,
+      "prompt_tokens": 1565,
+      "generated_tokens": 330,
+      "source_id": "O9SEpXs_17"
+    },
+    {
+      "id": 149,
+      "ta": 23.072632012470176,
+      "dur": 18.061007261729245,
+      "L": 222,
+      "M": 4096,
+      "prompt_tokens": 40,
+      "generated_tokens": 182,
+      "source_id": "yMgd4Ti_0"
+    },
+    {
+      "id": 150,
+      "ta": 23.194959671291972,
+      "dur": 16.161186835572813,
+      "L": 723,
+      "M": 4096,
+      "prompt_tokens": 50,
+      "generated_tokens": 673,
+      "source_id": "c1PYZiS_0"
+    },
+    {
+      "id": 151,
+      "ta": 23.207386347774637,
+      "dur": 14.697385907198646,
+      "L": 1487,
+      "M": 4096,
+      "prompt_tokens": 1359,
+      "generated_tokens": 128,
+      "source_id": "0Lu3nOf_173"
+    },
+    {
+      "id": 152,
+      "ta": 23.241969172098575,
+      "dur": 18.01446607965734,
+      "L": 413,
+      "M": 4096,
+      "prompt_tokens": 327,
+      "generated_tokens": 86,
+      "source_id": "nswpJVA_38"
+    },
+    {
+      "id": 153,
+      "ta": 23.388203880907493,
+      "dur": 10.075919077748663,
+      "L": 1431,
+      "M": 4096,
+      "prompt_tokens": 664,
+      "generated_tokens": 767,
+      "source_id": "3gZeV8w_35"
+    },
+    {
+      "id": 154,
+      "ta": 23.39427812718927,
+      "dur": 16.87459671952125,
+      "L": 267,
+      "M": 4096,
+      "prompt_tokens": 67,
+      "generated_tokens": 200,
+      "source_id": "lWOehpW_0"
+    },
+    {
+      "id": 155,
+      "ta": 23.49405402392604,
+      "dur": 8.189243260512795,
+      "L": 1117,
+      "M": 4096,
+      "prompt_tokens": 353,
+      "generated_tokens": 764,
+      "source_id": "D8cH9A2_0"
+    },
+    {
+      "id": 156,
+      "ta": 24.048283735482723,
+      "dur": 15.428711906338851,
+      "L": 697,
+      "M": 4096,
+      "prompt_tokens": 442,
+      "generated_tokens": 255,
+      "source_id": "lWRLJrZ_4"
+    },
+    {
+      "id": 157,
+      "ta": 24.20098357089916,
+      "dur": 20.52996666076191,
+      "L": 538,
+      "M": 4096,
+      "prompt_tokens": 268,
+      "generated_tokens": 270,
+      "source_id": "1bAA5wn_9"
+    },
+    {
+      "id": 158,
+      "ta": 24.24249786441438,
+      "dur": 9.46040926984783,
+      "L": 418,
+      "M": 4096,
+      "prompt_tokens": 51,
+      "generated_tokens": 367,
+      "source_id": "LxmmJ89_0"
+    },
+    {
+      "id": 159,
+      "ta": 24.260036983289673,
+      "dur": 20.943653157340144,
+      "L": 2046,
+      "M": 4096,
+      "prompt_tokens": 1635,
+      "generated_tokens": 411,
+      "source_id": "x0TXypP_27"
+    },
+    {
+      "id": 160,
+      "ta": 24.564261793993694,
+      "dur": 15.59448473213866,
+      "L": 1287,
+      "M": 4096,
+      "prompt_tokens": 996,
+      "generated_tokens": 291,
+      "source_id": "Y6k1Gy3_0"
+    },
+    {
+      "id": 161,
+      "ta": 24.83270208648269,
+      "dur": 20.975107254624888,
+      "L": 1579,
+      "M": 4096,
+      "prompt_tokens": 1263,
+      "generated_tokens": 316,
+      "source_id": "sDvR3aO_0"
+    },
+    {
+      "id": 162,
+      "ta": 25.386226857891394,
+      "dur": 14.35451022051209,
+      "L": 807,
+      "M": 4096,
+      "prompt_tokens": 576,
+      "generated_tokens": 231,
+      "source_id": "qqo6qRj_0"
+    },
+    {
+      "id": 163,
+      "ta": 25.409242664143243,
+      "dur": 16.69757614896621,
+      "L": 467,
+      "M": 4096,
+      "prompt_tokens": 77,
+      "generated_tokens": 390,
+      "source_id": "rkngjc1_0"
+    },
+    {
+      "id": 164,
+      "ta": 25.796297805888123,
+      "dur": 18.3390334958056,
+      "L": 1670,
+      "M": 4096,
+      "prompt_tokens": 1592,
+      "generated_tokens": 78,
+      "source_id": "6Qu8GDC_6"
+    },
+    {
+      "id": 165,
+      "ta": 25.809780513319993,
+      "dur": 13.148364148953744,
+      "L": 1314,
+      "M": 4096,
+      "prompt_tokens": 671,
+      "generated_tokens": 643,
+      "source_id": "P958bdX_0"
+    },
+    {
+      "id": 166,
+      "ta": 25.823013993307477,
+      "dur": 14.93951921097116,
+      "L": 916,
+      "M": 4096,
+      "prompt_tokens": 711,
+      "generated_tokens": 205,
+      "source_id": "t3f69h7_43"
+    },
+    {
+      "id": 167,
+      "ta": 25.93051908026907,
+      "dur": 9.502552176870337,
+      "L": 825,
+      "M": 4096,
+      "prompt_tokens": 56,
+      "generated_tokens": 769,
+      "source_id": "TYOCinn_0"
+    },
+    {
+      "id": 168,
+      "ta": 25.93464112465166,
+      "dur": 13.95105539350821,
+      "L": 2098,
+      "M": 4096,
+      "prompt_tokens": 1675,
+      "generated_tokens": 423,
+      "source_id": "YXWrd2g_0"
+    },
+    {
+      "id": 169,
+      "ta": 26.084075930934546,
+      "dur": 11.79104085317357,
+      "L": 142,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 104,
+      "source_id": "jHbQm6B_0"
+    },
+    {
+      "id": 170,
+      "ta": 26.116560405659804,
+      "dur": 24.60581603718991,
+      "L": 150,
+      "M": 4096,
+      "prompt_tokens": 136,
+      "generated_tokens": 14,
+      "source_id": "psvEMhG_0"
+    },
+    {
+      "id": 171,
+      "ta": 26.185880899649764,
+      "dur": 13.610128224115225,
+      "L": 903,
+      "M": 4096,
+      "prompt_tokens": 520,
+      "generated_tokens": 383,
+      "source_id": "YDiKQ8R_0"
+    },
+    {
+      "id": 172,
+      "ta": 26.21858990510627,
+      "dur": 15.634590633793616,
+      "L": 1194,
+      "M": 4096,
+      "prompt_tokens": 817,
+      "generated_tokens": 377,
+      "source_id": "dfoRHoa_0"
+    },
+    {
+      "id": 173,
+      "ta": 26.43858814013372,
+      "dur": 24.705276757542666,
+      "L": 701,
+      "M": 4096,
+      "prompt_tokens": 521,
+      "generated_tokens": 180,
+      "source_id": "3E7iMzS_60"
+    },
+    {
+      "id": 174,
+      "ta": 26.692620269406333,
+      "dur": 8.269156277570975,
+      "L": 232,
+      "M": 4096,
+      "prompt_tokens": 49,
+      "generated_tokens": 183,
+      "source_id": "XcF0qVl_0"
+    },
+    {
+      "id": 175,
+      "ta": 26.877571463117043,
+      "dur": 24.33087988194097,
+      "L": 1806,
+      "M": 4096,
+      "prompt_tokens": 1568,
+      "generated_tokens": 238,
+      "source_id": "1sxNkyQ_26"
+    },
+    {
+      "id": 176,
+      "ta": 26.87790736048259,
+      "dur": 10.948952201680584,
+      "L": 1205,
+      "M": 4096,
+      "prompt_tokens": 1080,
+      "generated_tokens": 125,
+      "source_id": "uiECyCD_26"
+    },
+    {
+      "id": 177,
+      "ta": 27.160373903747672,
+      "dur": 17.653517591660965,
+      "L": 1616,
+      "M": 4096,
+      "prompt_tokens": 1264,
+      "generated_tokens": 352,
+      "source_id": "fcBjchm_23"
+    },
+    {
+      "id": 178,
+      "ta": 27.30477930310848,
+      "dur": 15.047886445260366,
+      "L": 1177,
+      "M": 4096,
+      "prompt_tokens": 907,
+      "generated_tokens": 270,
+      "source_id": "bcq8LQq_23"
+    },
+    {
+      "id": 179,
+      "ta": 27.39329869036481,
+      "dur": 23.20008596473331,
+      "L": 682,
+      "M": 4096,
+      "prompt_tokens": 667,
+      "generated_tokens": 15,
+      "source_id": "KWnrAuO_63"
+    },
+    {
+      "id": 180,
+      "ta": 27.399844009927975,
+      "dur": 20.00469808811482,
+      "L": 455,
+      "M": 4096,
+      "prompt_tokens": 43,
+      "generated_tokens": 412,
+      "source_id": "I5TNcIH_0"
+    },
+    {
+      "id": 181,
+      "ta": 27.813971118870416,
+      "dur": 20.63414545245405,
+      "L": 494,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 455,
+      "source_id": "Mvk4D0O_0"
+    },
+    {
+      "id": 182,
+      "ta": 27.996194356669953,
+      "dur": 18.728933265640315,
+      "L": 847,
+      "M": 4096,
+      "prompt_tokens": 524,
+      "generated_tokens": 323,
+      "source_id": "sKoZymY_9"
+    },
+    {
+      "id": 183,
+      "ta": 28.034226422035136,
+      "dur": 10.757646065865915,
+      "L": 620,
+      "M": 4096,
+      "prompt_tokens": 473,
+      "generated_tokens": 147,
+      "source_id": "2YRt9Eh_11"
+    },
+    {
+      "id": 184,
+      "ta": 28.077330409300018,
+      "dur": 20.064362169663767,
+      "L": 1928,
+      "M": 4096,
+      "prompt_tokens": 1447,
+      "generated_tokens": 481,
+      "source_id": "ZgyvARU_17"
+    },
+    {
+      "id": 185,
+      "ta": 28.110580375164695,
+      "dur": 16.397620158290785,
+      "L": 403,
+      "M": 4096,
+      "prompt_tokens": 400,
+      "generated_tokens": 3,
+      "source_id": "KOczjDP_24"
+    },
+    {
+      "id": 186,
+      "ta": 28.16812799227996,
+      "dur": 21.912225449867723,
+      "L": 1488,
+      "M": 4096,
+      "prompt_tokens": 995,
+      "generated_tokens": 493,
+      "source_id": "Afue8qG_59"
+    },
+    {
+      "id": 187,
+      "ta": 28.24452984034721,
+      "dur": 21.442335280311134,
+      "L": 284,
+      "M": 4096,
+      "prompt_tokens": 207,
+      "generated_tokens": 77,
+      "source_id": "6K2vvSd_0"
+    },
+    {
+      "id": 188,
+      "ta": 28.34134700075259,
+      "dur": 13.301437765348263,
+      "L": 1569,
+      "M": 4096,
+      "prompt_tokens": 1201,
+      "generated_tokens": 368,
+      "source_id": "KC8lP2V_0"
+    },
+    {
+      "id": 189,
+      "ta": 28.629945544539673,
+      "dur": 9.373450595339719,
+      "L": 604,
+      "M": 4096,
+      "prompt_tokens": 346,
+      "generated_tokens": 258,
+      "source_id": "tyuRKMO_13"
+    },
+    {
+      "id": 190,
+      "ta": 28.66730889428779,
+      "dur": 16.64075156159686,
+      "L": 1506,
+      "M": 4096,
+      "prompt_tokens": 1295,
+      "generated_tokens": 211,
+      "source_id": "qyWeq17_0"
+    },
+    {
+      "id": 191,
+      "ta": 28.72389647573129,
+      "dur": 23.43637964507022,
+      "L": 1815,
+      "M": 4096,
+      "prompt_tokens": 1113,
+      "generated_tokens": 702,
+      "source_id": "0ils6vG_11"
+    },
+    {
+      "id": 192,
+      "ta": 28.751428335148763,
+      "dur": 24.31711701197098,
+      "L": 639,
+      "M": 4096,
+      "prompt_tokens": 286,
+      "generated_tokens": 353,
+      "source_id": "KFOH8rV_0"
+    },
+    {
+      "id": 193,
+      "ta": 28.903131931076608,
+      "dur": 10.432852929324982,
+      "L": 1411,
+      "M": 4096,
+      "prompt_tokens": 1117,
+      "generated_tokens": 294,
+      "source_id": "MHhot3v_0"
+    },
+    {
+      "id": 194,
+      "ta": 28.939974419340242,
+      "dur": 15.269998113060387,
+      "L": 1678,
+      "M": 4096,
+      "prompt_tokens": 1164,
+      "generated_tokens": 514,
+      "source_id": "JzztD2l_0"
+    },
+    {
+      "id": 195,
+      "ta": 29.076403244572866,
+      "dur": 18.004855084854235,
+      "L": 1227,
+      "M": 4096,
+      "prompt_tokens": 463,
+      "generated_tokens": 764,
+      "source_id": "flpSFLe_4"
+    },
+    {
+      "id": 196,
+      "ta": 29.31444373942415,
+      "dur": 17.900431850808946,
+      "L": 616,
+      "M": 4096,
+      "prompt_tokens": 72,
+      "generated_tokens": 544,
+      "source_id": "AZELQqX_30"
+    },
+    {
+      "id": 197,
+      "ta": 29.61617016209801,
+      "dur": 8.069265894202443,
+      "L": 1807,
+      "M": 4096,
+      "prompt_tokens": 1617,
+      "generated_tokens": 190,
+      "source_id": "bEiva1F_43"
+    },
+    {
+      "id": 198,
+      "ta": 29.681527313039076,
+      "dur": 8.52442857328289,
+      "L": 626,
+      "M": 4096,
+      "prompt_tokens": 416,
+      "generated_tokens": 210,
+      "source_id": "fNEJcGi_11"
+    },
+    {
+      "id": 199,
+      "ta": 29.692370036191388,
+      "dur": 22.674645371853764,
+      "L": 648,
+      "M": 4096,
+      "prompt_tokens": 196,
+      "generated_tokens": 452,
+      "source_id": "CTZX0n4_0"
+    },
+    {
+      "id": 200,
+      "ta": 29.77208552011669,
+      "dur": 22.058020129834876,
+      "L": 2562,
+      "M": 4096,
+      "prompt_tokens": 1795,
+      "generated_tokens": 767,
+      "source_id": "tPJAgb1_0"
+    },
+    {
+      "id": 201,
+      "ta": 29.805569275651173,
+      "dur": 22.612151934234962,
+      "L": 1557,
+      "M": 4096,
+      "prompt_tokens": 1041,
+      "generated_tokens": 516,
+      "source_id": "FbRIVA4_89"
+    },
+    {
+      "id": 202,
+      "ta": 30.00251933587173,
+      "dur": 9.071559698531155,
+      "L": 1848,
+      "M": 4096,
+      "prompt_tokens": 1841,
+      "generated_tokens": 7,
+      "source_id": "3sbRtMX_9"
+    },
+    {
+      "id": 203,
+      "ta": 30.15717932712376,
+      "dur": 11.419523608917753,
+      "L": 1604,
+      "M": 4096,
+      "prompt_tokens": 1500,
+      "generated_tokens": 104,
+      "source_id": "hp4h90h_23"
+    },
+    {
+      "id": 204,
+      "ta": 30.166774918347986,
+      "dur": 18.48978681043554,
+      "L": 349,
+      "M": 4096,
+      "prompt_tokens": 40,
+      "generated_tokens": 309,
+      "source_id": "AkG57Rc_0"
+    },
+    {
+      "id": 205,
+      "ta": 30.32602013884731,
+      "dur": 12.039124016665106,
+      "L": 1286,
+      "M": 4096,
+      "prompt_tokens": 585,
+      "generated_tokens": 701,
+      "source_id": "kW0OsSS_23"
+    },
+    {
+      "id": 206,
+      "ta": 30.48371199659283,
+      "dur": 18.870809646408304,
+      "L": 876,
+      "M": 4096,
+      "prompt_tokens": 695,
+      "generated_tokens": 181,
+      "source_id": "oXgiN7q_152"
+    },
+    {
+      "id": 207,
+      "ta": 30.485066186811466,
+      "dur": 9.361167940699213,
+      "L": 1284,
+      "M": 4096,
+      "prompt_tokens": 860,
+      "generated_tokens": 424,
+      "source_id": "AtFTpwp_0"
+    },
+    {
+      "id": 208,
+      "ta": 30.6741919153408,
+      "dur": 19.604607388761778,
+      "L": 1645,
+      "M": 4096,
+      "prompt_tokens": 874,
+      "generated_tokens": 771,
+      "source_id": "u4toKT1_29"
+    },
+    {
+      "id": 209,
+      "ta": 30.68233262930775,
+      "dur": 21.808825269986244,
+      "L": 540,
+      "M": 4096,
+      "prompt_tokens": 93,
+      "generated_tokens": 447,
+      "source_id": "19rANV7_0"
+    },
+    {
+      "id": 210,
+      "ta": 30.95404299900999,
+      "dur": 23.665168665000525,
+      "L": 636,
+      "M": 4096,
+      "prompt_tokens": 394,
+      "generated_tokens": 242,
+      "source_id": "oQ5niE8_0"
+    },
+    {
+      "id": 211,
+      "ta": 31.40769500929676,
+      "dur": 13.333092164969461,
+      "L": 241,
+      "M": 4096,
+      "prompt_tokens": 148,
+      "generated_tokens": 93,
+      "source_id": "yAwGFqP_92"
+    },
+    {
+      "id": 212,
+      "ta": 31.499201901827128,
+      "dur": 18.01469303587576,
+      "L": 2616,
+      "M": 4096,
+      "prompt_tokens": 1900,
+      "generated_tokens": 716,
+      "source_id": "QAr8Gts_0"
+    },
+    {
+      "id": 213,
+      "ta": 31.852433091202165,
+      "dur": 19.49599498618111,
+      "L": 428,
+      "M": 4096,
+      "prompt_tokens": 50,
+      "generated_tokens": 378,
+      "source_id": "SKGft9E_0"
+    },
+    {
+      "id": 214,
+      "ta": 31.929776576696252,
+      "dur": 18.571133033090135,
+      "L": 1044,
+      "M": 4096,
+      "prompt_tokens": 854,
+      "generated_tokens": 190,
+      "source_id": "mWFmQxk_0"
+    },
+    {
+      "id": 215,
+      "ta": 32.104518451891146,
+      "dur": 18.286521111882813,
+      "L": 1052,
+      "M": 4096,
+      "prompt_tokens": 911,
+      "generated_tokens": 141,
+      "source_id": "skRMNld_0"
+    },
+    {
+      "id": 216,
+      "ta": 32.55178014613448,
+      "dur": 23.634747773540564,
+      "L": 638,
+      "M": 4096,
+      "prompt_tokens": 99,
+      "generated_tokens": 539,
+      "source_id": "KlKKjxX_0"
+    },
+    {
+      "id": 217,
+      "ta": 32.58546769928107,
+      "dur": 16.978425946121362,
+      "L": 1385,
+      "M": 4096,
+      "prompt_tokens": 1203,
+      "generated_tokens": 182,
+      "source_id": "VYy3Fer_0"
+    },
+    {
+      "id": 218,
+      "ta": 32.70948589508699,
+      "dur": 14.997780566305874,
+      "L": 1059,
+      "M": 4096,
+      "prompt_tokens": 929,
+      "generated_tokens": 130,
+      "source_id": "Z57GshY_30"
+    },
+    {
+      "id": 219,
+      "ta": 32.72584406530795,
+      "dur": 20.077433863003556,
+      "L": 1413,
+      "M": 4096,
+      "prompt_tokens": 890,
+      "generated_tokens": 523,
+      "source_id": "u1AM5RT_245"
+    },
+    {
+      "id": 220,
+      "ta": 32.852489204309116,
+      "dur": 18.420164035820566,
+      "L": 1594,
+      "M": 4096,
+      "prompt_tokens": 1424,
+      "generated_tokens": 170,
+      "source_id": "cLTmFGX_100"
+    },
+    {
+      "id": 221,
+      "ta": 32.85766787646061,
+      "dur": 13.292272601896117,
+      "L": 303,
+      "M": 4096,
+      "prompt_tokens": 36,
+      "generated_tokens": 267,
+      "source_id": "dPblVEg_0"
+    },
+    {
+      "id": 222,
+      "ta": 32.90686918867232,
+      "dur": 23.366981487278718,
+      "L": 400,
+      "M": 4096,
+      "prompt_tokens": 41,
+      "generated_tokens": 359,
+      "source_id": "BQ01yh2_0"
+    },
+    {
+      "id": 223,
+      "ta": 33.10859994687717,
+      "dur": 18.50779595690991,
+      "L": 223,
+      "M": 4096,
+      "prompt_tokens": 50,
+      "generated_tokens": 173,
+      "source_id": "67e5S2E_0"
+    },
+    {
+      "id": 224,
+      "ta": 33.13156115316705,
+      "dur": 17.560370363529252,
+      "L": 1375,
+      "M": 4096,
+      "prompt_tokens": 779,
+      "generated_tokens": 596,
+      "source_id": "2g14l5x_5"
+    },
+    {
+      "id": 225,
+      "ta": 33.47304524254733,
+      "dur": 23.150181891464644,
+      "L": 1413,
+      "M": 4096,
+      "prompt_tokens": 878,
+      "generated_tokens": 535,
+      "source_id": "A1DX4pW_3"
+    },
+    {
+      "id": 226,
+      "ta": 33.534756027203294,
+      "dur": 9.400361001321926,
+      "L": 478,
+      "M": 4096,
+      "prompt_tokens": 265,
+      "generated_tokens": 213,
+      "source_id": "h8xwPie_0"
+    },
+    {
+      "id": 227,
+      "ta": 33.60537104973543,
+      "dur": 21.446417381230773,
+      "L": 804,
+      "M": 4096,
+      "prompt_tokens": 552,
+      "generated_tokens": 252,
+      "source_id": "LoMUUgL_0"
+    },
+    {
+      "id": 228,
+      "ta": 33.704721234853324,
+      "dur": 17.124104247194282,
+      "L": 133,
+      "M": 4096,
+      "prompt_tokens": 121,
+      "generated_tokens": 12,
+      "source_id": "vtHuX2X_35"
+    },
+    {
+      "id": 229,
+      "ta": 33.791411758496686,
+      "dur": 18.295972040264424,
+      "L": 1210,
+      "M": 4096,
+      "prompt_tokens": 1192,
+      "generated_tokens": 18,
+      "source_id": "diKfiNT_61"
+    },
+    {
+      "id": 230,
+      "ta": 33.80930512111997,
+      "dur": 15.373750138783787,
+      "L": 942,
+      "M": 4096,
+      "prompt_tokens": 469,
+      "generated_tokens": 473,
+      "source_id": "JASGpjH_31"
+    },
+    {
+      "id": 231,
+      "ta": 33.931395594676985,
+      "dur": 15.2769372115154,
+      "L": 154,
+      "M": 4096,
+      "prompt_tokens": 36,
+      "generated_tokens": 118,
+      "source_id": "KtR9OTq_0"
+    },
+    {
+      "id": 232,
+      "ta": 34.58578067157213,
+      "dur": 17.964194862837616,
+      "L": 542,
+      "M": 4096,
+      "prompt_tokens": 35,
+      "generated_tokens": 507,
+      "source_id": "tGWiMX1_0"
+    },
+    {
+      "id": 233,
+      "ta": 34.59732967448678,
+      "dur": 14.04595714334882,
+      "L": 839,
+      "M": 4096,
+      "prompt_tokens": 68,
+      "generated_tokens": 771,
+      "source_id": "WdCTT4t_0"
+    },
+    {
+      "id": 234,
+      "ta": 34.61602567631308,
+      "dur": 11.070835148363894,
+      "L": 299,
+      "M": 4096,
+      "prompt_tokens": 44,
+      "generated_tokens": 255,
+      "source_id": "NDaH8yV_0"
+    },
+    {
+      "id": 235,
+      "ta": 34.66863866784368,
+      "dur": 19.29972979551868,
+      "L": 973,
+      "M": 4096,
+      "prompt_tokens": 810,
+      "generated_tokens": 163,
+      "source_id": "XQmaJ9t_7"
+    },
+    {
+      "id": 236,
+      "ta": 34.83868725166555,
+      "dur": 13.305698615890059,
+      "L": 676,
+      "M": 4096,
+      "prompt_tokens": 511,
+      "generated_tokens": 165,
+      "source_id": "iC5gH5w_0"
+    },
+    {
+      "id": 237,
+      "ta": 35.16651898165912,
+      "dur": 15.101265416060778,
+      "L": 254,
+      "M": 4096,
+      "prompt_tokens": 34,
+      "generated_tokens": 220,
+      "source_id": "EZuMRWq_0"
+    },
+    {
+      "id": 238,
+      "ta": 35.18470246150634,
+      "dur": 23.59375720843314,
+      "L": 278,
+      "M": 4096,
+      "prompt_tokens": 50,
+      "generated_tokens": 228,
+      "source_id": "eMASdnr_0"
+    },
+    {
+      "id": 239,
+      "ta": 35.28288862956834,
+      "dur": 18.598385748874662,
+      "L": 1953,
+      "M": 4096,
+      "prompt_tokens": 1848,
+      "generated_tokens": 105,
+      "source_id": "ef7SGNi_289"
+    },
+    {
+      "id": 240,
+      "ta": 35.33588994094933,
+      "dur": 12.449914678311526,
+      "L": 2616,
+      "M": 4096,
+      "prompt_tokens": 1837,
+      "generated_tokens": 779,
+      "source_id": "6sU2QhF_2"
+    },
+    {
+      "id": 241,
+      "ta": 35.34055662488305,
+      "dur": 22.010442009047367,
+      "L": 2057,
+      "M": 4096,
+      "prompt_tokens": 1915,
+      "generated_tokens": 142,
+      "source_id": "CSi9W7V_36"
+    },
+    {
+      "id": 242,
+      "ta": 35.3471994512778,
+      "dur": 17.24167712828246,
+      "L": 203,
+      "M": 4096,
+      "prompt_tokens": 55,
+      "generated_tokens": 148,
+      "source_id": "PIhboWz_0"
+    },
+    {
+      "id": 243,
+      "ta": 35.589585328260505,
+      "dur": 20.2573265809642,
+      "L": 1436,
+      "M": 4096,
+      "prompt_tokens": 1148,
+      "generated_tokens": 288,
+      "source_id": "oRng3qA_0"
+    },
+    {
+      "id": 244,
+      "ta": 35.79343242483525,
+      "dur": 15.115929865879057,
+      "L": 2220,
+      "M": 4096,
+      "prompt_tokens": 1590,
+      "generated_tokens": 630,
+      "source_id": "Hv1UX1D_13"
+    },
+    {
+      "id": 245,
+      "ta": 35.973418345569286,
+      "dur": 19.664110009052898,
+      "L": 1237,
+      "M": 4096,
+      "prompt_tokens": 708,
+      "generated_tokens": 529,
+      "source_id": "mhtyWTv_29"
+    },
+    {
+      "id": 246,
+      "ta": 35.975488017738016,
+      "dur": 19.839507559620913,
+      "L": 228,
+      "M": 4096,
+      "prompt_tokens": 43,
+      "generated_tokens": 185,
+      "source_id": "5oaoFx1_0"
+    },
+    {
+      "id": 247,
+      "ta": 35.99628265152736,
+      "dur": 18.274811969069503,
+      "L": 1120,
+      "M": 4096,
+      "prompt_tokens": 635,
+      "generated_tokens": 485,
+      "source_id": "lSAVmim_0"
+    },
+    {
+      "id": 248,
+      "ta": 36.05510482650844,
+      "dur": 19.186513517027386,
+      "L": 493,
+      "M": 4096,
+      "prompt_tokens": 50,
+      "generated_tokens": 443,
+      "source_id": "VhTD8v4_0"
+    },
+    {
+      "id": 249,
+      "ta": 36.306275697773614,
+      "dur": 10.069191698545385,
+      "L": 1697,
+      "M": 4096,
+      "prompt_tokens": 1545,
+      "generated_tokens": 152,
+      "source_id": "sPmyhRn_16"
+    },
+    {
+      "id": 250,
+      "ta": 36.55572667935698,
+      "dur": 8.217613644797147,
+      "L": 1435,
+      "M": 4096,
+      "prompt_tokens": 1157,
+      "generated_tokens": 278,
+      "source_id": "2YRt9Eh_67"
+    },
+    {
+      "id": 251,
+      "ta": 36.76518163835303,
+      "dur": 18.555378305491175,
+      "L": 310,
+      "M": 4096,
+      "prompt_tokens": 103,
+      "generated_tokens": 207,
+      "source_id": "OkzJm9q_0"
+    },
+    {
+      "id": 252,
+      "ta": 37.11869839513146,
+      "dur": 9.109727001332233,
+      "L": 947,
+      "M": 4096,
+      "prompt_tokens": 466,
+      "generated_tokens": 481,
+      "source_id": "vitGNkY_65"
+    },
+    {
+      "id": 253,
+      "ta": 37.41884168362581,
+      "dur": 20.297065365099378,
+      "L": 1387,
+      "M": 4096,
+      "prompt_tokens": 1107,
+      "generated_tokens": 280,
+      "source_id": "HxPu4JE_0"
+    },
+    {
+      "id": 254,
+      "ta": 37.44743040764298,
+      "dur": 11.073895250787611,
+      "L": 468,
+      "M": 4096,
+      "prompt_tokens": 136,
+      "generated_tokens": 332,
+      "source_id": "SehWrHT_0"
+    },
+    {
+      "id": 255,
+      "ta": 37.63127343212773,
+      "dur": 23.06603155963063,
+      "L": 220,
+      "M": 4096,
+      "prompt_tokens": 34,
+      "generated_tokens": 186,
+      "source_id": "Tp3SCS2_0"
+    },
+    {
+      "id": 256,
+      "ta": 37.90556211131063,
+      "dur": 13.009581474892322,
+      "L": 2111,
+      "M": 4096,
+      "prompt_tokens": 1739,
+      "generated_tokens": 372,
+      "source_id": "bUHmdpw_0"
+    },
+    {
+      "id": 257,
+      "ta": 38.235941528924776,
+      "dur": 16.465663053155193,
+      "L": 635,
+      "M": 4096,
+      "prompt_tokens": 59,
+      "generated_tokens": 576,
+      "source_id": "tP1xKRn_0"
+    },
+    {
+      "id": 258,
+      "ta": 38.34944696672072,
+      "dur": 12.504831538335154,
+      "L": 2052,
+      "M": 4096,
+      "prompt_tokens": 1763,
+      "generated_tokens": 289,
+      "source_id": "s6wa75A_0"
+    },
+    {
+      "id": 259,
+      "ta": 38.4278519420237,
+      "dur": 22.964336276958655,
+      "L": 150,
+      "M": 4096,
+      "prompt_tokens": 60,
+      "generated_tokens": 90,
+      "source_id": "JfEiaos_0"
+    },
+    {
+      "id": 260,
+      "ta": 38.4857808115699,
+      "dur": 20.820560330585472,
+      "L": 906,
+      "M": 4096,
+      "prompt_tokens": 578,
+      "generated_tokens": 328,
+      "source_id": "n1Miqtf_9"
+    },
+    {
+      "id": 261,
+      "ta": 38.53428626041923,
+      "dur": 23.95833692787033,
+      "L": 2100,
+      "M": 4096,
+      "prompt_tokens": 1872,
+      "generated_tokens": 228,
+      "source_id": "DlPrekE_283"
+    },
+    {
+      "id": 262,
+      "ta": 38.556947050174756,
+      "dur": 9.909496203951099,
+      "L": 1417,
+      "M": 4096,
+      "prompt_tokens": 704,
+      "generated_tokens": 713,
+      "source_id": "cYovhTA_7"
+    },
+    {
+      "id": 263,
+      "ta": 38.59244553078496,
+      "dur": 10.581414596253753,
+      "L": 864,
+      "M": 4096,
+      "prompt_tokens": 518,
+      "generated_tokens": 346,
+      "source_id": "aiQvmqs_25"
+    },
+    {
+      "id": 264,
+      "ta": 38.88413972145866,
+      "dur": 22.644476782671703,
+      "L": 497,
+      "M": 4096,
+      "prompt_tokens": 275,
+      "generated_tokens": 222,
+      "source_id": "7OK4HU5_0"
+    },
+    {
+      "id": 265,
+      "ta": 39.12236676498288,
+      "dur": 17.565927935828327,
+      "L": 1891,
+      "M": 4096,
+      "prompt_tokens": 1726,
+      "generated_tokens": 165,
+      "source_id": "5Fa6mjE_0"
+    },
+    {
+      "id": 266,
+      "ta": 39.36367402880681,
+      "dur": 16.508666923724775,
+      "L": 407,
+      "M": 4096,
+      "prompt_tokens": 231,
+      "generated_tokens": 176,
+      "source_id": "oTnUt5N_15"
+    },
+    {
+      "id": 267,
+      "ta": 39.437445058707944,
+      "dur": 23.96348087956526,
+      "L": 458,
+      "M": 4096,
+      "prompt_tokens": 269,
+      "generated_tokens": 189,
+      "source_id": "D94e4DZ_111"
+    },
+    {
+      "id": 268,
+      "ta": 39.507065240222104,
+      "dur": 13.638316650576623,
+      "L": 1957,
+      "M": 4096,
+      "prompt_tokens": 1872,
+      "generated_tokens": 85,
+      "source_id": "9d6fP4m_61"
+    },
+    {
+      "id": 269,
+      "ta": 39.52948425132056,
+      "dur": 17.89180584713533,
+      "L": 193,
+      "M": 4096,
+      "prompt_tokens": 142,
+      "generated_tokens": 51,
+      "source_id": "iCyKLeQ_0"
+    },
+    {
+      "id": 270,
+      "ta": 39.60699228289381,
+      "dur": 12.012530457463292,
+      "L": 4033,
+      "M": 4096,
+      "prompt_tokens": 3259,
+      "generated_tokens": 774,
+      "source_id": "EkfJYLr_4"
+    },
+    {
+      "id": 271,
+      "ta": 39.71610167951708,
+      "dur": 8.51332234956524,
+      "L": 143,
+      "M": 4096,
+      "prompt_tokens": 131,
+      "generated_tokens": 12,
+      "source_id": "rnR5eLs_0"
+    },
+    {
+      "id": 272,
+      "ta": 39.958590196299376,
+      "dur": 8.142979818849135,
+      "L": 815,
+      "M": 4096,
+      "prompt_tokens": 48,
+      "generated_tokens": 767,
+      "source_id": "daBrZ4S_0"
+    },
+    {
+      "id": 273,
+      "ta": 40.032898546087885,
+      "dur": 8.4920353170832,
+      "L": 1587,
+      "M": 4096,
+      "prompt_tokens": 982,
+      "generated_tokens": 605,
+      "source_id": "rN2ow9R_0"
+    },
+    {
+      "id": 274,
+      "ta": 40.450990162489326,
+      "dur": 11.40204660015014,
+      "L": 931,
+      "M": 4096,
+      "prompt_tokens": 930,
+      "generated_tokens": 1,
+      "source_id": "STnBOLO_0"
+    },
+    {
+      "id": 275,
+      "ta": 40.45449248366098,
+      "dur": 16.05432511087104,
+      "L": 421,
+      "M": 4096,
+      "prompt_tokens": 365,
+      "generated_tokens": 56,
+      "source_id": "15UMxR5_0"
+    },
+    {
+      "id": 276,
+      "ta": 40.57345228917583,
+      "dur": 17.118189884302943,
+      "L": 798,
+      "M": 4096,
+      "prompt_tokens": 588,
+      "generated_tokens": 210,
+      "source_id": "9SMGz1S_19"
+    },
+    {
+      "id": 277,
+      "ta": 40.86890477344238,
+      "dur": 15.810005330669158,
+      "L": 777,
+      "M": 4096,
+      "prompt_tokens": 249,
+      "generated_tokens": 528,
+      "source_id": "1Vdj119_135"
+    },
+    {
+      "id": 278,
+      "ta": 40.90580192184327,
+      "dur": 18.116013216783124,
+      "L": 961,
+      "M": 4096,
+      "prompt_tokens": 700,
+      "generated_tokens": 261,
+      "source_id": "MJSl6B1_9"
+    },
+    {
+      "id": 279,
+      "ta": 40.95052048359022,
+      "dur": 8.756906916877751,
+      "L": 2117,
+      "M": 4096,
+      "prompt_tokens": 1811,
+      "generated_tokens": 306,
+      "source_id": "T1EiHWI_13"
+    },
+    {
+      "id": 280,
+      "ta": 41.773538464159465,
+      "dur": 19.124013530964135,
+      "L": 1480,
+      "M": 4096,
+      "prompt_tokens": 968,
+      "generated_tokens": 512,
+      "source_id": "FqOC5e9_135"
+    },
+    {
+      "id": 281,
+      "ta": 42.66282141737656,
+      "dur": 21.908692242839916,
+      "L": 1046,
+      "M": 4096,
+      "prompt_tokens": 711,
+      "generated_tokens": 335,
+      "source_id": "8KJUQiZ_15"
+    },
+    {
+      "id": 282,
+      "ta": 42.81815299041851,
+      "dur": 19.5492814828717,
+      "L": 165,
+      "M": 4096,
+      "prompt_tokens": 145,
+      "generated_tokens": 20,
+      "source_id": "4SCZ6wW_0"
+    },
+    {
+      "id": 283,
+      "ta": 43.450566072471524,
+      "dur": 11.350920092115416,
+      "L": 1555,
+      "M": 4096,
+      "prompt_tokens": 775,
+      "generated_tokens": 780,
+      "source_id": "JSgQnV9_41"
+    },
+    {
+      "id": 284,
+      "ta": 43.75989542366112,
+      "dur": 14.684918536169214,
+      "L": 1658,
+      "M": 4096,
+      "prompt_tokens": 1383,
+      "generated_tokens": 275,
+      "source_id": "cxs7klM_47"
+    },
+    {
+      "id": 285,
+      "ta": 44.05907248461054,
+      "dur": 12.135065188314226,
+      "L": 2441,
+      "M": 4096,
+      "prompt_tokens": 2439,
+      "generated_tokens": 2,
+      "source_id": "8qFtl50_42"
+    },
+    {
+      "id": 286,
+      "ta": 44.08533939787917,
+      "dur": 23.33234501271052,
+      "L": 131,
+      "M": 4096,
+      "prompt_tokens": 56,
+      "generated_tokens": 75,
+      "source_id": "57HsrPg_0"
+    },
+    {
+      "id": 287,
+      "ta": 44.291973164200556,
+      "dur": 19.286786411093246,
+      "L": 980,
+      "M": 4096,
+      "prompt_tokens": 587,
+      "generated_tokens": 393,
+      "source_id": "CUq6p9S_0"
+    },
+    {
+      "id": 288,
+      "ta": 44.38815260115939,
+      "dur": 17.242659003147992,
+      "L": 905,
+      "M": 4096,
+      "prompt_tokens": 680,
+      "generated_tokens": 225,
+      "source_id": "fhAdpxA_19"
+    },
+    {
+      "id": 289,
+      "ta": 44.45929424955361,
+      "dur": 20.815556021461855,
+      "L": 764,
+      "M": 4096,
+      "prompt_tokens": 708,
+      "generated_tokens": 56,
+      "source_id": "AX2D8jy_0"
+    },
+    {
+      "id": 290,
+      "ta": 44.52740114360145,
+      "dur": 18.916881713709373,
+      "L": 1843,
+      "M": 4096,
+      "prompt_tokens": 1221,
+      "generated_tokens": 622,
+      "source_id": "MJSl6B1_97"
+    },
+    {
+      "id": 291,
+      "ta": 44.776964891581834,
+      "dur": 21.4627093322473,
+      "L": 475,
+      "M": 4096,
+      "prompt_tokens": 267,
+      "generated_tokens": 208,
+      "source_id": "KXEgsaK_0"
+    },
+    {
+      "id": 292,
+      "ta": 44.88555908789776,
+      "dur": 10.901138296503216,
+      "L": 1092,
+      "M": 4096,
+      "prompt_tokens": 316,
+      "generated_tokens": 776,
+      "source_id": "HTmdESb_0"
+    },
+    {
+      "id": 293,
+      "ta": 44.95173163266513,
+      "dur": 13.372192784193832,
+      "L": 1462,
+      "M": 4096,
+      "prompt_tokens": 1200,
+      "generated_tokens": 262,
+      "source_id": "EKVf2RL_0"
+    },
+    {
+      "id": 294,
+      "ta": 45.04988877243572,
+      "dur": 22.98539940936499,
+      "L": 329,
+      "M": 4096,
+      "prompt_tokens": 61,
+      "generated_tokens": 268,
+      "source_id": "fQBApKl_0"
+    },
+    {
+      "id": 295,
+      "ta": 45.06621953441604,
+      "dur": 20.166776034714374,
+      "L": 456,
+      "M": 4096,
+      "prompt_tokens": 208,
+      "generated_tokens": 248,
+      "source_id": "J2kfUy9_67"
+    },
+    {
+      "id": 296,
+      "ta": 45.07486167521386,
+      "dur": 24.792355195851172,
+      "L": 1540,
+      "M": 4096,
+      "prompt_tokens": 972,
+      "generated_tokens": 568,
+      "source_id": "Q05F5WA_7"
+    },
+    {
+      "id": 297,
+      "ta": 45.31567660949035,
+      "dur": 22.79383558600787,
+      "L": 1516,
+      "M": 4096,
+      "prompt_tokens": 901,
+      "generated_tokens": 615,
+      "source_id": "ml8x0uL_15"
+    },
+    {
+      "id": 298,
+      "ta": 45.31748787001606,
+      "dur": 19.87943589038591,
+      "L": 428,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 389,
+      "source_id": "60Ny4t9_0"
+    },
+    {
+      "id": 299,
+      "ta": 45.3790922369723,
+      "dur": 14.073032661990553,
+      "L": 594,
+      "M": 4096,
+      "prompt_tokens": 74,
+      "generated_tokens": 520,
+      "source_id": "Hwcvyid_0"
+    },
+    {
+      "id": 300,
+      "ta": 45.39555187162481,
+      "dur": 12.639477533288867,
+      "L": 1343,
+      "M": 4096,
+      "prompt_tokens": 1035,
+      "generated_tokens": 308,
+      "source_id": "mX6BiTN_284"
+    },
+    {
+      "id": 301,
+      "ta": 45.66759292592279,
+      "dur": 10.99056339761673,
+      "L": 498,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 459,
+      "source_id": "qBeHtRm_0"
+    },
+    {
+      "id": 302,
+      "ta": 45.84736670952192,
+      "dur": 17.147716970049274,
+      "L": 319,
+      "M": 4096,
+      "prompt_tokens": 175,
+      "generated_tokens": 144,
+      "source_id": "GT8VdZ7_0"
+    },
+    {
+      "id": 303,
+      "ta": 46.38706206626904,
+      "dur": 13.355811345314526,
+      "L": 196,
+      "M": 4096,
+      "prompt_tokens": 37,
+      "generated_tokens": 159,
+      "source_id": "WZ5LbdP_0"
+    },
+    {
+      "id": 304,
+      "ta": 46.441616231341605,
+      "dur": 11.820855795185349,
+      "L": 986,
+      "M": 4096,
+      "prompt_tokens": 553,
+      "generated_tokens": 433,
+      "source_id": "IfXfHSz_0"
+    },
+    {
+      "id": 305,
+      "ta": 46.56307110611891,
+      "dur": 10.642180849697736,
+      "L": 2385,
+      "M": 4096,
+      "prompt_tokens": 1605,
+      "generated_tokens": 780,
+      "source_id": "9XupFvV_0"
+    },
+    {
+      "id": 306,
+      "ta": 46.7849281058795,
+      "dur": 9.092938173886546,
+      "L": 1614,
+      "M": 4096,
+      "prompt_tokens": 1195,
+      "generated_tokens": 419,
+      "source_id": "w2jVd6l_19"
+    },
+    {
+      "id": 307,
+      "ta": 46.798211971337956,
+      "dur": 8.156077001776456,
+      "L": 727,
+      "M": 4096,
+      "prompt_tokens": 417,
+      "generated_tokens": 310,
+      "source_id": "3XJMayw_17"
+    },
+    {
+      "id": 308,
+      "ta": 46.96510312595399,
+      "dur": 17.81097766326826,
+      "L": 1515,
+      "M": 4096,
+      "prompt_tokens": 737,
+      "generated_tokens": 778,
+      "source_id": "5pIFvuH_11"
+    },
+    {
+      "id": 309,
+      "ta": 46.9704065652086,
+      "dur": 13.146426456890339,
+      "L": 1552,
+      "M": 4096,
+      "prompt_tokens": 1148,
+      "generated_tokens": 404,
+      "source_id": "xqtYsIC_23"
+    },
+    {
+      "id": 310,
+      "ta": 47.16860464071545,
+      "dur": 19.363833309911875,
+      "L": 876,
+      "M": 4096,
+      "prompt_tokens": 848,
+      "generated_tokens": 28,
+      "source_id": "rHbSTOz_23"
+    },
+    {
+      "id": 311,
+      "ta": 47.25022609787325,
+      "dur": 24.208240325698654,
+      "L": 3619,
+      "M": 4096,
+      "prompt_tokens": 3531,
+      "generated_tokens": 88,
+      "source_id": "6cz1Sq6_188"
+    },
+    {
+      "id": 312,
+      "ta": 47.42493667229084,
+      "dur": 24.595640775518003,
+      "L": 2103,
+      "M": 4096,
+      "prompt_tokens": 1488,
+      "generated_tokens": 615,
+      "source_id": "TYHN2rK_79"
+    },
+    {
+      "id": 313,
+      "ta": 47.43017557646105,
+      "dur": 20.480694567768353,
+      "L": 287,
+      "M": 4096,
+      "prompt_tokens": 37,
+      "generated_tokens": 250,
+      "source_id": "42EW8VD_0"
+    },
+    {
+      "id": 314,
+      "ta": 47.789960879453645,
+      "dur": 14.060953197761826,
+      "L": 391,
+      "M": 4096,
+      "prompt_tokens": 96,
+      "generated_tokens": 295,
+      "source_id": "WDynmOx_0"
+    },
+    {
+      "id": 315,
+      "ta": 48.01848268356278,
+      "dur": 14.780262717877306,
+      "L": 1029,
+      "M": 4096,
+      "prompt_tokens": 868,
+      "generated_tokens": 161,
+      "source_id": "kO0lfTs_0"
+    },
+    {
+      "id": 316,
+      "ta": 48.20361108990311,
+      "dur": 14.073117385902938,
+      "L": 217,
+      "M": 4096,
+      "prompt_tokens": 212,
+      "generated_tokens": 5,
+      "source_id": "QxBtAiN_0"
+    },
+    {
+      "id": 317,
+      "ta": 48.27338173650155,
+      "dur": 17.37895162922517,
+      "L": 509,
+      "M": 4096,
+      "prompt_tokens": 268,
+      "generated_tokens": 241,
+      "source_id": "9JNivC5_0"
+    },
+    {
+      "id": 318,
+      "ta": 48.375592421162146,
+      "dur": 17.472511345994032,
+      "L": 2109,
+      "M": 4096,
+      "prompt_tokens": 1947,
+      "generated_tokens": 162,
+      "source_id": "XLeFyrb_6"
+    },
+    {
+      "id": 319,
+      "ta": 48.78556579795747,
+      "dur": 22.563920351163404,
+      "L": 762,
+      "M": 4096,
+      "prompt_tokens": 727,
+      "generated_tokens": 35,
+      "source_id": "XYnZHIX_0"
+    },
+    {
+      "id": 320,
+      "ta": 48.91901555885604,
+      "dur": 10.260923411945884,
+      "L": 1458,
+      "M": 4096,
+      "prompt_tokens": 1333,
+      "generated_tokens": 125,
+      "source_id": "4Wu7LVu_0"
+    },
+    {
+      "id": 321,
+      "ta": 48.98844767938188,
+      "dur": 10.058193465175325,
+      "L": 381,
+      "M": 4096,
+      "prompt_tokens": 59,
+      "generated_tokens": 322,
+      "source_id": "S1OC7rU_0"
+    },
+    {
+      "id": 322,
+      "ta": 49.06099308361786,
+      "dur": 8.381155267032252,
+      "L": 504,
+      "M": 4096,
+      "prompt_tokens": 68,
+      "generated_tokens": 436,
+      "source_id": "vbWCNd1_0"
+    },
+    {
+      "id": 323,
+      "ta": 49.14475500514963,
+      "dur": 13.129815894868173,
+      "L": 255,
+      "M": 4096,
+      "prompt_tokens": 37,
+      "generated_tokens": 218,
+      "source_id": "fpcRqXK_0"
+    },
+    {
+      "id": 324,
+      "ta": 49.23075538069859,
+      "dur": 15.791007175478171,
+      "L": 2346,
+      "M": 4096,
+      "prompt_tokens": 1855,
+      "generated_tokens": 491,
+      "source_id": "jgPYWFz_9"
+    },
+    {
+      "id": 325,
+      "ta": 49.31586124986242,
+      "dur": 10.062992974590898,
+      "L": 2363,
+      "M": 4096,
+      "prompt_tokens": 1584,
+      "generated_tokens": 779,
+      "source_id": "Kt5fPbl_19"
+    },
+    {
+      "id": 326,
+      "ta": 49.32318276539223,
+      "dur": 17.843682228632854,
+      "L": 1381,
+      "M": 4096,
+      "prompt_tokens": 1203,
+      "generated_tokens": 178,
+      "source_id": "zpiiQk3_9"
+    },
+    {
+      "id": 327,
+      "ta": 49.400249797807895,
+      "dur": 15.471962433970754,
+      "L": 2070,
+      "M": 4096,
+      "prompt_tokens": 1421,
+      "generated_tokens": 649,
+      "source_id": "bv5DQXm_0"
+    },
+    {
+      "id": 328,
+      "ta": 49.464216245590414,
+      "dur": 14.141767712525908,
+      "L": 458,
+      "M": 4096,
+      "prompt_tokens": 226,
+      "generated_tokens": 232,
+      "source_id": "IKbZEWU_0"
+    },
+    {
+      "id": 329,
+      "ta": 49.61047090800927,
+      "dur": 13.051863590636293,
+      "L": 1944,
+      "M": 4096,
+      "prompt_tokens": 1796,
+      "generated_tokens": 148,
+      "source_id": "aJYiPLO_17"
+    },
+    {
+      "id": 330,
+      "ta": 49.62689185238495,
+      "dur": 19.634190962760517,
+      "L": 440,
+      "M": 4096,
+      "prompt_tokens": 48,
+      "generated_tokens": 392,
+      "source_id": "hp5alre_0"
+    },
+    {
+      "id": 331,
+      "ta": 49.912978155237155,
+      "dur": 24.658183943445376,
+      "L": 1014,
+      "M": 4096,
+      "prompt_tokens": 717,
+      "generated_tokens": 297,
+      "source_id": "6jUnR4v_0"
+    },
+    {
+      "id": 332,
+      "ta": 50.23074898335868,
+      "dur": 9.557091897760547,
+      "L": 2032,
+      "M": 4096,
+      "prompt_tokens": 1564,
+      "generated_tokens": 468,
+      "source_id": "Z8aMFbe_0"
+    },
+    {
+      "id": 333,
+      "ta": 50.47888315279278,
+      "dur": 11.448091832547487,
+      "L": 664,
+      "M": 4096,
+      "prompt_tokens": 578,
+      "generated_tokens": 86,
+      "source_id": "tme1B1X_99"
+    },
+    {
+      "id": 334,
+      "ta": 50.50067489046467,
+      "dur": 18.314026057408963,
+      "L": 1115,
+      "M": 4096,
+      "prompt_tokens": 739,
+      "generated_tokens": 376,
+      "source_id": "9TZj8Gh_0"
+    },
+    {
+      "id": 335,
+      "ta": 51.038335558794415,
+      "dur": 17.49953008266153,
+      "L": 327,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 288,
+      "source_id": "yHcbWFL_0"
+    },
+    {
+      "id": 336,
+      "ta": 51.3357794984011,
+      "dur": 17.7650012229101,
+      "L": 353,
+      "M": 4096,
+      "prompt_tokens": 47,
+      "generated_tokens": 306,
+      "source_id": "f1kLxwi_0"
+    },
+    {
+      "id": 337,
+      "ta": 51.45108062464325,
+      "dur": 18.83878622906243,
+      "L": 2464,
+      "M": 4096,
+      "prompt_tokens": 2213,
+      "generated_tokens": 251,
+      "source_id": "V3cESLW_76"
+    },
+    {
+      "id": 338,
+      "ta": 51.773338052399055,
+      "dur": 20.61253232438254,
+      "L": 604,
+      "M": 4096,
+      "prompt_tokens": 547,
+      "generated_tokens": 57,
+      "source_id": "GYqnAhC_163"
+    },
+    {
+      "id": 339,
+      "ta": 51.83565912094179,
+      "dur": 21.117605352740846,
+      "L": 1480,
+      "M": 4096,
+      "prompt_tokens": 1010,
+      "generated_tokens": 470,
+      "source_id": "SqTGRlD_0"
+    },
+    {
+      "id": 340,
+      "ta": 51.926443301756855,
+      "dur": 10.228935250115573,
+      "L": 1986,
+      "M": 4096,
+      "prompt_tokens": 1755,
+      "generated_tokens": 231,
+      "source_id": "bo2kYv9_23"
+    },
+    {
+      "id": 341,
+      "ta": 52.42903938576767,
+      "dur": 11.683204183893993,
+      "L": 1548,
+      "M": 4096,
+      "prompt_tokens": 1010,
+      "generated_tokens": 538,
+      "source_id": "4TknMSW_9"
+    },
+    {
+      "id": 342,
+      "ta": 52.53917828015356,
+      "dur": 14.448163065504822,
+      "L": 1417,
+      "M": 4096,
+      "prompt_tokens": 829,
+      "generated_tokens": 588,
+      "source_id": "8kQvAbs_78"
+    },
+    {
+      "id": 343,
+      "ta": 52.6349171990772,
+      "dur": 24.57843937347819,
+      "L": 1271,
+      "M": 4096,
+      "prompt_tokens": 790,
+      "generated_tokens": 481,
+      "source_id": "HkYPK4O_17"
+    },
+    {
+      "id": 344,
+      "ta": 52.731850754054115,
+      "dur": 15.920722727213843,
+      "L": 1872,
+      "M": 4096,
+      "prompt_tokens": 1335,
+      "generated_tokens": 537,
+      "source_id": "2FOskbF_41"
+    },
+    {
+      "id": 345,
+      "ta": 52.785234522961865,
+      "dur": 18.788277371828556,
+      "L": 885,
+      "M": 4096,
+      "prompt_tokens": 552,
+      "generated_tokens": 333,
+      "source_id": "ykJ2fQ2_21"
+    },
+    {
+      "id": 346,
+      "ta": 52.91728644012872,
+      "dur": 23.451333357958,
+      "L": 2226,
+      "M": 4096,
+      "prompt_tokens": 1822,
+      "generated_tokens": 404,
+      "source_id": "5CevyJG_58"
+    },
+    {
+      "id": 347,
+      "ta": 53.0605308000857,
+      "dur": 12.650997053390215,
+      "L": 1809,
+      "M": 4096,
+      "prompt_tokens": 925,
+      "generated_tokens": 884,
+      "source_id": "6xSURnw_59"
+    },
+    {
+      "id": 348,
+      "ta": 53.09116368553789,
+      "dur": 11.711277179075973,
+      "L": 833,
+      "M": 4096,
+      "prompt_tokens": 66,
+      "generated_tokens": 767,
+      "source_id": "fDVd8pt_46"
+    },
+    {
+      "id": 349,
+      "ta": 53.14461618019056,
+      "dur": 14.911156384518925,
+      "L": 1404,
+      "M": 4096,
+      "prompt_tokens": 1356,
+      "generated_tokens": 48,
+      "source_id": "wrN9uUo_89"
+    },
+    {
+      "id": 350,
+      "ta": 53.30071863272989,
+      "dur": 17.23443881803528,
+      "L": 255,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 217,
+      "source_id": "FLz3GgI_0"
+    },
+    {
+      "id": 351,
+      "ta": 53.371284339574494,
+      "dur": 14.784156149302031,
+      "L": 1079,
+      "M": 4096,
+      "prompt_tokens": 444,
+      "generated_tokens": 635,
+      "source_id": "SvEH1KA_0"
+    },
+    {
+      "id": 352,
+      "ta": 53.56223632653097,
+      "dur": 8.104304073403823,
+      "L": 1087,
+      "M": 4096,
+      "prompt_tokens": 1063,
+      "generated_tokens": 24,
+      "source_id": "9JZYDO3_0"
+    },
+    {
+      "id": 353,
+      "ta": 53.654825352209116,
+      "dur": 8.09161266758445,
+      "L": 466,
+      "M": 4096,
+      "prompt_tokens": 41,
+      "generated_tokens": 425,
+      "source_id": "RzSNPz8_0"
+    },
+    {
+      "id": 354,
+      "ta": 53.72426353719247,
+      "dur": 8.274363166114263,
+      "L": 1843,
+      "M": 4096,
+      "prompt_tokens": 1067,
+      "generated_tokens": 776,
+      "source_id": "vD2rlfI_31"
+    },
+    {
+      "id": 355,
+      "ta": 53.7811496576174,
+      "dur": 10.108979286775025,
+      "L": 1654,
+      "M": 4096,
+      "prompt_tokens": 863,
+      "generated_tokens": 791,
+      "source_id": "xBwohPH_0"
+    },
+    {
+      "id": 356,
+      "ta": 53.781160150252845,
+      "dur": 14.194959896190657,
+      "L": 310,
+      "M": 4096,
+      "prompt_tokens": 51,
+      "generated_tokens": 259,
+      "source_id": "zEB6pd0_0"
+    },
+    {
+      "id": 357,
+      "ta": 53.8299412369572,
+      "dur": 16.16715097160511,
+      "L": 1299,
+      "M": 4096,
+      "prompt_tokens": 1284,
+      "generated_tokens": 15,
+      "source_id": "ahSiPwO_0"
+    },
+    {
+      "id": 358,
+      "ta": 53.995387528971925,
+      "dur": 23.557536969499473,
+      "L": 437,
+      "M": 4096,
+      "prompt_tokens": 73,
+      "generated_tokens": 364,
+      "source_id": "AYvF5gg_0"
+    },
+    {
+      "id": 359,
+      "ta": 54.0350149600734,
+      "dur": 20.40557745588404,
+      "L": 755,
+      "M": 4096,
+      "prompt_tokens": 410,
+      "generated_tokens": 345,
+      "source_id": "XGxxhUO_0"
+    },
+    {
+      "id": 360,
+      "ta": 54.15676816909229,
+      "dur": 20.029361985870775,
+      "L": 1771,
+      "M": 4096,
+      "prompt_tokens": 1071,
+      "generated_tokens": 700,
+      "source_id": "txGn5eb_0"
+    },
+    {
+      "id": 361,
+      "ta": 54.257471994793924,
+      "dur": 22.152625812397815,
+      "L": 1376,
+      "M": 4096,
+      "prompt_tokens": 927,
+      "generated_tokens": 449,
+      "source_id": "2VlPlPE_41"
+    },
+    {
+      "id": 362,
+      "ta": 54.32389311033841,
+      "dur": 12.30476749372611,
+      "L": 897,
+      "M": 4096,
+      "prompt_tokens": 862,
+      "generated_tokens": 35,
+      "source_id": "6u9psLj_0"
+    },
+    {
+      "id": 363,
+      "ta": 54.3879458985699,
+      "dur": 20.87382012874099,
+      "L": 2044,
+      "M": 4096,
+      "prompt_tokens": 1270,
+      "generated_tokens": 774,
+      "source_id": "veEowQn_23"
+    },
+    {
+      "id": 364,
+      "ta": 54.67751554249487,
+      "dur": 19.131080605461733,
+      "L": 676,
+      "M": 4096,
+      "prompt_tokens": 606,
+      "generated_tokens": 70,
+      "source_id": "NenthyF_0"
+    },
+    {
+      "id": 365,
+      "ta": 54.82260900221939,
+      "dur": 12.826397210468933,
+      "L": 147,
+      "M": 4096,
+      "prompt_tokens": 137,
+      "generated_tokens": 10,
+      "source_id": "YDa7LxA_0"
+    },
+    {
+      "id": 366,
+      "ta": 54.92558579255333,
+      "dur": 15.45454801340458,
+      "L": 905,
+      "M": 4096,
+      "prompt_tokens": 499,
+      "generated_tokens": 406,
+      "source_id": "wHYqysu_17"
+    },
+    {
+      "id": 367,
+      "ta": 55.24237121873077,
+      "dur": 9.635780991510533,
+      "L": 1710,
+      "M": 4096,
+      "prompt_tokens": 1633,
+      "generated_tokens": 77,
+      "source_id": "KhExdXp_35"
+    },
+    {
+      "id": 368,
+      "ta": 55.324719898654884,
+      "dur": 12.806432729291807,
+      "L": 1830,
+      "M": 4096,
+      "prompt_tokens": 1453,
+      "generated_tokens": 377,
+      "source_id": "ywXN050_11"
+    },
+    {
+      "id": 369,
+      "ta": 55.436538480081516,
+      "dur": 18.53174038757279,
+      "L": 1606,
+      "M": 4096,
+      "prompt_tokens": 1422,
+      "generated_tokens": 184,
+      "source_id": "GxxZkw6_19"
+    },
+    {
+      "id": 370,
+      "ta": 55.611991210551075,
+      "dur": 23.85227960881298,
+      "L": 357,
+      "M": 4096,
+      "prompt_tokens": 278,
+      "generated_tokens": 79,
+      "source_id": "lU6CJh9_0"
+    },
+    {
+      "id": 371,
+      "ta": 55.77260911066192,
+      "dur": 15.348409855674099,
+      "L": 475,
+      "M": 4096,
+      "prompt_tokens": 186,
+      "generated_tokens": 289,
+      "source_id": "hp4h90h_81"
+    },
+    {
+      "id": 372,
+      "ta": 55.8945822764006,
+      "dur": 12.330004996292146,
+      "L": 891,
+      "M": 4096,
+      "prompt_tokens": 747,
+      "generated_tokens": 144,
+      "source_id": "22H3x2t_15"
+    },
+    {
+      "id": 373,
+      "ta": 55.96240004106149,
+      "dur": 17.106667242027747,
+      "L": 1231,
+      "M": 4096,
+      "prompt_tokens": 820,
+      "generated_tokens": 411,
+      "source_id": "lvjYyJz_45"
+    },
+    {
+      "id": 374,
+      "ta": 56.15343233253889,
+      "dur": 20.93732223512726,
+      "L": 1507,
+      "M": 4096,
+      "prompt_tokens": 1162,
+      "generated_tokens": 345,
+      "source_id": "mWWVhiv_23"
+    },
+    {
+      "id": 375,
+      "ta": 56.16069111267426,
+      "dur": 19.377231048583127,
+      "L": 320,
+      "M": 4096,
+      "prompt_tokens": 319,
+      "generated_tokens": 1,
+      "source_id": "KRyRq79_114"
+    },
+    {
+      "id": 376,
+      "ta": 56.16578887085147,
+      "dur": 23.713008010943234,
+      "L": 913,
+      "M": 4096,
+      "prompt_tokens": 488,
+      "generated_tokens": 425,
+      "source_id": "UHv5fSr_0"
+    },
+    {
+      "id": 377,
+      "ta": 56.31385107856865,
+      "dur": 8.416215383915395,
+      "L": 1789,
+      "M": 4096,
+      "prompt_tokens": 1687,
+      "generated_tokens": 102,
+      "source_id": "JiLWXkG_73"
+    },
+    {
+      "id": 378,
+      "ta": 56.52709959957475,
+      "dur": 14.227594411192092,
+      "L": 992,
+      "M": 4096,
+      "prompt_tokens": 416,
+      "generated_tokens": 576,
+      "source_id": "1eq8wTy_0"
+    },
+    {
+      "id": 379,
+      "ta": 56.53190285790488,
+      "dur": 21.752929798293795,
+      "L": 228,
+      "M": 4096,
+      "prompt_tokens": 36,
+      "generated_tokens": 192,
+      "source_id": "VM9LMNs_0"
+    },
+    {
+      "id": 380,
+      "ta": 56.68376832574344,
+      "dur": 12.773363154307212,
+      "L": 1737,
+      "M": 4096,
+      "prompt_tokens": 1080,
+      "generated_tokens": 657,
+      "source_id": "3WLxdC9_7"
+    },
+    {
+      "id": 381,
+      "ta": 56.709030796331945,
+      "dur": 12.696254103390654,
+      "L": 1480,
+      "M": 4096,
+      "prompt_tokens": 1283,
+      "generated_tokens": 197,
+      "source_id": "oSVdYJz_0"
+    },
+    {
+      "id": 382,
+      "ta": 56.73408825591751,
+      "dur": 9.4447629065188,
+      "L": 2203,
+      "M": 4096,
+      "prompt_tokens": 1807,
+      "generated_tokens": 396,
+      "source_id": "FaR8mxt_14"
+    },
+    {
+      "id": 383,
+      "ta": 56.849727556860444,
+      "dur": 12.177759441836173,
+      "L": 933,
+      "M": 4096,
+      "prompt_tokens": 406,
+      "generated_tokens": 527,
+      "source_id": "w0tmtaW_23"
+    },
+    {
+      "id": 384,
+      "ta": 56.99061891679883,
+      "dur": 13.030910567173942,
+      "L": 287,
+      "M": 4096,
+      "prompt_tokens": 35,
+      "generated_tokens": 252,
+      "source_id": "3F9YnxK_0"
+    },
+    {
+      "id": 385,
+      "ta": 56.99906901850341,
+      "dur": 20.82983961199873,
+      "L": 341,
+      "M": 4096,
+      "prompt_tokens": 338,
+      "generated_tokens": 3,
+      "source_id": "ELuWgVe_0"
+    },
+    {
+      "id": 386,
+      "ta": 57.11560359687289,
+      "dur": 16.355675495143444,
+      "L": 1610,
+      "M": 4096,
+      "prompt_tokens": 826,
+      "generated_tokens": 784,
+      "source_id": "9msAejB_23"
+    },
+    {
+      "id": 387,
+      "ta": 57.3364991108169,
+      "dur": 15.716941688507372,
+      "L": 1114,
+      "M": 4096,
+      "prompt_tokens": 1075,
+      "generated_tokens": 39,
+      "source_id": "fAX2Kee_0"
+    },
+    {
+      "id": 388,
+      "ta": 57.353444823023096,
+      "dur": 24.50509912489604,
+      "L": 563,
+      "M": 4096,
+      "prompt_tokens": 72,
+      "generated_tokens": 491,
+      "source_id": "igeSZGP_0"
+    },
+    {
+      "id": 389,
+      "ta": 57.35614105361647,
+      "dur": 23.784060960592697,
+      "L": 263,
+      "M": 4096,
+      "prompt_tokens": 215,
+      "generated_tokens": 48,
+      "source_id": "tXFun96_0"
+    },
+    {
+      "id": 390,
+      "ta": 57.50632634618636,
+      "dur": 20.468448336940348,
+      "L": 1861,
+      "M": 4096,
+      "prompt_tokens": 1255,
+      "generated_tokens": 606,
+      "source_id": "kZAi6cY_9"
+    },
+    {
+      "id": 391,
+      "ta": 57.5692243781551,
+      "dur": 20.79021495372192,
+      "L": 1674,
+      "M": 4096,
+      "prompt_tokens": 1250,
+      "generated_tokens": 424,
+      "source_id": "sCw8Ocq_0"
+    },
+    {
+      "id": 392,
+      "ta": 57.58069445633841,
+      "dur": 16.875939992715356,
+      "L": 861,
+      "M": 4096,
+      "prompt_tokens": 400,
+      "generated_tokens": 461,
+      "source_id": "4gUJVdV_0"
+    },
+    {
+      "id": 393,
+      "ta": 57.601706899420236,
+      "dur": 8.500154797076538,
+      "L": 943,
+      "M": 4096,
+      "prompt_tokens": 616,
+      "generated_tokens": 327,
+      "source_id": "0foKjA9_0"
+    },
+    {
+      "id": 394,
+      "ta": 57.900775456345826,
+      "dur": 13.005106569173321,
+      "L": 1014,
+      "M": 4096,
+      "prompt_tokens": 621,
+      "generated_tokens": 393,
+      "source_id": "FHe8J6d_11"
+    },
+    {
+      "id": 395,
+      "ta": 58.005368328623305,
+      "dur": 23.087264421239077,
+      "L": 263,
+      "M": 4096,
+      "prompt_tokens": 56,
+      "generated_tokens": 207,
+      "source_id": "QYtZySi_0"
+    },
+    {
+      "id": 396,
+      "ta": 58.279631012830805,
+      "dur": 20.758086037193678,
+      "L": 356,
+      "M": 4096,
+      "prompt_tokens": 47,
+      "generated_tokens": 309,
+      "source_id": "O9asDoO_0"
+    },
+    {
+      "id": 397,
+      "ta": 58.34394788539868,
+      "dur": 11.314259270051119,
+      "L": 1087,
+      "M": 4096,
+      "prompt_tokens": 521,
+      "generated_tokens": 566,
+      "source_id": "xJF1Ly3_7"
+    },
+    {
+      "id": 398,
+      "ta": 58.40804131023176,
+      "dur": 13.405236196057071,
+      "L": 1082,
+      "M": 4096,
+      "prompt_tokens": 826,
+      "generated_tokens": 256,
+      "source_id": "jEXIqQy_11"
+    },
+    {
+      "id": 399,
+      "ta": 58.411341945548024,
+      "dur": 11.220191901746679,
+      "L": 717,
+      "M": 4096,
+      "prompt_tokens": 432,
+      "generated_tokens": 285,
+      "source_id": "0EC1jCY_0"
+    },
+    {
+      "id": 400,
+      "ta": 58.692101940798715,
+      "dur": 9.056534096389328,
+      "L": 1644,
+      "M": 4096,
+      "prompt_tokens": 858,
+      "generated_tokens": 786,
+      "source_id": "Q7f76qx_9"
+    },
+    {
+      "id": 401,
+      "ta": 58.720788324492204,
+      "dur": 13.997455311870898,
+      "L": 1347,
+      "M": 4096,
+      "prompt_tokens": 1085,
+      "generated_tokens": 262,
+      "source_id": "2C6N9KW_0"
+    },
+    {
+      "id": 402,
+      "ta": 58.81490793887104,
+      "dur": 9.964723129987322,
+      "L": 2476,
+      "M": 4096,
+      "prompt_tokens": 2286,
+      "generated_tokens": 190,
+      "source_id": "H209hdz_2"
+    },
+    {
+      "id": 403,
+      "ta": 58.95324532129648,
+      "dur": 20.151500106309975,
+      "L": 1021,
+      "M": 4096,
+      "prompt_tokens": 770,
+      "generated_tokens": 251,
+      "source_id": "7JX1hKY_7"
+    },
+    {
+      "id": 404,
+      "ta": 59.04488464512106,
+      "dur": 11.223465145807374,
+      "L": 1918,
+      "M": 4096,
+      "prompt_tokens": 1505,
+      "generated_tokens": 413,
+      "source_id": "l0wmdox_11"
+    },
+    {
+      "id": 405,
+      "ta": 59.2595627244033,
+      "dur": 22.975363417779427,
+      "L": 265,
+      "M": 4096,
+      "prompt_tokens": 133,
+      "generated_tokens": 132,
+      "source_id": "uiECyCD_124"
+    },
+    {
+      "id": 406,
+      "ta": 59.276418682079395,
+      "dur": 14.240390916792977,
+      "L": 608,
+      "M": 4096,
+      "prompt_tokens": 469,
+      "generated_tokens": 139,
+      "source_id": "gg5r0Dy_0"
+    },
+    {
+      "id": 407,
+      "ta": 59.364524839165995,
+      "dur": 22.090158543179285,
+      "L": 705,
+      "M": 4096,
+      "prompt_tokens": 98,
+      "generated_tokens": 607,
+      "source_id": "gMxa77o_0"
+    },
+    {
+      "id": 408,
+      "ta": 59.39939416946068,
+      "dur": 24.524020466177323,
+      "L": 345,
+      "M": 4096,
+      "prompt_tokens": 287,
+      "generated_tokens": 58,
+      "source_id": "N3aaMrp_0"
+    },
+    {
+      "id": 409,
+      "ta": 59.40975821079438,
+      "dur": 15.414254651928829,
+      "L": 351,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 312,
+      "source_id": "s5AHWzF_0"
+    },
+    {
+      "id": 410,
+      "ta": 59.46126012659608,
+      "dur": 15.837287618183085,
+      "L": 382,
+      "M": 4096,
+      "prompt_tokens": 48,
+      "generated_tokens": 334,
+      "source_id": "j4oDwhz_0"
+    },
+    {
+      "id": 411,
+      "ta": 59.57639336141899,
+      "dur": 17.125315307117894,
+      "L": 2192,
+      "M": 4096,
+      "prompt_tokens": 1418,
+      "generated_tokens": 774,
+      "source_id": "9tUdUmw_0"
+    },
+    {
+      "id": 412,
+      "ta": 59.90313180163888,
+      "dur": 21.101422712433966,
+      "L": 1634,
+      "M": 4096,
+      "prompt_tokens": 1142,
+      "generated_tokens": 492,
+      "source_id": "ddwVZer_0"
+    },
+    {
+      "id": 413,
+      "ta": 59.982040872956205,
+      "dur": 8.032079832521973,
+      "L": 859,
+      "M": 4096,
+      "prompt_tokens": 187,
+      "generated_tokens": 672,
+      "source_id": "GkZIw04_0"
+    },
+    {
+      "id": 414,
+      "ta": 60.16617649200104,
+      "dur": 23.65127659457975,
+      "L": 214,
+      "M": 4096,
+      "prompt_tokens": 34,
+      "generated_tokens": 180,
+      "source_id": "eX5ayQs_0"
+    },
+    {
+      "id": 415,
+      "ta": 60.57492028395665,
+      "dur": 11.602716697347613,
+      "L": 2281,
+      "M": 4096,
+      "prompt_tokens": 1706,
+      "generated_tokens": 575,
+      "source_id": "2x5IpnY_0"
+    },
+    {
+      "id": 416,
+      "ta": 60.94328412115705,
+      "dur": 11.145453876599507,
+      "L": 190,
+      "M": 4096,
+      "prompt_tokens": 146,
+      "generated_tokens": 44,
+      "source_id": "CQWoPMF_0"
+    },
+    {
+      "id": 417,
+      "ta": 61.0179377458439,
+      "dur": 10.052044608702627,
+      "L": 473,
+      "M": 4096,
+      "prompt_tokens": 48,
+      "generated_tokens": 425,
+      "source_id": "6LoSxYz_0"
+    },
+    {
+      "id": 418,
+      "ta": 61.05148629103117,
+      "dur": 21.478916966586958,
+      "L": 1987,
+      "M": 4096,
+      "prompt_tokens": 1214,
+      "generated_tokens": 773,
+      "source_id": "84VJKBZ_31"
+    },
+    {
+      "id": 419,
+      "ta": 61.24265716801026,
+      "dur": 9.423219011508467,
+      "L": 1644,
+      "M": 4096,
+      "prompt_tokens": 1160,
+      "generated_tokens": 484,
+      "source_id": "yJyB323_33"
+    },
+    {
+      "id": 420,
+      "ta": 61.48425916765425,
+      "dur": 11.149785549350234,
+      "L": 643,
+      "M": 4096,
+      "prompt_tokens": 392,
+      "generated_tokens": 251,
+      "source_id": "Z7KYlNI_11"
+    },
+    {
+      "id": 421,
+      "ta": 61.503423269597654,
+      "dur": 13.943273316392682,
+      "L": 1282,
+      "M": 4096,
+      "prompt_tokens": 1071,
+      "generated_tokens": 211,
+      "source_id": "2CKVlKw_88"
+    },
+    {
+      "id": 422,
+      "ta": 61.50680328722065,
+      "dur": 17.224314749873713,
+      "L": 892,
+      "M": 4096,
+      "prompt_tokens": 730,
+      "generated_tokens": 162,
+      "source_id": "U5yUTGQ_0"
+    },
+    {
+      "id": 423,
+      "ta": 61.64864134174264,
+      "dur": 8.1683205725448,
+      "L": 2276,
+      "M": 4096,
+      "prompt_tokens": 1506,
+      "generated_tokens": 770,
+      "source_id": "ILFyZ5K_29"
+    },
+    {
+      "id": 424,
+      "ta": 61.657295163945456,
+      "dur": 14.43377667047725,
+      "L": 673,
+      "M": 4096,
+      "prompt_tokens": 317,
+      "generated_tokens": 356,
+      "source_id": "0itb7be_23"
+    },
+    {
+      "id": 425,
+      "ta": 61.65926060425922,
+      "dur": 23.68542442171184,
+      "L": 296,
+      "M": 4096,
+      "prompt_tokens": 273,
+      "generated_tokens": 23,
+      "source_id": "jzFt1EI_15"
+    },
+    {
+      "id": 426,
+      "ta": 61.7974194814705,
+      "dur": 8.512337331619168,
+      "L": 373,
+      "M": 4096,
+      "prompt_tokens": 266,
+      "generated_tokens": 107,
+      "source_id": "nyw2ooH_8"
+    },
+    {
+      "id": 427,
+      "ta": 61.83721014353062,
+      "dur": 24.142757927079746,
+      "L": 1649,
+      "M": 4096,
+      "prompt_tokens": 1423,
+      "generated_tokens": 226,
+      "source_id": "bj6I0Ff_55"
+    },
+    {
+      "id": 428,
+      "ta": 61.89184202061247,
+      "dur": 22.652666483901218,
+      "L": 1455,
+      "M": 4096,
+      "prompt_tokens": 922,
+      "generated_tokens": 533,
+      "source_id": "LOnwX7V_0"
+    },
+    {
+      "id": 429,
+      "ta": 61.97444528872181,
+      "dur": 8.014671956707629,
+      "L": 573,
+      "M": 4096,
+      "prompt_tokens": 57,
+      "generated_tokens": 516,
+      "source_id": "pF0Chbp_0"
+    },
+    {
+      "id": 430,
+      "ta": 62.24547732279222,
+      "dur": 22.408473201958337,
+      "L": 320,
+      "M": 4096,
+      "prompt_tokens": 195,
+      "generated_tokens": 125,
+      "source_id": "lACiQzE_0"
+    },
+    {
+      "id": 431,
+      "ta": 62.27451549857704,
+      "dur": 22.950727605175995,
+      "L": 580,
+      "M": 4096,
+      "prompt_tokens": 40,
+      "generated_tokens": 540,
+      "source_id": "zYGL40e_0"
+    },
+    {
+      "id": 432,
+      "ta": 62.28184443081274,
+      "dur": 12.416921029574672,
+      "L": 456,
+      "M": 4096,
+      "prompt_tokens": 439,
+      "generated_tokens": 17,
+      "source_id": "B4DrTod_0"
+    },
+    {
+      "id": 433,
+      "ta": 62.45097111732281,
+      "dur": 17.269845270222717,
+      "L": 267,
+      "M": 4096,
+      "prompt_tokens": 82,
+      "generated_tokens": 185,
+      "source_id": "QVpBjdc_0"
+    },
+    {
+      "id": 434,
+      "ta": 62.61512374166968,
+      "dur": 10.914434017639184,
+      "L": 163,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 125,
+      "source_id": "Q2NTYvP_0"
+    },
+    {
+      "id": 435,
+      "ta": 62.97103368667533,
+      "dur": 19.39353153123777,
+      "L": 1254,
+      "M": 4096,
+      "prompt_tokens": 660,
+      "generated_tokens": 594,
+      "source_id": "M374ZlX_0"
+    },
+    {
+      "id": 436,
+      "ta": 63.11934366423149,
+      "dur": 21.97758343463954,
+      "L": 321,
+      "M": 4096,
+      "prompt_tokens": 45,
+      "generated_tokens": 276,
+      "source_id": "hN7m5id_0"
+    },
+    {
+      "id": 437,
+      "ta": 63.268971178873976,
+      "dur": 23.317920669261664,
+      "L": 1930,
+      "M": 4096,
+      "prompt_tokens": 1394,
+      "generated_tokens": 536,
+      "source_id": "1WB6Vnl_25"
+    },
+    {
+      "id": 438,
+      "ta": 63.32045301765615,
+      "dur": 10.530192565280288,
+      "L": 1014,
+      "M": 4096,
+      "prompt_tokens": 816,
+      "generated_tokens": 198,
+      "source_id": "QsVGAZ0_0"
+    },
+    {
+      "id": 439,
+      "ta": 63.421966742325864,
+      "dur": 24.85594918861914,
+      "L": 260,
+      "M": 4096,
+      "prompt_tokens": 40,
+      "generated_tokens": 220,
+      "source_id": "pf1SMKz_0"
+    },
+    {
+      "id": 440,
+      "ta": 63.459469917575085,
+      "dur": 13.258442435886394,
+      "L": 1990,
+      "M": 4096,
+      "prompt_tokens": 1597,
+      "generated_tokens": 393,
+      "source_id": "WkbX1Lh_109"
+    },
+    {
+      "id": 441,
+      "ta": 63.47599047164569,
+      "dur": 13.46132284017709,
+      "L": 970,
+      "M": 4096,
+      "prompt_tokens": 252,
+      "generated_tokens": 718,
+      "source_id": "J7GNwNh_0"
+    },
+    {
+      "id": 442,
+      "ta": 63.87136467067572,
+      "dur": 11.347482085813633,
+      "L": 985,
+      "M": 4096,
+      "prompt_tokens": 984,
+      "generated_tokens": 1,
+      "source_id": "b0QlRXl_22"
+    },
+    {
+      "id": 443,
+      "ta": 63.88560740937331,
+      "dur": 20.21535575413629,
+      "L": 1044,
+      "M": 4096,
+      "prompt_tokens": 807,
+      "generated_tokens": 237,
+      "source_id": "aagv1iV_7"
+    },
+    {
+      "id": 444,
+      "ta": 63.89625911639641,
+      "dur": 18.092170705741967,
+      "L": 200,
+      "M": 4096,
+      "prompt_tokens": 49,
+      "generated_tokens": 151,
+      "source_id": "AkGSnmf_0"
+    },
+    {
+      "id": 445,
+      "ta": 64.12015350602819,
+      "dur": 23.156234179033753,
+      "L": 2126,
+      "M": 4096,
+      "prompt_tokens": 1748,
+      "generated_tokens": 378,
+      "source_id": "x5iwfyV_136"
+    },
+    {
+      "id": 446,
+      "ta": 64.14218750693345,
+      "dur": 15.925435359861954,
+      "L": 1204,
+      "M": 4096,
+      "prompt_tokens": 819,
+      "generated_tokens": 385,
+      "source_id": "pF3R6Vd_17"
+    },
+    {
+      "id": 447,
+      "ta": 64.18472341257464,
+      "dur": 15.14095024546385,
+      "L": 818,
+      "M": 4096,
+      "prompt_tokens": 415,
+      "generated_tokens": 403,
+      "source_id": "ye9Sc0y_0"
+    },
+    {
+      "id": 448,
+      "ta": 64.32113510505391,
+      "dur": 12.891570137919649,
+      "L": 726,
+      "M": 4096,
+      "prompt_tokens": 458,
+      "generated_tokens": 268,
+      "source_id": "m46gSO3_11"
+    },
+    {
+      "id": 449,
+      "ta": 64.33663460970155,
+      "dur": 16.34100320810178,
+      "L": 1501,
+      "M": 4096,
+      "prompt_tokens": 1491,
+      "generated_tokens": 10,
+      "source_id": "qazGvvx_10"
+    },
+    {
+      "id": 450,
+      "ta": 64.41031105670237,
+      "dur": 17.970232744581875,
+      "L": 816,
+      "M": 4096,
+      "prompt_tokens": 436,
+      "generated_tokens": 380,
+      "source_id": "2c0rRrd_0"
+    },
+    {
+      "id": 451,
+      "ta": 64.52781006735484,
+      "dur": 12.2020963957528,
+      "L": 2037,
+      "M": 4096,
+      "prompt_tokens": 1797,
+      "generated_tokens": 240,
+      "source_id": "4480OUZ_9"
+    },
+    {
+      "id": 452,
+      "ta": 64.96188728097984,
+      "dur": 11.559151339266348,
+      "L": 1271,
+      "M": 4096,
+      "prompt_tokens": 929,
+      "generated_tokens": 342,
+      "source_id": "7mH2NVL_20"
+    },
+    {
+      "id": 453,
+      "ta": 65.3517643297521,
+      "dur": 23.888291354879026,
+      "L": 429,
+      "M": 4096,
+      "prompt_tokens": 165,
+      "generated_tokens": 264,
+      "source_id": "g3duQ6y_0"
+    },
+    {
+      "id": 454,
+      "ta": 65.54017033074744,
+      "dur": 12.37044356743154,
+      "L": 2079,
+      "M": 4096,
+      "prompt_tokens": 1780,
+      "generated_tokens": 299,
+      "source_id": "5hjHkuG_12"
+    },
+    {
+      "id": 455,
+      "ta": 65.72394501952549,
+      "dur": 14.634404303092463,
+      "L": 2029,
+      "M": 4096,
+      "prompt_tokens": 1260,
+      "generated_tokens": 769,
+      "source_id": "o1SCEXR_13"
+    },
+    {
+      "id": 456,
+      "ta": 65.77721285929695,
+      "dur": 16.93385960470253,
+      "L": 750,
+      "M": 4096,
+      "prompt_tokens": 45,
+      "generated_tokens": 705,
+      "source_id": "gQ1Q22t_0"
+    },
+    {
+      "id": 457,
+      "ta": 65.85183374563204,
+      "dur": 24.12368523210206,
+      "L": 1565,
+      "M": 4096,
+      "prompt_tokens": 976,
+      "generated_tokens": 589,
+      "source_id": "ojmamxs_11"
+    },
+    {
+      "id": 458,
+      "ta": 65.867429991537,
+      "dur": 23.724343652432843,
+      "L": 1077,
+      "M": 4096,
+      "prompt_tokens": 946,
+      "generated_tokens": 131,
+      "source_id": "hIULog1_87"
+    },
+    {
+      "id": 459,
+      "ta": 65.88430747103504,
+      "dur": 22.083403609881874,
+      "L": 203,
+      "M": 4096,
+      "prompt_tokens": 77,
+      "generated_tokens": 126,
+      "source_id": "PxdsmaX_0"
+    },
+    {
+      "id": 460,
+      "ta": 65.89781009439795,
+      "dur": 24.348005468145406,
+      "L": 1860,
+      "M": 4096,
+      "prompt_tokens": 1678,
+      "generated_tokens": 182,
+      "source_id": "scMKXPh_106"
+    },
+    {
+      "id": 461,
+      "ta": 65.98265250442229,
+      "dur": 18.099912432365958,
+      "L": 1336,
+      "M": 4096,
+      "prompt_tokens": 1294,
+      "generated_tokens": 42,
+      "source_id": "CqJTtJZ_97"
+    },
+    {
+      "id": 462,
+      "ta": 66.02788456309042,
+      "dur": 14.725198247715102,
+      "L": 574,
+      "M": 4096,
+      "prompt_tokens": 347,
+      "generated_tokens": 227,
+      "source_id": "0g8CQnr_0"
+    },
+    {
+      "id": 463,
+      "ta": 66.03585562134944,
+      "dur": 11.35450184559871,
+      "L": 901,
+      "M": 4096,
+      "prompt_tokens": 470,
+      "generated_tokens": 431,
+      "source_id": "mPjIsG8_9"
+    },
+    {
+      "id": 464,
+      "ta": 66.22890695500496,
+      "dur": 21.270290385311313,
+      "L": 675,
+      "M": 4096,
+      "prompt_tokens": 576,
+      "generated_tokens": 99,
+      "source_id": "dBuGNuW_0"
+    },
+    {
+      "id": 465,
+      "ta": 66.44472647584303,
+      "dur": 16.014034634153845,
+      "L": 758,
+      "M": 4096,
+      "prompt_tokens": 410,
+      "generated_tokens": 348,
+      "source_id": "0M0b8vv_0"
+    },
+    {
+      "id": 466,
+      "ta": 66.71975138756285,
+      "dur": 22.556168879836356,
+      "L": 1178,
+      "M": 4096,
+      "prompt_tokens": 725,
+      "generated_tokens": 453,
+      "source_id": "cHFMT8D_19"
+    },
+    {
+      "id": 467,
+      "ta": 66.90567950395877,
+      "dur": 8.384263794137615,
+      "L": 309,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 270,
+      "source_id": "TGGnYDP_0"
+    },
+    {
+      "id": 468,
+      "ta": 66.94783275463634,
+      "dur": 20.635044362196535,
+      "L": 980,
+      "M": 4096,
+      "prompt_tokens": 424,
+      "generated_tokens": 556,
+      "source_id": "9dKNTQo_139"
+    },
+    {
+      "id": 469,
+      "ta": 66.97967618181028,
+      "dur": 9.705298905212409,
+      "L": 918,
+      "M": 4096,
+      "prompt_tokens": 149,
+      "generated_tokens": 769,
+      "source_id": "EQeQGQA_6"
+    },
+    {
+      "id": 470,
+      "ta": 67.16513078026478,
+      "dur": 23.151977893006986,
+      "L": 1678,
+      "M": 4096,
+      "prompt_tokens": 1369,
+      "generated_tokens": 309,
+      "source_id": "wLMrVR9_19"
+    },
+    {
+      "id": 471,
+      "ta": 67.31402949384106,
+      "dur": 19.903960398464207,
+      "L": 1605,
+      "M": 4096,
+      "prompt_tokens": 1307,
+      "generated_tokens": 298,
+      "source_id": "yMqRPLG_0"
+    },
+    {
+      "id": 472,
+      "ta": 67.33828862096277,
+      "dur": 10.608527931497779,
+      "L": 746,
+      "M": 4096,
+      "prompt_tokens": 726,
+      "generated_tokens": 20,
+      "source_id": "8wEIFof_0"
+    },
+    {
+      "id": 473,
+      "ta": 67.34734853933263,
+      "dur": 23.111896204171956,
+      "L": 1098,
+      "M": 4096,
+      "prompt_tokens": 371,
+      "generated_tokens": 727,
+      "source_id": "LdWBZ8M_21"
+    },
+    {
+      "id": 474,
+      "ta": 67.43466022155813,
+      "dur": 17.21130648815493,
+      "L": 1296,
+      "M": 4096,
+      "prompt_tokens": 1024,
+      "generated_tokens": 272,
+      "source_id": "4oJUBPd_0"
+    },
+    {
+      "id": 475,
+      "ta": 67.76563486588037,
+      "dur": 16.622367867257317,
+      "L": 1770,
+      "M": 4096,
+      "prompt_tokens": 1130,
+      "generated_tokens": 640,
+      "source_id": "l8jF7qs_21"
+    },
+    {
+      "id": 476,
+      "ta": 67.90672232462087,
+      "dur": 24.33594555910653,
+      "L": 1878,
+      "M": 4096,
+      "prompt_tokens": 1470,
+      "generated_tokens": 408,
+      "source_id": "wO6lvFf_14"
+    },
+    {
+      "id": 477,
+      "ta": 67.92015468030691,
+      "dur": 18.485246687848882,
+      "L": 2007,
+      "M": 4096,
+      "prompt_tokens": 1667,
+      "generated_tokens": 340,
+      "source_id": "BSUcxHT_0"
+    },
+    {
+      "id": 478,
+      "ta": 67.93894987326628,
+      "dur": 22.61930569898275,
+      "L": 494,
+      "M": 4096,
+      "prompt_tokens": 380,
+      "generated_tokens": 114,
+      "source_id": "lHGV5FY_0"
+    },
+    {
+      "id": 479,
+      "ta": 68.81645117596216,
+      "dur": 24.976999401959606,
+      "L": 633,
+      "M": 4096,
+      "prompt_tokens": 392,
+      "generated_tokens": 241,
+      "source_id": "qPPWNo5_0"
+    },
+    {
+      "id": 480,
+      "ta": 69.05630382835226,
+      "dur": 23.934468522284888,
+      "L": 316,
+      "M": 4096,
+      "prompt_tokens": 205,
+      "generated_tokens": 111,
+      "source_id": "5tzX1mM_0"
+    },
+    {
+      "id": 481,
+      "ta": 69.58425503416504,
+      "dur": 22.78850945092126,
+      "L": 414,
+      "M": 4096,
+      "prompt_tokens": 148,
+      "generated_tokens": 266,
+      "source_id": "lYzXlYl_0"
+    },
+    {
+      "id": 482,
+      "ta": 69.68555043303863,
+      "dur": 22.135787605728684,
+      "L": 961,
+      "M": 4096,
+      "prompt_tokens": 649,
+      "generated_tokens": 312,
+      "source_id": "datFdnb_11"
+    },
+    {
+      "id": 483,
+      "ta": 69.70975590445798,
+      "dur": 12.665142343745739,
+      "L": 1078,
+      "M": 4096,
+      "prompt_tokens": 971,
+      "generated_tokens": 107,
+      "source_id": "Bjn7mKF_275"
+    },
+    {
+      "id": 484,
+      "ta": 69.90140679903689,
+      "dur": 10.024302405434376,
+      "L": 179,
+      "M": 4096,
+      "prompt_tokens": 44,
+      "generated_tokens": 135,
+      "source_id": "fJCwyQd_0"
+    },
+    {
+      "id": 485,
+      "ta": 69.9117610679285,
+      "dur": 14.995573076352553,
+      "L": 175,
+      "M": 4096,
+      "prompt_tokens": 41,
+      "generated_tokens": 134,
+      "source_id": "v11Tpg9_394"
+    },
+    {
+      "id": 486,
+      "ta": 69.91370922943855,
+      "dur": 13.559093718845762,
+      "L": 611,
+      "M": 4096,
+      "prompt_tokens": 116,
+      "generated_tokens": 495,
+      "source_id": "mzhwrVL_0"
+    },
+    {
+      "id": 487,
+      "ta": 70.23661262586846,
+      "dur": 22.890319477218465,
+      "L": 867,
+      "M": 4096,
+      "prompt_tokens": 417,
+      "generated_tokens": 450,
+      "source_id": "M6hAJCP_11"
+    },
+    {
+      "id": 488,
+      "ta": 70.70636282343519,
+      "dur": 16.480102562024253,
+      "L": 1540,
+      "M": 4096,
+      "prompt_tokens": 827,
+      "generated_tokens": 713,
+      "source_id": "L53Xpkn_13"
+    },
+    {
+      "id": 489,
+      "ta": 70.71700144576718,
+      "dur": 22.365634937883456,
+      "L": 2303,
+      "M": 4096,
+      "prompt_tokens": 1534,
+      "generated_tokens": 769,
+      "source_id": "Us1zWGN_43"
+    },
+    {
+      "id": 490,
+      "ta": 71.20166922969342,
+      "dur": 12.335827517274009,
+      "L": 1945,
+      "M": 4096,
+      "prompt_tokens": 1618,
+      "generated_tokens": 327,
+      "source_id": "tjJvkLj_15"
+    },
+    {
+      "id": 491,
+      "ta": 71.28620350877787,
+      "dur": 8.345099664731901,
+      "L": 463,
+      "M": 4096,
+      "prompt_tokens": 54,
+      "generated_tokens": 409,
+      "source_id": "CtiRT6P_0"
+    },
+    {
+      "id": 492,
+      "ta": 71.7665446395503,
+      "dur": 15.902002277590952,
+      "L": 1339,
+      "M": 4096,
+      "prompt_tokens": 914,
+      "generated_tokens": 425,
+      "source_id": "zrE37Rn_0"
+    },
+    {
+      "id": 493,
+      "ta": 71.87230672576666,
+      "dur": 14.7229250357191,
+      "L": 375,
+      "M": 4096,
+      "prompt_tokens": 143,
+      "generated_tokens": 232,
+      "source_id": "8xOGSKp_0"
+    },
+    {
+      "id": 494,
+      "ta": 71.97134655145858,
+      "dur": 13.102598968366776,
+      "L": 553,
+      "M": 4096,
+      "prompt_tokens": 52,
+      "generated_tokens": 501,
+      "source_id": "NcOR2YI_0"
+    },
+    {
+      "id": 495,
+      "ta": 72.20592068126845,
+      "dur": 14.377390090958803,
+      "L": 2208,
+      "M": 4096,
+      "prompt_tokens": 1494,
+      "generated_tokens": 714,
+      "source_id": "v2Ygaid_83"
+    },
+    {
+      "id": 496,
+      "ta": 72.36899129538259,
+      "dur": 13.906084140652021,
+      "L": 524,
+      "M": 4096,
+      "prompt_tokens": 522,
+      "generated_tokens": 2,
+      "source_id": "7VkyagA_43"
+    },
+    {
+      "id": 497,
+      "ta": 72.41424416603274,
+      "dur": 15.401697075765007,
+      "L": 1469,
+      "M": 4096,
+      "prompt_tokens": 1444,
+      "generated_tokens": 25,
+      "source_id": "dRn7b5l_341"
+    },
+    {
+      "id": 498,
+      "ta": 72.53859165907,
+      "dur": 22.24189881801395,
+      "L": 485,
+      "M": 4096,
+      "prompt_tokens": 279,
+      "generated_tokens": 206,
+      "source_id": "7rLq4MQ_27"
+    },
+    {
+      "id": 499,
+      "ta": 72.96673936950661,
+      "dur": 17.23654307125952,
+      "L": 1153,
+      "M": 4096,
+      "prompt_tokens": 959,
+      "generated_tokens": 194,
+      "source_id": "5hRLw4A_67"
+    },
+    {
+      "id": 500,
+      "ta": 73.17099222992027,
+      "dur": 13.426523087155644,
+      "L": 1037,
+      "M": 4096,
+      "prompt_tokens": 925,
+      "generated_tokens": 112,
+      "source_id": "oZb1d8R_47"
+    },
+    {
+      "id": 501,
+      "ta": 73.17303622607412,
+      "dur": 14.67758226111178,
+      "L": 461,
+      "M": 4096,
+      "prompt_tokens": 282,
+      "generated_tokens": 179,
+      "source_id": "6hVGSGD_13"
+    },
+    {
+      "id": 502,
+      "ta": 73.29799352035475,
+      "dur": 9.042452964967646,
+      "L": 599,
+      "M": 4096,
+      "prompt_tokens": 304,
+      "generated_tokens": 295,
+      "source_id": "alCGmtC_0"
+    },
+    {
+      "id": 503,
+      "ta": 73.4317286809245,
+      "dur": 10.18207893629256,
+      "L": 900,
+      "M": 4096,
+      "prompt_tokens": 551,
+      "generated_tokens": 349,
+      "source_id": "iYnvCyM_21"
+    },
+    {
+      "id": 504,
+      "ta": 73.49114753439878,
+      "dur": 9.757093919688764,
+      "L": 505,
+      "M": 4096,
+      "prompt_tokens": 55,
+      "generated_tokens": 450,
+      "source_id": "dQNL0ow_0"
+    },
+    {
+      "id": 505,
+      "ta": 73.53482414784672,
+      "dur": 22.569299524767544,
+      "L": 698,
+      "M": 4096,
+      "prompt_tokens": 79,
+      "generated_tokens": 619,
+      "source_id": "H1aZlSE_0"
+    },
+    {
+      "id": 506,
+      "ta": 73.84480843515905,
+      "dur": 12.852601453852685,
+      "L": 223,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 184,
+      "source_id": "k7byZra_0"
+    },
+    {
+      "id": 507,
+      "ta": 73.90248177869734,
+      "dur": 18.743331274976,
+      "L": 1086,
+      "M": 4096,
+      "prompt_tokens": 1083,
+      "generated_tokens": 3,
+      "source_id": "3swiY8I_34"
+    },
+    {
+      "id": 508,
+      "ta": 73.93621755062708,
+      "dur": 19.807308092160273,
+      "L": 1502,
+      "M": 4096,
+      "prompt_tokens": 1056,
+      "generated_tokens": 446,
+      "source_id": "UmAxat5_0"
+    },
+    {
+      "id": 509,
+      "ta": 74.15388411685244,
+      "dur": 10.123546003600028,
+      "L": 1291,
+      "M": 4096,
+      "prompt_tokens": 694,
+      "generated_tokens": 597,
+      "source_id": "I6IzvEF_9"
+    },
+    {
+      "id": 510,
+      "ta": 74.2269404992988,
+      "dur": 23.704332712364867,
+      "L": 1124,
+      "M": 4096,
+      "prompt_tokens": 563,
+      "generated_tokens": 561,
+      "source_id": "3XC7ztS_36"
+    },
+    {
+      "id": 511,
+      "ta": 74.31393283920697,
+      "dur": 9.558720272686838,
+      "L": 499,
+      "M": 4096,
+      "prompt_tokens": 44,
+      "generated_tokens": 455,
+      "source_id": "B9oLXbg_0"
+    },
+    {
+      "id": 512,
+      "ta": 75.17768316970347,
+      "dur": 9.285813427312773,
+      "L": 458,
+      "M": 4096,
+      "prompt_tokens": 301,
+      "generated_tokens": 157,
+      "source_id": "SMDHOfe_0"
+    },
+    {
+      "id": 513,
+      "ta": 75.18329622649638,
+      "dur": 18.538715561666038,
+      "L": 855,
+      "M": 4096,
+      "prompt_tokens": 826,
+      "generated_tokens": 29,
+      "source_id": "izuEpAx_0"
+    },
+    {
+      "id": 514,
+      "ta": 75.2601169269218,
+      "dur": 22.792554187850403,
+      "L": 1427,
+      "M": 4096,
+      "prompt_tokens": 1121,
+      "generated_tokens": 306,
+      "source_id": "XXzOnjy_0"
+    },
+    {
+      "id": 515,
+      "ta": 75.29918914575654,
+      "dur": 22.970783512531213,
+      "L": 421,
+      "M": 4096,
+      "prompt_tokens": 309,
+      "generated_tokens": 112,
+      "source_id": "VI7Gg83_33"
+    },
+    {
+      "id": 516,
+      "ta": 75.42215867910258,
+      "dur": 8.98296584191187,
+      "L": 1049,
+      "M": 4096,
+      "prompt_tokens": 380,
+      "generated_tokens": 669,
+      "source_id": "BYgxpzb_7"
+    },
+    {
+      "id": 517,
+      "ta": 75.4540190091036,
+      "dur": 18.868577106175135,
+      "L": 514,
+      "M": 4096,
+      "prompt_tokens": 401,
+      "generated_tokens": 113,
+      "source_id": "zKcVxbO_0"
+    },
+    {
+      "id": 518,
+      "ta": 75.67358012895468,
+      "dur": 11.212189062544436,
+      "L": 1285,
+      "M": 4096,
+      "prompt_tokens": 518,
+      "generated_tokens": 767,
+      "source_id": "pfhsqKD_7"
+    },
+    {
+      "id": 519,
+      "ta": 75.7292214591887,
+      "dur": 10.205398257489085,
+      "L": 245,
+      "M": 4096,
+      "prompt_tokens": 42,
+      "generated_tokens": 203,
+      "source_id": "M24cxEm_0"
+    },
+    {
+      "id": 520,
+      "ta": 75.81443130861813,
+      "dur": 24.546691871457536,
+      "L": 1984,
+      "M": 4096,
+      "prompt_tokens": 1950,
+      "generated_tokens": 34,
+      "source_id": "yKiw2Ca_16"
+    },
+    {
+      "id": 521,
+      "ta": 75.82773787034573,
+      "dur": 20.508253898999186,
+      "L": 404,
+      "M": 4096,
+      "prompt_tokens": 164,
+      "generated_tokens": 240,
+      "source_id": "YAhudFD_0"
+    },
+    {
+      "id": 522,
+      "ta": 75.9249398138749,
+      "dur": 24.75117462757727,
+      "L": 1490,
+      "M": 4096,
+      "prompt_tokens": 1403,
+      "generated_tokens": 87,
+      "source_id": "RSZbMp3_0"
+    },
+    {
+      "id": 523,
+      "ta": 76.13626001272463,
+      "dur": 23.95483266839592,
+      "L": 2034,
+      "M": 4096,
+      "prompt_tokens": 1954,
+      "generated_tokens": 80,
+      "source_id": "8n11PyM_51"
+    },
+    {
+      "id": 524,
+      "ta": 76.40541805795807,
+      "dur": 15.543620156661223,
+      "L": 326,
+      "M": 4096,
+      "prompt_tokens": 33,
+      "generated_tokens": 293,
+      "source_id": "Yjr2Gaw_0"
+    },
+    {
+      "id": 525,
+      "ta": 76.56447190352422,
+      "dur": 13.807547220604803,
+      "L": 2509,
+      "M": 4096,
+      "prompt_tokens": 1906,
+      "generated_tokens": 603,
+      "source_id": "uU4HMul_0"
+    },
+    {
+      "id": 526,
+      "ta": 76.70450892008833,
+      "dur": 24.7293982222446,
+      "L": 1275,
+      "M": 4096,
+      "prompt_tokens": 988,
+      "generated_tokens": 287,
+      "source_id": "MJSl6B1_27"
+    },
+    {
+      "id": 527,
+      "ta": 76.77868864423205,
+      "dur": 12.086074467804732,
+      "L": 785,
+      "M": 4096,
+      "prompt_tokens": 518,
+      "generated_tokens": 267,
+      "source_id": "5Bg755G_0"
+    },
+    {
+      "id": 528,
+      "ta": 76.94481974511864,
+      "dur": 10.270324628339539,
+      "L": 1853,
+      "M": 4096,
+      "prompt_tokens": 1422,
+      "generated_tokens": 431,
+      "source_id": "A9J2rVe_23"
+    },
+    {
+      "id": 529,
+      "ta": 77.04646812831088,
+      "dur": 20.831345988962056,
+      "L": 2315,
+      "M": 4096,
+      "prompt_tokens": 1672,
+      "generated_tokens": 643,
+      "source_id": "EsRMoGa_8"
+    },
+    {
+      "id": 530,
+      "ta": 77.18892035665475,
+      "dur": 9.765738045426534,
+      "L": 319,
+      "M": 4096,
+      "prompt_tokens": 45,
+      "generated_tokens": 274,
+      "source_id": "4zkUX9f_0"
+    },
+    {
+      "id": 531,
+      "ta": 77.20345917555653,
+      "dur": 13.566769023521466,
+      "L": 984,
+      "M": 4096,
+      "prompt_tokens": 971,
+      "generated_tokens": 13,
+      "source_id": "jK7r4qx_0"
+    },
+    {
+      "id": 532,
+      "ta": 77.26302613882291,
+      "dur": 17.15922438321159,
+      "L": 621,
+      "M": 4096,
+      "prompt_tokens": 106,
+      "generated_tokens": 515,
+      "source_id": "2Otf6gy_0"
+    },
+    {
+      "id": 533,
+      "ta": 77.31202142183966,
+      "dur": 11.12743334167205,
+      "L": 242,
+      "M": 4096,
+      "prompt_tokens": 173,
+      "generated_tokens": 69,
+      "source_id": "wjWsz2g_0"
+    },
+    {
+      "id": 534,
+      "ta": 77.85301152238245,
+      "dur": 9.610551012842286,
+      "L": 985,
+      "M": 4096,
+      "prompt_tokens": 827,
+      "generated_tokens": 158,
+      "source_id": "tcTjsGD_23"
+    },
+    {
+      "id": 535,
+      "ta": 78.14959488648896,
+      "dur": 20.435090527762465,
+      "L": 1971,
+      "M": 4096,
+      "prompt_tokens": 1727,
+      "generated_tokens": 244,
+      "source_id": "PPA2N0Y_0"
+    },
+    {
+      "id": 536,
+      "ta": 78.26127789318494,
+      "dur": 21.323298818336163,
+      "L": 1937,
+      "M": 4096,
+      "prompt_tokens": 1854,
+      "generated_tokens": 83,
+      "source_id": "DBZyli8_17"
+    },
+    {
+      "id": 537,
+      "ta": 78.30631252341269,
+      "dur": 13.281254388138567,
+      "L": 556,
+      "M": 4096,
+      "prompt_tokens": 83,
+      "generated_tokens": 473,
+      "source_id": "x5A1qoo_0"
+    },
+    {
+      "id": 538,
+      "ta": 78.31303391493654,
+      "dur": 19.23630794466768,
+      "L": 1340,
+      "M": 4096,
+      "prompt_tokens": 928,
+      "generated_tokens": 412,
+      "source_id": "zbUujYV_0"
+    },
+    {
+      "id": 539,
+      "ta": 78.67976958637767,
+      "dur": 11.558032199890082,
+      "L": 1280,
+      "M": 4096,
+      "prompt_tokens": 897,
+      "generated_tokens": 383,
+      "source_id": "e7IBrL0_17"
+    },
+    {
+      "id": 540,
+      "ta": 78.70482758957081,
+      "dur": 18.018970861587626,
+      "L": 1262,
+      "M": 4096,
+      "prompt_tokens": 810,
+      "generated_tokens": 452,
+      "source_id": "FN89gIR_19"
+    },
+    {
+      "id": 541,
+      "ta": 78.86408496395602,
+      "dur": 23.089561857193544,
+      "L": 1117,
+      "M": 4096,
+      "prompt_tokens": 771,
+      "generated_tokens": 346,
+      "source_id": "aCqhBsF_0"
+    },
+    {
+      "id": 542,
+      "ta": 78.88682192352708,
+      "dur": 19.834193063484364,
+      "L": 1496,
+      "M": 4096,
+      "prompt_tokens": 1393,
+      "generated_tokens": 103,
+      "source_id": "NJoCd9T_0"
+    },
+    {
+      "id": 543,
+      "ta": 79.0715764452403,
+      "dur": 20.574997174485677,
+      "L": 1570,
+      "M": 4096,
+      "prompt_tokens": 1448,
+      "generated_tokens": 122,
+      "source_id": "5PTnS7b_144"
+    },
+    {
+      "id": 544,
+      "ta": 79.100223704597,
+      "dur": 24.818219080051268,
+      "L": 844,
+      "M": 4096,
+      "prompt_tokens": 604,
+      "generated_tokens": 240,
+      "source_id": "7LXVFdh_0"
+    },
+    {
+      "id": 545,
+      "ta": 79.35499416740782,
+      "dur": 13.615553716611222,
+      "L": 311,
+      "M": 4096,
+      "prompt_tokens": 42,
+      "generated_tokens": 269,
+      "source_id": "f01kHLT_0"
+    },
+    {
+      "id": 546,
+      "ta": 79.62854093250205,
+      "dur": 17.922692116153424,
+      "L": 731,
+      "M": 4096,
+      "prompt_tokens": 470,
+      "generated_tokens": 261,
+      "source_id": "fIIHAZH_25"
+    },
+    {
+      "id": 547,
+      "ta": 79.79133452280442,
+      "dur": 20.076482881523553,
+      "L": 516,
+      "M": 4096,
+      "prompt_tokens": 362,
+      "generated_tokens": 154,
+      "source_id": "IhcB5fq_0"
+    },
+    {
+      "id": 548,
+      "ta": 79.99584113292478,
+      "dur": 19.694745291542823,
+      "L": 236,
+      "M": 4096,
+      "prompt_tokens": 42,
+      "generated_tokens": 194,
+      "source_id": "MdhheoU_0"
+    },
+    {
+      "id": 549,
+      "ta": 80.07380335688535,
+      "dur": 24.991093336361622,
+      "L": 198,
+      "M": 4096,
+      "prompt_tokens": 36,
+      "generated_tokens": 162,
+      "source_id": "0zx2xxF_0"
+    },
+    {
+      "id": 550,
+      "ta": 80.1157740465894,
+      "dur": 21.012039763075975,
+      "L": 595,
+      "M": 4096,
+      "prompt_tokens": 186,
+      "generated_tokens": 409,
+      "source_id": "AarrEvv_0"
+    },
+    {
+      "id": 551,
+      "ta": 80.19286471367843,
+      "dur": 12.157254117187016,
+      "L": 836,
+      "M": 4096,
+      "prompt_tokens": 805,
+      "generated_tokens": 31,
+      "source_id": "AodSl0g_37"
+    },
+    {
+      "id": 552,
+      "ta": 80.39366871199857,
+      "dur": 8.743885002202925,
+      "L": 1016,
+      "M": 4096,
+      "prompt_tokens": 555,
+      "generated_tokens": 461,
+      "source_id": "cCOWA5p_15"
+    },
+    {
+      "id": 553,
+      "ta": 80.50159281201785,
+      "dur": 9.069921675284517,
+      "L": 296,
+      "M": 4096,
+      "prompt_tokens": 115,
+      "generated_tokens": 181,
+      "source_id": "RzDhbl7_0"
+    },
+    {
+      "id": 554,
+      "ta": 80.55268278858107,
+      "dur": 11.610690304222176,
+      "L": 691,
+      "M": 4096,
+      "prompt_tokens": 316,
+      "generated_tokens": 375,
+      "source_id": "SvxCFs2_0"
+    },
+    {
+      "id": 555,
+      "ta": 80.65000975886745,
+      "dur": 21.36764857226,
+      "L": 1532,
+      "M": 4096,
+      "prompt_tokens": 1323,
+      "generated_tokens": 209,
+      "source_id": "ko5XJmk_145"
+    },
+    {
+      "id": 556,
+      "ta": 80.66112088873899,
+      "dur": 12.891553254306313,
+      "L": 1715,
+      "M": 4096,
+      "prompt_tokens": 1555,
+      "generated_tokens": 160,
+      "source_id": "vClQxDr_21"
+    },
+    {
+      "id": 557,
+      "ta": 80.99156974959493,
+      "dur": 13.127940916429347,
+      "L": 2003,
+      "M": 4096,
+      "prompt_tokens": 1834,
+      "generated_tokens": 169,
+      "source_id": "68en4Jt_0"
+    },
+    {
+      "id": 558,
+      "ta": 81.07972171269923,
+      "dur": 14.243658694814645,
+      "L": 698,
+      "M": 4096,
+      "prompt_tokens": 46,
+      "generated_tokens": 652,
+      "source_id": "ADhpU88_0"
+    },
+    {
+      "id": 559,
+      "ta": 81.11233072481065,
+      "dur": 16.307867813449384,
+      "L": 1875,
+      "M": 4096,
+      "prompt_tokens": 1533,
+      "generated_tokens": 342,
+      "source_id": "gOLffNv_0"
+    },
+    {
+      "id": 560,
+      "ta": 81.13157936223945,
+      "dur": 16.235292267002997,
+      "L": 420,
+      "M": 4096,
+      "prompt_tokens": 66,
+      "generated_tokens": 354,
+      "source_id": "qOkaNz9_0"
+    },
+    {
+      "id": 561,
+      "ta": 81.32171165420303,
+      "dur": 9.523346899889315,
+      "L": 1132,
+      "M": 4096,
+      "prompt_tokens": 563,
+      "generated_tokens": 569,
+      "source_id": "lG7szy0_119"
+    },
+    {
+      "id": 562,
+      "ta": 81.32250489387246,
+      "dur": 11.213062785900474,
+      "L": 1463,
+      "M": 4096,
+      "prompt_tokens": 742,
+      "generated_tokens": 721,
+      "source_id": "DcgWbyi_7"
+    },
+    {
+      "id": 563,
+      "ta": 81.45700158193567,
+      "dur": 21.59226381753248,
+      "L": 452,
+      "M": 4096,
+      "prompt_tokens": 43,
+      "generated_tokens": 409,
+      "source_id": "bWJTDqS_0"
+    },
+    {
+      "id": 564,
+      "ta": 81.48582314783593,
+      "dur": 18.973002796893095,
+      "L": 1089,
+      "M": 4096,
+      "prompt_tokens": 694,
+      "generated_tokens": 395,
+      "source_id": "vtQ5JSq_27"
+    },
+    {
+      "id": 565,
+      "ta": 81.9277138315447,
+      "dur": 10.794311459424103,
+      "L": 2904,
+      "M": 4096,
+      "prompt_tokens": 2166,
+      "generated_tokens": 738,
+      "source_id": "FHjcOUJ_7"
+    },
+    {
+      "id": 566,
+      "ta": 82.10039636304174,
+      "dur": 21.430558837012846,
+      "L": 665,
+      "M": 4096,
+      "prompt_tokens": 63,
+      "generated_tokens": 602,
+      "source_id": "UwrGfLc_0"
+    },
+    {
+      "id": 567,
+      "ta": 82.11789972888758,
+      "dur": 21.064860998774734,
+      "L": 1317,
+      "M": 4096,
+      "prompt_tokens": 1245,
+      "generated_tokens": 72,
+      "source_id": "pb6UoCS_40"
+    },
+    {
+      "id": 568,
+      "ta": 82.20462856129687,
+      "dur": 15.934700209857706,
+      "L": 1053,
+      "M": 4096,
+      "prompt_tokens": 588,
+      "generated_tokens": 465,
+      "source_id": "oXeOaQ4_0"
+    },
+    {
+      "id": 569,
+      "ta": 82.63263574531298,
+      "dur": 23.737790206373518,
+      "L": 1305,
+      "M": 4096,
+      "prompt_tokens": 1029,
+      "generated_tokens": 276,
+      "source_id": "tE3mkxQ_29"
+    },
+    {
+      "id": 570,
+      "ta": 82.72712208542183,
+      "dur": 20.152028303815005,
+      "L": 778,
+      "M": 4096,
+      "prompt_tokens": 522,
+      "generated_tokens": 256,
+      "source_id": "tFAvE80_49"
+    },
+    {
+      "id": 571,
+      "ta": 82.73277537232788,
+      "dur": 23.54094638360365,
+      "L": 390,
+      "M": 4096,
+      "prompt_tokens": 367,
+      "generated_tokens": 23,
+      "source_id": "2AEhnro_0"
+    },
+    {
+      "id": 572,
+      "ta": 82.8864198420237,
+      "dur": 23.740875663080956,
+      "L": 398,
+      "M": 4096,
+      "prompt_tokens": 35,
+      "generated_tokens": 363,
+      "source_id": "7I2hTWz_0"
+    },
+    {
+      "id": 573,
+      "ta": 82.95669997848044,
+      "dur": 10.66145207248798,
+      "L": 1381,
+      "M": 4096,
+      "prompt_tokens": 1276,
+      "generated_tokens": 105,
+      "source_id": "MEpyDEz_13"
+    },
+    {
+      "id": 574,
+      "ta": 83.18445885310865,
+      "dur": 22.200391192310526,
+      "L": 423,
+      "M": 4096,
+      "prompt_tokens": 247,
+      "generated_tokens": 176,
+      "source_id": "Jlh4rEU_47"
+    },
+    {
+      "id": 575,
+      "ta": 83.33450002754742,
+      "dur": 8.339426933162347,
+      "L": 703,
+      "M": 4096,
+      "prompt_tokens": 487,
+      "generated_tokens": 216,
+      "source_id": "0j3bF7L_0"
+    },
+    {
+      "id": 576,
+      "ta": 83.37323931755942,
+      "dur": 17.674599178851217,
+      "L": 446,
+      "M": 4096,
+      "prompt_tokens": 42,
+      "generated_tokens": 404,
+      "source_id": "qayqh19_0"
+    },
+    {
+      "id": 577,
+      "ta": 83.60562105375723,
+      "dur": 20.811963036491612,
+      "L": 250,
+      "M": 4096,
+      "prompt_tokens": 230,
+      "generated_tokens": 20,
+      "source_id": "6kAZNMq_0"
+    },
+    {
+      "id": 578,
+      "ta": 83.85219847059295,
+      "dur": 18.44651220745245,
+      "L": 1093,
+      "M": 4096,
+      "prompt_tokens": 779,
+      "generated_tokens": 314,
+      "source_id": "nzGI5Zi_11"
+    },
+    {
+      "id": 579,
+      "ta": 83.8690371086709,
+      "dur": 24.336890027142214,
+      "L": 953,
+      "M": 4096,
+      "prompt_tokens": 744,
+      "generated_tokens": 209,
+      "source_id": "FVpg25g_39"
+    },
+    {
+      "id": 580,
+      "ta": 83.97500045344937,
+      "dur": 23.50545557688671,
+      "L": 705,
+      "M": 4096,
+      "prompt_tokens": 703,
+      "generated_tokens": 2,
+      "source_id": "cOHDp2W_0"
+    },
+    {
+      "id": 581,
+      "ta": 83.99745990980045,
+      "dur": 22.71819662180578,
+      "L": 232,
+      "M": 4096,
+      "prompt_tokens": 36,
+      "generated_tokens": 196,
+      "source_id": "53pKa26_0"
+    },
+    {
+      "id": 582,
+      "ta": 84.2072717090945,
+      "dur": 14.302920790706139,
+      "L": 779,
+      "M": 4096,
+      "prompt_tokens": 562,
+      "generated_tokens": 217,
+      "source_id": "k1L72KU_0"
+    },
+    {
+      "id": 583,
+      "ta": 84.21397184029699,
+      "dur": 17.187724702997528,
+      "L": 497,
+      "M": 4096,
+      "prompt_tokens": 89,
+      "generated_tokens": 408,
+      "source_id": "NTFuVf3_0"
+    },
+    {
+      "id": 584,
+      "ta": 84.39494271401117,
+      "dur": 17.217655655837817,
+      "L": 1178,
+      "M": 4096,
+      "prompt_tokens": 607,
+      "generated_tokens": 571,
+      "source_id": "AhS7uI8_37"
+    },
+    {
+      "id": 585,
+      "ta": 84.78527551359423,
+      "dur": 14.594183943583454,
+      "L": 1706,
+      "M": 4096,
+      "prompt_tokens": 1341,
+      "generated_tokens": 365,
+      "source_id": "uBBQTPe_13"
+    },
+    {
+      "id": 586,
+      "ta": 84.92315470049174,
+      "dur": 19.97552376486268,
+      "L": 1645,
+      "M": 4096,
+      "prompt_tokens": 1403,
+      "generated_tokens": 242,
+      "source_id": "wJk5pXL_11"
+    },
+    {
+      "id": 587,
+      "ta": 84.98592599298182,
+      "dur": 22.153558184177506,
+      "L": 1162,
+      "M": 4096,
+      "prompt_tokens": 788,
+      "generated_tokens": 374,
+      "source_id": "6cz1Sq6_85"
+    },
+    {
+      "id": 588,
+      "ta": 85.28869864014612,
+      "dur": 8.414561370941431,
+      "L": 1317,
+      "M": 4096,
+      "prompt_tokens": 1003,
+      "generated_tokens": 314,
+      "source_id": "aiQvmqs_37"
+    },
+    {
+      "id": 589,
+      "ta": 85.34247789997019,
+      "dur": 13.954289884803448,
+      "L": 957,
+      "M": 4096,
+      "prompt_tokens": 380,
+      "generated_tokens": 577,
+      "source_id": "8oP0XzQ_61"
+    },
+    {
+      "id": 590,
+      "ta": 85.34417291016631,
+      "dur": 17.10822457131261,
+      "L": 2124,
+      "M": 4096,
+      "prompt_tokens": 1348,
+      "generated_tokens": 776,
+      "source_id": "10HCuwl_0"
+    },
+    {
+      "id": 591,
+      "ta": 85.59109127298755,
+      "dur": 16.21967051595435,
+      "L": 801,
+      "M": 4096,
+      "prompt_tokens": 247,
+      "generated_tokens": 554,
+      "source_id": "o0iI3YM_0"
+    },
+    {
+      "id": 592,
+      "ta": 85.63668216967484,
+      "dur": 20.29410616515634,
+      "L": 1571,
+      "M": 4096,
+      "prompt_tokens": 917,
+      "generated_tokens": 654,
+      "source_id": "fwapqhD_0"
+    },
+    {
+      "id": 593,
+      "ta": 85.68013493623808,
+      "dur": 19.361275563788105,
+      "L": 1777,
+      "M": 4096,
+      "prompt_tokens": 1530,
+      "generated_tokens": 247,
+      "source_id": "GnEWnOA_13"
+    },
+    {
+      "id": 594,
+      "ta": 85.70862653759467,
+      "dur": 13.042762430951147,
+      "L": 1557,
+      "M": 4096,
+      "prompt_tokens": 1431,
+      "generated_tokens": 126,
+      "source_id": "wrN9uUo_152"
+    },
+    {
+      "id": 595,
+      "ta": 85.75460086332043,
+      "dur": 18.303122140498743,
+      "L": 1505,
+      "M": 4096,
+      "prompt_tokens": 1400,
+      "generated_tokens": 105,
+      "source_id": "4qFIGX8_0"
+    },
+    {
+      "id": 596,
+      "ta": 85.8309759571147,
+      "dur": 11.896034499066026,
+      "L": 544,
+      "M": 4096,
+      "prompt_tokens": 252,
+      "generated_tokens": 292,
+      "source_id": "DgTVdqs_0"
+    },
+    {
+      "id": 597,
+      "ta": 85.90228091228371,
+      "dur": 8.805125427467871,
+      "L": 1150,
+      "M": 4096,
+      "prompt_tokens": 616,
+      "generated_tokens": 534,
+      "source_id": "F5ZBqrY_121"
+    },
+    {
+      "id": 598,
+      "ta": 86.02847450132958,
+      "dur": 9.401158055519943,
+      "L": 2308,
+      "M": 4096,
+      "prompt_tokens": 1966,
+      "generated_tokens": 342,
+      "source_id": "xfgMTME_0"
+    },
+    {
+      "id": 599,
+      "ta": 86.08763131001956,
+      "dur": 17.486413194959596,
+      "L": 852,
+      "M": 4096,
+      "prompt_tokens": 538,
+      "generated_tokens": 314,
+      "source_id": "SyilTOJ_29"
+    },
+    {
+      "id": 600,
+      "ta": 86.29464636882487,
+      "dur": 9.240536070769929,
+      "L": 222,
+      "M": 4096,
+      "prompt_tokens": 118,
+      "generated_tokens": 104,
+      "source_id": "isIKlT6_0"
+    },
+    {
+      "id": 601,
+      "ta": 86.68532226940913,
+      "dur": 13.917204625079115,
+      "L": 756,
+      "M": 4096,
+      "prompt_tokens": 380,
+      "generated_tokens": 376,
+      "source_id": "bfCz79A_0"
+    },
+    {
+      "id": 602,
+      "ta": 86.72743928180246,
+      "dur": 22.669921247016703,
+      "L": 1114,
+      "M": 4096,
+      "prompt_tokens": 1093,
+      "generated_tokens": 21,
+      "source_id": "o1SCEXR_42"
+    },
+    {
+      "id": 603,
+      "ta": 86.7449501670899,
+      "dur": 24.537625990037565,
+      "L": 890,
+      "M": 4096,
+      "prompt_tokens": 887,
+      "generated_tokens": 3,
+      "source_id": "uBF3qC5_26"
+    },
+    {
+      "id": 604,
+      "ta": 86.83288033417323,
+      "dur": 24.75557806882269,
+      "L": 875,
+      "M": 4096,
+      "prompt_tokens": 608,
+      "generated_tokens": 267,
+      "source_id": "IMrY73t_3"
+    },
+    {
+      "id": 605,
+      "ta": 86.87064354881933,
+      "dur": 12.704477564798955,
+      "L": 367,
+      "M": 4096,
+      "prompt_tokens": 39,
+      "generated_tokens": 328,
+      "source_id": "QCHRYpM_0"
+    },
+    {
+      "id": 606,
+      "ta": 86.94422121873642,
+      "dur": 21.21904922285271,
+      "L": 1419,
+      "M": 4096,
+      "prompt_tokens": 1363,
+      "generated_tokens": 56,
+      "source_id": "PPYoktC_15"
+    },
+    {
+      "id": 607,
+      "ta": 87.0994018889509,
+      "dur": 16.722118213306683,
+      "L": 1001,
+      "M": 4096,
+      "prompt_tokens": 711,
+      "generated_tokens": 290,
+      "source_id": "94RVny7_0"
+    },
+    {
+      "id": 608,
+      "ta": 87.220808992416,
+      "dur": 18.677589029652566,
+      "L": 961,
+      "M": 4096,
+      "prompt_tokens": 233,
+      "generated_tokens": 728,
+      "source_id": "ElEI4w5_0"
+    },
+    {
+      "id": 609,
+      "ta": 87.26272412127955,
+      "dur": 10.311426817468565,
+      "L": 2716,
+      "M": 4096,
+      "prompt_tokens": 2435,
+      "generated_tokens": 281,
+      "source_id": "AfCsKC0_10"
+    },
+    {
+      "id": 610,
+      "ta": 87.47501349609908,
+      "dur": 11.555545841630824,
+      "L": 436,
+      "M": 4096,
+      "prompt_tokens": 166,
+      "generated_tokens": 270,
+      "source_id": "1RV0UsP_0"
+    },
+    {
+      "id": 611,
+      "ta": 87.5325670735204,
+      "dur": 24.315882117443614,
+      "L": 515,
+      "M": 4096,
+      "prompt_tokens": 48,
+      "generated_tokens": 467,
+      "source_id": "BVNXiOA_0"
+    },
+    {
+      "id": 612,
+      "ta": 87.54668104587678,
+      "dur": 9.957287148835565,
+      "L": 981,
+      "M": 4096,
+      "prompt_tokens": 725,
+      "generated_tokens": 256,
+      "source_id": "RPWTZSx_41"
+    },
+    {
+      "id": 613,
+      "ta": 87.59181738332921,
+      "dur": 16.70786124990853,
+      "L": 1929,
+      "M": 4096,
+      "prompt_tokens": 1831,
+      "generated_tokens": 98,
+      "source_id": "7SyrtED_75"
+    },
+    {
+      "id": 614,
+      "ta": 87.6643687026853,
+      "dur": 15.147475336994145,
+      "L": 1365,
+      "M": 4096,
+      "prompt_tokens": 680,
+      "generated_tokens": 685,
+      "source_id": "MaDgFcV_7"
+    },
+    {
+      "id": 615,
+      "ta": 87.69295564047042,
+      "dur": 23.83931631162524,
+      "L": 1837,
+      "M": 4096,
+      "prompt_tokens": 1353,
+      "generated_tokens": 484,
+      "source_id": "rUJditl_65"
+    },
+    {
+      "id": 616,
+      "ta": 87.77664723004865,
+      "dur": 15.031147905567714,
+      "L": 642,
+      "M": 4096,
+      "prompt_tokens": 240,
+      "generated_tokens": 402,
+      "source_id": "RuiQoQf_0"
+    },
+    {
+      "id": 617,
+      "ta": 87.95426540972026,
+      "dur": 17.587105398695446,
+      "L": 2351,
+      "M": 4096,
+      "prompt_tokens": 1584,
+      "generated_tokens": 767,
+      "source_id": "YLTIfI7_35"
+    },
+    {
+      "id": 618,
+      "ta": 87.97798846567261,
+      "dur": 24.983602188114418,
+      "L": 310,
+      "M": 4096,
+      "prompt_tokens": 145,
+      "generated_tokens": 165,
+      "source_id": "FNHy1v5_0"
+    },
+    {
+      "id": 619,
+      "ta": 88.10679015643295,
+      "dur": 21.04978722802999,
+      "L": 189,
+      "M": 4096,
+      "prompt_tokens": 73,
+      "generated_tokens": 116,
+      "source_id": "tCgaEKa_0"
+    },
+    {
+      "id": 620,
+      "ta": 88.17722785727072,
+      "dur": 14.701454822065708,
+      "L": 1743,
+      "M": 4096,
+      "prompt_tokens": 1257,
+      "generated_tokens": 486,
+      "source_id": "uiZuLpI_17"
+    },
+    {
+      "id": 621,
+      "ta": 88.29075886611311,
+      "dur": 14.324101023011094,
+      "L": 2007,
+      "M": 4096,
+      "prompt_tokens": 1759,
+      "generated_tokens": 248,
+      "source_id": "KD0kssi_33"
+    },
+    {
+      "id": 622,
+      "ta": 88.3164523846393,
+      "dur": 16.940058369526874,
+      "L": 1893,
+      "M": 4096,
+      "prompt_tokens": 1187,
+      "generated_tokens": 706,
+      "source_id": "kjeGJvK_4"
+    },
+    {
+      "id": 623,
+      "ta": 88.33089542425064,
+      "dur": 19.88222215004479,
+      "L": 2111,
+      "M": 4096,
+      "prompt_tokens": 1412,
+      "generated_tokens": 699,
+      "source_id": "1RhxGZ6_25"
+    },
+    {
+      "id": 624,
+      "ta": 88.90926336704244,
+      "dur": 15.02284519732187,
+      "L": 374,
+      "M": 4096,
+      "prompt_tokens": 193,
+      "generated_tokens": 181,
+      "source_id": "9yUcySn_0"
+    },
+    {
+      "id": 625,
+      "ta": 88.92401585064822,
+      "dur": 16.60924205617669,
+      "L": 1981,
+      "M": 4096,
+      "prompt_tokens": 1695,
+      "generated_tokens": 286,
+      "source_id": "D5R5yZG_0"
+    },
+    {
+      "id": 626,
+      "ta": 88.92727682851614,
+      "dur": 18.999435079620746,
+      "L": 220,
+      "M": 4096,
+      "prompt_tokens": 34,
+      "generated_tokens": 186,
+      "source_id": "fqwCdBL_0"
+    },
+    {
+      "id": 627,
+      "ta": 89.11597716776924,
+      "dur": 8.553264140922636,
+      "L": 194,
+      "M": 4096,
+      "prompt_tokens": 40,
+      "generated_tokens": 154,
+      "source_id": "2CofmjC_0"
+    },
+    {
+      "id": 628,
+      "ta": 89.24952201532678,
+      "dur": 11.951443919849993,
+      "L": 1771,
+      "M": 4096,
+      "prompt_tokens": 958,
+      "generated_tokens": 813,
+      "source_id": "ud25Dsj_0"
+    },
+    {
+      "id": 629,
+      "ta": 89.31022508376493,
+      "dur": 20.313809374750086,
+      "L": 236,
+      "M": 4096,
+      "prompt_tokens": 41,
+      "generated_tokens": 195,
+      "source_id": "fPbjnYB_0"
+    },
+    {
+      "id": 630,
+      "ta": 89.51028592662563,
+      "dur": 23.88184261313834,
+      "L": 540,
+      "M": 4096,
+      "prompt_tokens": 99,
+      "generated_tokens": 441,
+      "source_id": "rWzXo4D_12"
+    },
+    {
+      "id": 631,
+      "ta": 89.52025936353891,
+      "dur": 8.357662082046327,
+      "L": 654,
+      "M": 4096,
+      "prompt_tokens": 113,
+      "generated_tokens": 541,
+      "source_id": "wHeyOwR_0"
+    },
+    {
+      "id": 632,
+      "ta": 89.61179048825414,
+      "dur": 23.34559763656624,
+      "L": 1833,
+      "M": 4096,
+      "prompt_tokens": 1354,
+      "generated_tokens": 479,
+      "source_id": "o5XJPKa_0"
+    },
+    {
+      "id": 633,
+      "ta": 89.63778923003359,
+      "dur": 16.904175226452544,
+      "L": 1874,
+      "M": 4096,
+      "prompt_tokens": 1539,
+      "generated_tokens": 335,
+      "source_id": "eTJmpL4_0"
+    },
+    {
+      "id": 634,
+      "ta": 89.66833408699716,
+      "dur": 16.710345556504638,
+      "L": 821,
+      "M": 4096,
+      "prompt_tokens": 603,
+      "generated_tokens": 218,
+      "source_id": "55qC8HQ_27"
+    },
+    {
+      "id": 635,
+      "ta": 89.73424467410739,
+      "dur": 21.697072080537513,
+      "L": 2564,
+      "M": 4096,
+      "prompt_tokens": 1780,
+      "generated_tokens": 784,
+      "source_id": "kuYqYGw_55"
+    },
+    {
+      "id": 636,
+      "ta": 89.83772836649494,
+      "dur": 22.200449875672415,
+      "L": 1357,
+      "M": 4096,
+      "prompt_tokens": 984,
+      "generated_tokens": 373,
+      "source_id": "QWE8USn_0"
+    },
+    {
+      "id": 637,
+      "ta": 89.84515278901152,
+      "dur": 14.009875407531052,
+      "L": 1403,
+      "M": 4096,
+      "prompt_tokens": 1178,
+      "generated_tokens": 225,
+      "source_id": "YjDWRhe_1"
+    },
+    {
+      "id": 638,
+      "ta": 90.18164900122031,
+      "dur": 16.07626115602671,
+      "L": 1692,
+      "M": 4096,
+      "prompt_tokens": 1386,
+      "generated_tokens": 306,
+      "source_id": "nqkrs5S_95"
+    },
+    {
+      "id": 639,
+      "ta": 90.19576692357683,
+      "dur": 19.74020616886054,
+      "L": 1470,
+      "M": 4096,
+      "prompt_tokens": 799,
+      "generated_tokens": 671,
+      "source_id": "BpmxBSw_5"
+    },
+    {
+      "id": 640,
+      "ta": 91.08311907178391,
+      "dur": 8.902801622723498,
+      "L": 2274,
+      "M": 4096,
+      "prompt_tokens": 1481,
+      "generated_tokens": 793,
+      "source_id": "R5VeVui_0"
+    },
+    {
+      "id": 641,
+      "ta": 91.16951149529413,
+      "dur": 22.528119962724386,
+      "L": 1645,
+      "M": 4096,
+      "prompt_tokens": 1428,
+      "generated_tokens": 217,
+      "source_id": "Q17BLwm_5"
+    },
+    {
+      "id": 642,
+      "ta": 91.19781724969103,
+      "dur": 16.507491091669202,
+      "L": 765,
+      "M": 4096,
+      "prompt_tokens": 469,
+      "generated_tokens": 296,
+      "source_id": "D88l1Iv_0"
+    },
+    {
+      "id": 643,
+      "ta": 91.47503360283925,
+      "dur": 16.36753147715673,
+      "L": 245,
+      "M": 4096,
+      "prompt_tokens": 221,
+      "generated_tokens": 24,
+      "source_id": "CIPQtDW_0"
+    },
+    {
+      "id": 644,
+      "ta": 91.60862545333859,
+      "dur": 16.086134728301523,
+      "L": 141,
+      "M": 4096,
+      "prompt_tokens": 30,
+      "generated_tokens": 111,
+      "source_id": "Ld2vfe9_0"
+    },
+    {
+      "id": 645,
+      "ta": 92.01016815106765,
+      "dur": 20.68815057394844,
+      "L": 1745,
+      "M": 4096,
+      "prompt_tokens": 1446,
+      "generated_tokens": 299,
+      "source_id": "56Jp551_0"
+    },
+    {
+      "id": 646,
+      "ta": 92.1209736529135,
+      "dur": 10.802864341123819,
+      "L": 610,
+      "M": 4096,
+      "prompt_tokens": 399,
+      "generated_tokens": 211,
+      "source_id": "BmBsQXa_0"
+    },
+    {
+      "id": 647,
+      "ta": 92.23232785643623,
+      "dur": 9.46652104330884,
+      "L": 301,
+      "M": 4096,
+      "prompt_tokens": 41,
+      "generated_tokens": 260,
+      "source_id": "BDeKcI8_0"
+    },
+    {
+      "id": 648,
+      "ta": 92.31907687082288,
+      "dur": 14.945884632244244,
+      "L": 555,
+      "M": 4096,
+      "prompt_tokens": 91,
+      "generated_tokens": 464,
+      "source_id": "nOxeHE0_0"
+    },
+    {
+      "id": 649,
+      "ta": 92.39016212574943,
+      "dur": 16.1282116649449,
+      "L": 135,
+      "M": 4096,
+      "prompt_tokens": 122,
+      "generated_tokens": 13,
+      "source_id": "ndoI6WL_0"
+    },
+    {
+      "id": 650,
+      "ta": 92.41617339003835,
+      "dur": 20.004442338063114,
+      "L": 266,
+      "M": 4096,
+      "prompt_tokens": 229,
+      "generated_tokens": 37,
+      "source_id": "XBSRtek_0"
+    },
+    {
+      "id": 651,
+      "ta": 92.5115808108631,
+      "dur": 16.89584378174481,
+      "L": 717,
+      "M": 4096,
+      "prompt_tokens": 581,
+      "generated_tokens": 136,
+      "source_id": "Fuuf0kB_0"
+    },
+    {
+      "id": 652,
+      "ta": 92.52814822315213,
+      "dur": 24.93756947017066,
+      "L": 2666,
+      "M": 4096,
+      "prompt_tokens": 2665,
+      "generated_tokens": 1,
+      "source_id": "1Etq8vj_1"
+    },
+    {
+      "id": 653,
+      "ta": 92.63252959264963,
+      "dur": 21.91012200596652,
+      "L": 2657,
+      "M": 4096,
+      "prompt_tokens": 2590,
+      "generated_tokens": 67,
+      "source_id": "LU2booB_10"
+    },
+    {
+      "id": 654,
+      "ta": 93.01537950881874,
+      "dur": 12.473617895428461,
+      "L": 2129,
+      "M": 4096,
+      "prompt_tokens": 1919,
+      "generated_tokens": 210,
+      "source_id": "BaU04v4_13"
+    },
+    {
+      "id": 655,
+      "ta": 93.1315326726322,
+      "dur": 16.689365331784607,
+      "L": 2028,
+      "M": 4096,
+      "prompt_tokens": 1704,
+      "generated_tokens": 324,
+      "source_id": "1jjEIai_473"
+    },
+    {
+      "id": 656,
+      "ta": 93.15800821406471,
+      "dur": 21.67153042327459,
+      "L": 2239,
+      "M": 4096,
+      "prompt_tokens": 1964,
+      "generated_tokens": 275,
+      "source_id": "jtcIIDd_11"
+    },
+    {
+      "id": 657,
+      "ta": 93.23348757526792,
+      "dur": 15.479372574010451,
+      "L": 1626,
+      "M": 4096,
+      "prompt_tokens": 1209,
+      "generated_tokens": 417,
+      "source_id": "p6dMHdG_35"
+    },
+    {
+      "id": 658,
+      "ta": 93.41090061525188,
+      "dur": 10.069937395512367,
+      "L": 707,
+      "M": 4096,
+      "prompt_tokens": 499,
+      "generated_tokens": 208,
+      "source_id": "0g96Y3F_0"
+    },
+    {
+      "id": 659,
+      "ta": 93.47726911025175,
+      "dur": 23.780444309881478,
+      "L": 1676,
+      "M": 4096,
+      "prompt_tokens": 1315,
+      "generated_tokens": 361,
+      "source_id": "UYu0WYB_0"
+    },
+    {
+      "id": 660,
+      "ta": 93.57326886484987,
+      "dur": 16.07755860994481,
+      "L": 1421,
+      "M": 4096,
+      "prompt_tokens": 1354,
+      "generated_tokens": 67,
+      "source_id": "0me4QTE_2"
+    },
+    {
+      "id": 661,
+      "ta": 93.65097072376813,
+      "dur": 14.466647594176834,
+      "L": 1491,
+      "M": 4096,
+      "prompt_tokens": 1003,
+      "generated_tokens": 488,
+      "source_id": "txDxoZG_0"
+    },
+    {
+      "id": 662,
+      "ta": 93.89745719414783,
+      "dur": 24.878428888510292,
+      "L": 943,
+      "M": 4096,
+      "prompt_tokens": 487,
+      "generated_tokens": 456,
+      "source_id": "KioPdFS_0"
+    },
+    {
+      "id": 663,
+      "ta": 93.96431239649509,
+      "dur": 15.276860680103395,
+      "L": 1525,
+      "M": 4096,
+      "prompt_tokens": 778,
+      "generated_tokens": 747,
+      "source_id": "cvH7AY5_9"
+    },
+    {
+      "id": 664,
+      "ta": 94.02489306376408,
+      "dur": 13.713314767202547,
+      "L": 947,
+      "M": 4096,
+      "prompt_tokens": 754,
+      "generated_tokens": 193,
+      "source_id": "AsFu2tY_9"
+    },
+    {
+      "id": 665,
+      "ta": 94.07073013555105,
+      "dur": 23.50695958835327,
+      "L": 771,
+      "M": 4096,
+      "prompt_tokens": 596,
+      "generated_tokens": 175,
+      "source_id": "uO97sPm_19"
+    },
+    {
+      "id": 666,
+      "ta": 94.08083977876224,
+      "dur": 11.400073005334466,
+      "L": 595,
+      "M": 4096,
+      "prompt_tokens": 348,
+      "generated_tokens": 247,
+      "source_id": "aVExml0_0"
+    },
+    {
+      "id": 667,
+      "ta": 94.21630888840241,
+      "dur": 18.104492526120257,
+      "L": 1202,
+      "M": 4096,
+      "prompt_tokens": 630,
+      "generated_tokens": 572,
+      "source_id": "Us1zWGN_13"
+    },
+    {
+      "id": 668,
+      "ta": 94.25528315039669,
+      "dur": 9.747376205079076,
+      "L": 1348,
+      "M": 4096,
+      "prompt_tokens": 1096,
+      "generated_tokens": 252,
+      "source_id": "DGVX8f1_18"
+    },
+    {
+      "id": 669,
+      "ta": 94.27208048140123,
+      "dur": 18.995446428165025,
+      "L": 816,
+      "M": 4096,
+      "prompt_tokens": 46,
+      "generated_tokens": 770,
+      "source_id": "Mt8yQFL_0"
+    },
+    {
+      "id": 670,
+      "ta": 95.26028893887225,
+      "dur": 12.227069503026431,
+      "L": 1451,
+      "M": 4096,
+      "prompt_tokens": 798,
+      "generated_tokens": 653,
+      "source_id": "yNZijR4_0"
+    },
+    {
+      "id": 671,
+      "ta": 95.42417466196302,
+      "dur": 20.26887854749109,
+      "L": 738,
+      "M": 4096,
+      "prompt_tokens": 706,
+      "generated_tokens": 32,
+      "source_id": "e5NXeY3_23"
+    },
+    {
+      "id": 672,
+      "ta": 95.6420866711086,
+      "dur": 14.265508401918218,
+      "L": 1182,
+      "M": 4096,
+      "prompt_tokens": 1016,
+      "generated_tokens": 166,
+      "source_id": "dKuJfSX_0"
+    },
+    {
+      "id": 673,
+      "ta": 95.67720136295823,
+      "dur": 11.929393048337896,
+      "L": 2075,
+      "M": 4096,
+      "prompt_tokens": 1847,
+      "generated_tokens": 228,
+      "source_id": "jVhcZ5x_0"
+    },
+    {
+      "id": 674,
+      "ta": 95.8009450183548,
+      "dur": 15.22881994761902,
+      "L": 2205,
+      "M": 4096,
+      "prompt_tokens": 1399,
+      "generated_tokens": 806,
+      "source_id": "iWEIHPI_63"
+    },
+    {
+      "id": 675,
+      "ta": 95.93987332162509,
+      "dur": 16.378516501478476,
+      "L": 565,
+      "M": 4096,
+      "prompt_tokens": 60,
+      "generated_tokens": 505,
+      "source_id": "vyr0ymn_0"
+    },
+    {
+      "id": 676,
+      "ta": 96.00768229064651,
+      "dur": 9.400660386140888,
+      "L": 754,
+      "M": 4096,
+      "prompt_tokens": 586,
+      "generated_tokens": 168,
+      "source_id": "W5gY0WA_69"
+    },
+    {
+      "id": 677,
+      "ta": 96.15440516365788,
+      "dur": 20.670485128301415,
+      "L": 1637,
+      "M": 4096,
+      "prompt_tokens": 1343,
+      "generated_tokens": 294,
+      "source_id": "qUpOQ4h_0"
+    },
+    {
+      "id": 678,
+      "ta": 96.22564438690411,
+      "dur": 23.546128079232126,
+      "L": 1920,
+      "M": 4096,
+      "prompt_tokens": 1406,
+      "generated_tokens": 514,
+      "source_id": "YgxnotZ_0"
+    },
+    {
+      "id": 679,
+      "ta": 96.24164875656342,
+      "dur": 23.03957712059631,
+      "L": 849,
+      "M": 4096,
+      "prompt_tokens": 606,
+      "generated_tokens": 243,
+      "source_id": "K11mruI_0"
+    },
+    {
+      "id": 680,
+      "ta": 96.40166740633315,
+      "dur": 22.731181610045972,
+      "L": 1231,
+      "M": 4096,
+      "prompt_tokens": 836,
+      "generated_tokens": 395,
+      "source_id": "cHaZdVY_0"
+    },
+    {
+      "id": 681,
+      "ta": 96.45521513789856,
+      "dur": 21.868528838765762,
+      "L": 1286,
+      "M": 4096,
+      "prompt_tokens": 1233,
+      "generated_tokens": 53,
+      "source_id": "8fC32jy_12"
+    },
+    {
+      "id": 682,
+      "ta": 96.59773312467028,
+      "dur": 19.89173921168335,
+      "L": 231,
+      "M": 4096,
+      "prompt_tokens": 62,
+      "generated_tokens": 169,
+      "source_id": "tfT5i3H_0"
+    },
+    {
+      "id": 683,
+      "ta": 96.6685601182544,
+      "dur": 24.269666243379845,
+      "L": 2258,
+      "M": 4096,
+      "prompt_tokens": 1792,
+      "generated_tokens": 466,
+      "source_id": "6TxKuim_21"
+    },
+    {
+      "id": 684,
+      "ta": 96.82803719252684,
+      "dur": 21.271730609225017,
+      "L": 837,
+      "M": 4096,
+      "prompt_tokens": 617,
+      "generated_tokens": 220,
+      "source_id": "eTrR38h_63"
+    },
+    {
+      "id": 685,
+      "ta": 96.86725679622664,
+      "dur": 23.7519835010056,
+      "L": 2356,
+      "M": 4096,
+      "prompt_tokens": 1981,
+      "generated_tokens": 375,
+      "source_id": "1uL44cy_37"
+    },
+    {
+      "id": 686,
+      "ta": 97.03153437144975,
+      "dur": 17.871729099665156,
+      "L": 1664,
+      "M": 4096,
+      "prompt_tokens": 1201,
+      "generated_tokens": 463,
+      "source_id": "pxMf9qg_31"
+    },
+    {
+      "id": 687,
+      "ta": 97.69689792217103,
+      "dur": 13.050467112653369,
+      "L": 808,
+      "M": 4096,
+      "prompt_tokens": 263,
+      "generated_tokens": 545,
+      "source_id": "41KFglo_0"
+    },
+    {
+      "id": 688,
+      "ta": 97.81322644392498,
+      "dur": 14.085889680300845,
+      "L": 186,
+      "M": 4096,
+      "prompt_tokens": 41,
+      "generated_tokens": 145,
+      "source_id": "24GZF5s_0"
+    },
+    {
+      "id": 689,
+      "ta": 97.81468906777573,
+      "dur": 20.860424409021746,
+      "L": 508,
+      "M": 4096,
+      "prompt_tokens": 368,
+      "generated_tokens": 140,
+      "source_id": "L1IfVOt_89"
+    },
+    {
+      "id": 690,
+      "ta": 97.8469742600881,
+      "dur": 24.40533399937175,
+      "L": 567,
+      "M": 4096,
+      "prompt_tokens": 478,
+      "generated_tokens": 89,
+      "source_id": "mX6BiTN_569"
+    },
+    {
+      "id": 691,
+      "ta": 98.03323994184693,
+      "dur": 16.82855662868996,
+      "L": 950,
+      "M": 4096,
+      "prompt_tokens": 773,
+      "generated_tokens": 177,
+      "source_id": "y8LIKNb_0"
+    },
+    {
+      "id": 692,
+      "ta": 98.24490498663246,
+      "dur": 11.954236010308312,
+      "L": 945,
+      "M": 4096,
+      "prompt_tokens": 171,
+      "generated_tokens": 774,
+      "source_id": "mdPvGai_1"
+    },
+    {
+      "id": 693,
+      "ta": 98.35695418786699,
+      "dur": 9.403105784068067,
+      "L": 894,
+      "M": 4096,
+      "prompt_tokens": 641,
+      "generated_tokens": 253,
+      "source_id": "Blo3Oeq_0"
+    },
+    {
+      "id": 694,
+      "ta": 98.41478046811984,
+      "dur": 16.6824352991977,
+      "L": 1757,
+      "M": 4096,
+      "prompt_tokens": 1529,
+      "generated_tokens": 228,
+      "source_id": "oma6cJq_0"
+    },
+    {
+      "id": 695,
+      "ta": 98.55305408911408,
+      "dur": 21.79192311526416,
+      "L": 1430,
+      "M": 4096,
+      "prompt_tokens": 941,
+      "generated_tokens": 489,
+      "source_id": "bq9G6bT_30"
+    },
+    {
+      "id": 696,
+      "ta": 98.81166515047555,
+      "dur": 23.301141259739197,
+      "L": 1618,
+      "M": 4096,
+      "prompt_tokens": 1315,
+      "generated_tokens": 303,
+      "source_id": "5Dwce1o_0"
+    },
+    {
+      "id": 697,
+      "ta": 98.93280195818369,
+      "dur": 18.279560779979555,
+      "L": 871,
+      "M": 4096,
+      "prompt_tokens": 711,
+      "generated_tokens": 160,
+      "source_id": "5UqQsrB_17"
+    },
+    {
+      "id": 698,
+      "ta": 99.05018591267283,
+      "dur": 12.498367601741894,
+      "L": 3407,
+      "M": 4096,
+      "prompt_tokens": 2933,
+      "generated_tokens": 474,
+      "source_id": "uD7CBng_20"
+    },
+    {
+      "id": 699,
+      "ta": 99.63659941687484,
+      "dur": 16.070794793067755,
+      "L": 488,
+      "M": 4096,
+      "prompt_tokens": 485,
+      "generated_tokens": 3,
+      "source_id": "Dcmfe9Z_14"
+    },
+    {
+      "id": 700,
+      "ta": 99.74722003208257,
+      "dur": 8.489142715125777,
+      "L": 1632,
+      "M": 4096,
+      "prompt_tokens": 1446,
+      "generated_tokens": 186,
+      "source_id": "3w5n4cl_41"
+    },
+    {
+      "id": 701,
+      "ta": 100.00491835898636,
+      "dur": 21.014203726336724,
+      "L": 1829,
+      "M": 4096,
+      "prompt_tokens": 1155,
+      "generated_tokens": 674,
+      "source_id": "6rjGPOr_0"
+    },
+    {
+      "id": 702,
+      "ta": 100.05411916247976,
+      "dur": 9.906394627749577,
+      "L": 1091,
+      "M": 4096,
+      "prompt_tokens": 324,
+      "generated_tokens": 767,
+      "source_id": "p9YeQDX_12"
+    },
+    {
+      "id": 703,
+      "ta": 100.41670637271514,
+      "dur": 18.736153796018105,
+      "L": 405,
+      "M": 4096,
+      "prompt_tokens": 74,
+      "generated_tokens": 331,
+      "source_id": "84kZP6G_0"
+    },
+    {
+      "id": 704,
+      "ta": 100.59394010112132,
+      "dur": 21.22697135510991,
+      "L": 1322,
+      "M": 4096,
+      "prompt_tokens": 1163,
+      "generated_tokens": 159,
+      "source_id": "Vk6SebH_0"
+    },
+    {
+      "id": 705,
+      "ta": 100.9903929190743,
+      "dur": 20.36116155515973,
+      "L": 1404,
+      "M": 4096,
+      "prompt_tokens": 1113,
+      "generated_tokens": 291,
+      "source_id": "vhcc4HP_9"
+    },
+    {
+      "id": 706,
+      "ta": 101.13519645759071,
+      "dur": 23.261709482468063,
+      "L": 1467,
+      "M": 4096,
+      "prompt_tokens": 1108,
+      "generated_tokens": 359,
+      "source_id": "db0vmEJ_9"
+    },
+    {
+      "id": 707,
+      "ta": 101.40446605646075,
+      "dur": 18.944718061299312,
+      "L": 1038,
+      "M": 4096,
+      "prompt_tokens": 950,
+      "generated_tokens": 88,
+      "source_id": "KhExdXp_43"
+    },
+    {
+      "id": 708,
+      "ta": 101.40753286520595,
+      "dur": 24.058103798553727,
+      "L": 1305,
+      "M": 4096,
+      "prompt_tokens": 932,
+      "generated_tokens": 373,
+      "source_id": "uYmbyTN_0"
+    },
+    {
+      "id": 709,
+      "ta": 101.64701698761031,
+      "dur": 23.30365527324901,
+      "L": 194,
+      "M": 4096,
+      "prompt_tokens": 41,
+      "generated_tokens": 153,
+      "source_id": "w0ZuLag_0"
+    },
+    {
+      "id": 710,
+      "ta": 101.7102850381907,
+      "dur": 19.004709452692808,
+      "L": 679,
+      "M": 4096,
+      "prompt_tokens": 418,
+      "generated_tokens": 261,
+      "source_id": "v8VDR8d_35"
+    },
+    {
+      "id": 711,
+      "ta": 102.03069042809418,
+      "dur": 24.271417473394184,
+      "L": 707,
+      "M": 4096,
+      "prompt_tokens": 193,
+      "generated_tokens": 514,
+      "source_id": "eU9InRM_0"
+    },
+    {
+      "id": 712,
+      "ta": 102.14341991237805,
+      "dur": 10.584689379572907,
+      "L": 527,
+      "M": 4096,
+      "prompt_tokens": 111,
+      "generated_tokens": 416,
+      "source_id": "7bHkiek_0"
+    },
+    {
+      "id": 713,
+      "ta": 102.31864161953872,
+      "dur": 11.146386594008922,
+      "L": 845,
+      "M": 4096,
+      "prompt_tokens": 438,
+      "generated_tokens": 407,
+      "source_id": "bMq2uNp_0"
+    },
+    {
+      "id": 714,
+      "ta": 102.33809224322054,
+      "dur": 18.256026753286378,
+      "L": 1178,
+      "M": 4096,
+      "prompt_tokens": 607,
+      "generated_tokens": 571,
+      "source_id": "obXurLl_37"
+    },
+    {
+      "id": 715,
+      "ta": 102.60638105184923,
+      "dur": 17.48711628586674,
+      "L": 727,
+      "M": 4096,
+      "prompt_tokens": 500,
+      "generated_tokens": 227,
+      "source_id": "mnBr95h_11"
+    },
+    {
+      "id": 716,
+      "ta": 102.81430205019946,
+      "dur": 18.31206678362362,
+      "L": 375,
+      "M": 4096,
+      "prompt_tokens": 95,
+      "generated_tokens": 280,
+      "source_id": "kfzEntz_0"
+    },
+    {
+      "id": 717,
+      "ta": 103.05343279784175,
+      "dur": 10.774988466362064,
+      "L": 188,
+      "M": 4096,
+      "prompt_tokens": 115,
+      "generated_tokens": 73,
+      "source_id": "5I1UFrE_0"
+    },
+    {
+      "id": 718,
+      "ta": 103.50674161362873,
+      "dur": 20.508426016900536,
+      "L": 2647,
+      "M": 4096,
+      "prompt_tokens": 2484,
+      "generated_tokens": 163,
+      "source_id": "hGQUdgE_48"
+    },
+    {
+      "id": 719,
+      "ta": 103.54466395337626,
+      "dur": 12.771615027904343,
+      "L": 1984,
+      "M": 4096,
+      "prompt_tokens": 1627,
+      "generated_tokens": 357,
+      "source_id": "pb6UoCS_119"
+    },
+    {
+      "id": 720,
+      "ta": 103.6000379613803,
+      "dur": 8.60775403522544,
+      "L": 2536,
+      "M": 4096,
+      "prompt_tokens": 1767,
+      "generated_tokens": 769,
+      "source_id": "2khYSLc_8"
+    },
+    {
+      "id": 721,
+      "ta": 103.82332227709492,
+      "dur": 19.958208554522642,
+      "L": 1418,
+      "M": 4096,
+      "prompt_tokens": 1125,
+      "generated_tokens": 293,
+      "source_id": "0koRSmQ_0"
+    },
+    {
+      "id": 722,
+      "ta": 103.99434842394996,
+      "dur": 21.67260938513565,
+      "L": 2123,
+      "M": 4096,
+      "prompt_tokens": 1557,
+      "generated_tokens": 566,
+      "source_id": "9METby3_7"
+    },
+    {
+      "id": 723,
+      "ta": 104.27631849261363,
+      "dur": 10.40323957903852,
+      "L": 1930,
+      "M": 4096,
+      "prompt_tokens": 1907,
+      "generated_tokens": 23,
+      "source_id": "hDjMGr7_0"
+    },
+    {
+      "id": 724,
+      "ta": 104.30364079909592,
+      "dur": 24.299748397404006,
+      "L": 471,
+      "M": 4096,
+      "prompt_tokens": 223,
+      "generated_tokens": 248,
+      "source_id": "HhQpiE1_21"
+    },
+    {
+      "id": 725,
+      "ta": 104.53296727844447,
+      "dur": 8.44138703518283,
+      "L": 1189,
+      "M": 4096,
+      "prompt_tokens": 788,
+      "generated_tokens": 401,
+      "source_id": "PQ71V9I_13"
+    },
+    {
+      "id": 726,
+      "ta": 104.88061864423442,
+      "dur": 24.180253606850336,
+      "L": 326,
+      "M": 4096,
+      "prompt_tokens": 241,
+      "generated_tokens": 85,
+      "source_id": "Jn8Dlmd_0"
+    },
+    {
+      "id": 727,
+      "ta": 104.94377686416198,
+      "dur": 11.675270219029402,
+      "L": 852,
+      "M": 4096,
+      "prompt_tokens": 457,
+      "generated_tokens": 395,
+      "source_id": "lvdsUR4_0"
+    },
+    {
+      "id": 728,
+      "ta": 105.02551870509807,
+      "dur": 10.078773824142061,
+      "L": 1451,
+      "M": 4096,
+      "prompt_tokens": 935,
+      "generated_tokens": 516,
+      "source_id": "OhVxYql_17"
+    },
+    {
+      "id": 729,
+      "ta": 105.13241745619763,
+      "dur": 22.603462240711913,
+      "L": 2073,
+      "M": 4096,
+      "prompt_tokens": 1788,
+      "generated_tokens": 285,
+      "source_id": "HT7ROok_0"
+    },
+    {
+      "id": 730,
+      "ta": 105.30742805463231,
+      "dur": 15.985745226446479,
+      "L": 1167,
+      "M": 4096,
+      "prompt_tokens": 816,
+      "generated_tokens": 351,
+      "source_id": "CJs2qC2_5"
+    },
+    {
+      "id": 731,
+      "ta": 105.53725603985254,
+      "dur": 15.719658019429815,
+      "L": 133,
+      "M": 4096,
+      "prompt_tokens": 52,
+      "generated_tokens": 81,
+      "source_id": "4jnbPuY_0"
+    },
+    {
+      "id": 732,
+      "ta": 105.59205562584245,
+      "dur": 9.449338449998281,
+      "L": 1328,
+      "M": 4096,
+      "prompt_tokens": 1316,
+      "generated_tokens": 12,
+      "source_id": "52niO4o_0"
+    },
+    {
+      "id": 733,
+      "ta": 105.96196688554711,
+      "dur": 15.202926066415905,
+      "L": 1471,
+      "M": 4096,
+      "prompt_tokens": 858,
+      "generated_tokens": 613,
+      "source_id": "ajP0YEE_37"
+    },
+    {
+      "id": 734,
+      "ta": 106.01257258386364,
+      "dur": 13.535145091666354,
+      "L": 390,
+      "M": 4096,
+      "prompt_tokens": 46,
+      "generated_tokens": 344,
+      "source_id": "nFkByZ0_0"
+    },
+    {
+      "id": 735,
+      "ta": 106.12098481991367,
+      "dur": 19.547086597517055,
+      "L": 2457,
+      "M": 4096,
+      "prompt_tokens": 1712,
+      "generated_tokens": 745,
+      "source_id": "4J1zVYJ_0"
+    },
+    {
+      "id": 736,
+      "ta": 106.21903007124409,
+      "dur": 9.347480328737579,
+      "L": 1903,
+      "M": 4096,
+      "prompt_tokens": 1446,
+      "generated_tokens": 457,
+      "source_id": "nFC7Udj_0"
+    },
+    {
+      "id": 737,
+      "ta": 106.30106701877384,
+      "dur": 20.38777925568639,
+      "L": 691,
+      "M": 4096,
+      "prompt_tokens": 40,
+      "generated_tokens": 651,
+      "source_id": "gVXf1wA_0"
+    },
+    {
+      "id": 738,
+      "ta": 106.47034953609338,
+      "dur": 14.384980361192662,
+      "L": 2261,
+      "M": 4096,
+      "prompt_tokens": 1797,
+      "generated_tokens": 464,
+      "source_id": "oHsEGT0_3"
+    },
+    {
+      "id": 739,
+      "ta": 106.6375170219091,
+      "dur": 18.821237733897235,
+      "L": 806,
+      "M": 4096,
+      "prompt_tokens": 707,
+      "generated_tokens": 99,
+      "source_id": "eEXN4gU_39"
+    },
+    {
+      "id": 740,
+      "ta": 106.91841117620353,
+      "dur": 9.088215991406045,
+      "L": 2130,
+      "M": 4096,
+      "prompt_tokens": 1571,
+      "generated_tokens": 559,
+      "source_id": "Fy9JAep_27"
+    },
+    {
+      "id": 741,
+      "ta": 107.08425380835901,
+      "dur": 23.999898778068857,
+      "L": 1287,
+      "M": 4096,
+      "prompt_tokens": 1076,
+      "generated_tokens": 211,
+      "source_id": "yRr7Soa_4"
+    },
+    {
+      "id": 742,
+      "ta": 107.24548236608526,
+      "dur": 23.609130371082085,
+      "L": 2295,
+      "M": 4096,
+      "prompt_tokens": 1578,
+      "generated_tokens": 717,
+      "source_id": "7HWLFTq_31"
+    },
+    {
+      "id": 743,
+      "ta": 107.30674542528247,
+      "dur": 15.739300073950494,
+      "L": 397,
+      "M": 4096,
+      "prompt_tokens": 110,
+      "generated_tokens": 287,
+      "source_id": "yR3FbtR_12"
+    },
+    {
+      "id": 744,
+      "ta": 107.35643099176187,
+      "dur": 8.277814474900334,
+      "L": 260,
+      "M": 4096,
+      "prompt_tokens": 75,
+      "generated_tokens": 185,
+      "source_id": "X58Jswh_0"
+    },
+    {
+      "id": 745,
+      "ta": 107.4560130836383,
+      "dur": 11.223422466927753,
+      "L": 529,
+      "M": 4096,
+      "prompt_tokens": 487,
+      "generated_tokens": 42,
+      "source_id": "cZX7DMX_243"
+    },
+    {
+      "id": 746,
+      "ta": 107.54784364998233,
+      "dur": 17.95997437153118,
+      "L": 1132,
+      "M": 4096,
+      "prompt_tokens": 598,
+      "generated_tokens": 534,
+      "source_id": "sPHzHD9_11"
+    },
+    {
+      "id": 747,
+      "ta": 107.56418346551534,
+      "dur": 10.896410606522387,
+      "L": 272,
+      "M": 4096,
+      "prompt_tokens": 87,
+      "generated_tokens": 185,
+      "source_id": "ncC030u_0"
+    },
+    {
+      "id": 748,
+      "ta": 107.64610901645958,
+      "dur": 9.320867545060212,
+      "L": 1794,
+      "M": 4096,
+      "prompt_tokens": 1379,
+      "generated_tokens": 415,
+      "source_id": "Jmj72Pg_29"
+    },
+    {
+      "id": 749,
+      "ta": 107.86134474444577,
+      "dur": 16.867557382354768,
+      "L": 1435,
+      "M": 4096,
+      "prompt_tokens": 676,
+      "generated_tokens": 759,
+      "source_id": "Z9VqR05_78"
+    },
+    {
+      "id": 750,
+      "ta": 108.00288307385853,
+      "dur": 13.598761116012831,
+      "L": 685,
+      "M": 4096,
+      "prompt_tokens": 256,
+      "generated_tokens": 429,
+      "source_id": "2PbxVGm_29"
+    },
+    {
+      "id": 751,
+      "ta": 108.0171031166475,
+      "dur": 8.486767952544799,
+      "L": 713,
+      "M": 4096,
+      "prompt_tokens": 226,
+      "generated_tokens": 487,
+      "source_id": "LFxue7A_0"
+    },
+    {
+      "id": 752,
+      "ta": 108.030653584075,
+      "dur": 18.36481461337455,
+      "L": 2203,
+      "M": 4096,
+      "prompt_tokens": 1705,
+      "generated_tokens": 498,
+      "source_id": "I5LDDow_38"
+    },
+    {
+      "id": 753,
+      "ta": 108.2900221310945,
+      "dur": 13.051498458388625,
+      "L": 1192,
+      "M": 4096,
+      "prompt_tokens": 667,
+      "generated_tokens": 525,
+      "source_id": "uGZR62l_0"
+    },
+    {
+      "id": 754,
+      "ta": 108.3540646773302,
+      "dur": 12.243719104851605,
+      "L": 870,
+      "M": 4096,
+      "prompt_tokens": 61,
+      "generated_tokens": 809,
+      "source_id": "6pWK9yx_0"
+    },
+    {
+      "id": 755,
+      "ta": 108.6620830440985,
+      "dur": 12.029015694904775,
+      "L": 242,
+      "M": 4096,
+      "prompt_tokens": 93,
+      "generated_tokens": 149,
+      "source_id": "rtmBRMf_0"
+    },
+    {
+      "id": 756,
+      "ta": 108.80453960231429,
+      "dur": 10.640460330913337,
+      "L": 468,
+      "M": 4096,
+      "prompt_tokens": 58,
+      "generated_tokens": 410,
+      "source_id": "kowZm5W_0"
+    },
+    {
+      "id": 757,
+      "ta": 108.87089756352933,
+      "dur": 22.084869838895976,
+      "L": 366,
+      "M": 4096,
+      "prompt_tokens": 122,
+      "generated_tokens": 244,
+      "source_id": "wbfz253_0"
+    },
+    {
+      "id": 758,
+      "ta": 109.0289594630466,
+      "dur": 12.765369000381018,
+      "L": 1478,
+      "M": 4096,
+      "prompt_tokens": 699,
+      "generated_tokens": 779,
+      "source_id": "DFnJ8L7_0"
+    },
+    {
+      "id": 759,
+      "ta": 109.02950718941523,
+      "dur": 24.86574725213965,
+      "L": 740,
+      "M": 4096,
+      "prompt_tokens": 515,
+      "generated_tokens": 225,
+      "source_id": "X0iA5qq_41"
+    },
+    {
+      "id": 760,
+      "ta": 109.16160440380256,
+      "dur": 13.388876225924783,
+      "L": 1700,
+      "M": 4096,
+      "prompt_tokens": 1151,
+      "generated_tokens": 549,
+      "source_id": "b0NNQoa_0"
+    },
+    {
+      "id": 761,
+      "ta": 109.18698495919061,
+      "dur": 19.271898126699334,
+      "L": 2001,
+      "M": 4096,
+      "prompt_tokens": 1821,
+      "generated_tokens": 180,
+      "source_id": "KRLDTNJ_0"
+    },
+    {
+      "id": 762,
+      "ta": 109.44228712873351,
+      "dur": 18.960427043421213,
+      "L": 1281,
+      "M": 4096,
+      "prompt_tokens": 511,
+      "generated_tokens": 770,
+      "source_id": "4Fqz138_11"
+    },
+    {
+      "id": 763,
+      "ta": 109.73444927726376,
+      "dur": 17.845309422480632,
+      "L": 287,
+      "M": 4096,
+      "prompt_tokens": 34,
+      "generated_tokens": 253,
+      "source_id": "Qf37QDC_0"
+    },
+    {
+      "id": 764,
+      "ta": 109.76588480985683,
+      "dur": 8.196940329516812,
+      "L": 2519,
+      "M": 4096,
+      "prompt_tokens": 1863,
+      "generated_tokens": 656,
+      "source_id": "8Qg67GW_0"
+    },
+    {
+      "id": 765,
+      "ta": 109.90650424545291,
+      "dur": 19.81628300352559,
+      "L": 754,
+      "M": 4096,
+      "prompt_tokens": 748,
+      "generated_tokens": 6,
+      "source_id": "n88GPyZ_6"
+    },
+    {
+      "id": 766,
+      "ta": 109.928557081737,
+      "dur": 21.976426413367932,
+      "L": 2098,
+      "M": 4096,
+      "prompt_tokens": 1621,
+      "generated_tokens": 477,
+      "source_id": "9iUZNsL_9"
+    },
+    {
+      "id": 767,
+      "ta": 111.15319703872643,
+      "dur": 23.48442719514872,
+      "L": 777,
+      "M": 4096,
+      "prompt_tokens": 249,
+      "generated_tokens": 528,
+      "source_id": "8oP0XzQ_135"
+    },
+    {
+      "id": 768,
+      "ta": 111.18543987950079,
+      "dur": 24.226129932306545,
+      "L": 1239,
+      "M": 4096,
+      "prompt_tokens": 942,
+      "generated_tokens": 297,
+      "source_id": "EcvnZ3B_17"
+    },
+    {
+      "id": 769,
+      "ta": 111.22736865489858,
+      "dur": 21.889281160899376,
+      "L": 285,
+      "M": 4096,
+      "prompt_tokens": 105,
+      "generated_tokens": 180,
+      "source_id": "i1fWheV_0"
+    },
+    {
+      "id": 770,
+      "ta": 111.91448257392116,
+      "dur": 11.032080587922536,
+      "L": 1035,
+      "M": 4096,
+      "prompt_tokens": 817,
+      "generated_tokens": 218,
+      "source_id": "WjW4qki_0"
+    },
+    {
+      "id": 771,
+      "ta": 111.9526757955265,
+      "dur": 17.274420071698145,
+      "L": 580,
+      "M": 4096,
+      "prompt_tokens": 559,
+      "generated_tokens": 21,
+      "source_id": "q3OEbUc_0"
+    },
+    {
+      "id": 772,
+      "ta": 112.00358776440741,
+      "dur": 11.725113185186945,
+      "L": 448,
+      "M": 4096,
+      "prompt_tokens": 233,
+      "generated_tokens": 215,
+      "source_id": "p4ZRATb_0"
+    },
+    {
+      "id": 773,
+      "ta": 112.04835994664104,
+      "dur": 18.523981362531785,
+      "L": 1888,
+      "M": 4096,
+      "prompt_tokens": 1771,
+      "generated_tokens": 117,
+      "source_id": "p0Q4kRz_21"
+    },
+    {
+      "id": 774,
+      "ta": 112.05019730387194,
+      "dur": 13.765361835634113,
+      "L": 487,
+      "M": 4096,
+      "prompt_tokens": 420,
+      "generated_tokens": 67,
+      "source_id": "LxT2ybS_20"
+    },
+    {
+      "id": 775,
+      "ta": 112.10165199361953,
+      "dur": 11.23961110463031,
+      "L": 1343,
+      "M": 4096,
+      "prompt_tokens": 1089,
+      "generated_tokens": 254,
+      "source_id": "NmIpqlq_45"
+    },
+    {
+      "id": 776,
+      "ta": 112.39879270384726,
+      "dur": 10.648748093090989,
+      "L": 2516,
+      "M": 4096,
+      "prompt_tokens": 2009,
+      "generated_tokens": 507,
+      "source_id": "HyvvV3U_117"
+    },
+    {
+      "id": 777,
+      "ta": 112.4033907173322,
+      "dur": 10.052631166431205,
+      "L": 2025,
+      "M": 4096,
+      "prompt_tokens": 1447,
+      "generated_tokens": 578,
+      "source_id": "GSW8CfM_0"
+    },
+    {
+      "id": 778,
+      "ta": 112.62698802290456,
+      "dur": 24.63480320422953,
+      "L": 213,
+      "M": 4096,
+      "prompt_tokens": 121,
+      "generated_tokens": 92,
+      "source_id": "SlG0wPt_0"
+    },
+    {
+      "id": 779,
+      "ta": 112.97716107744351,
+      "dur": 16.249473741665923,
+      "L": 293,
+      "M": 4096,
+      "prompt_tokens": 68,
+      "generated_tokens": 225,
+      "source_id": "EblAfCN_0"
+    },
+    {
+      "id": 780,
+      "ta": 113.32521160804005,
+      "dur": 24.79205039847659,
+      "L": 1067,
+      "M": 4096,
+      "prompt_tokens": 493,
+      "generated_tokens": 574,
+      "source_id": "C1MWu3r_0"
+    },
+    {
+      "id": 781,
+      "ta": 113.40901147767792,
+      "dur": 16.989799943180046,
+      "L": 687,
+      "M": 4096,
+      "prompt_tokens": 395,
+      "generated_tokens": 292,
+      "source_id": "YpPCfzH_13"
+    },
+    {
+      "id": 782,
+      "ta": 113.43499321218039,
+      "dur": 13.996601304928797,
+      "L": 2579,
+      "M": 4096,
+      "prompt_tokens": 1917,
+      "generated_tokens": 662,
+      "source_id": "SaUokxc_117"
+    },
+    {
+      "id": 783,
+      "ta": 113.83358973375881,
+      "dur": 14.398359692956038,
+      "L": 2198,
+      "M": 4096,
+      "prompt_tokens": 1968,
+      "generated_tokens": 230,
+      "source_id": "bTDMt3m_171"
+    },
+    {
+      "id": 784,
+      "ta": 113.9276282879375,
+      "dur": 17.42401665423397,
+      "L": 414,
+      "M": 4096,
+      "prompt_tokens": 38,
+      "generated_tokens": 376,
+      "source_id": "bRwXk7P_0"
+    },
+    {
+      "id": 785,
+      "ta": 113.9345939364742,
+      "dur": 14.051971622352047,
+      "L": 685,
+      "M": 4096,
+      "prompt_tokens": 71,
+      "generated_tokens": 614,
+      "source_id": "vL2xrKn_0"
+    },
+    {
+      "id": 786,
+      "ta": 113.95190051689977,
+      "dur": 15.427641882753097,
+      "L": 396,
+      "M": 4096,
+      "prompt_tokens": 269,
+      "generated_tokens": 127,
+      "source_id": "nOhjGjD_0"
+    },
+    {
+      "id": 787,
+      "ta": 114.08245320263553,
+      "dur": 18.624810924557956,
+      "L": 1247,
+      "M": 4096,
+      "prompt_tokens": 829,
+      "generated_tokens": 418,
+      "source_id": "modrigq_85"
+    },
+    {
+      "id": 788,
+      "ta": 114.65299355546955,
+      "dur": 16.510203133555713,
+      "L": 622,
+      "M": 4096,
+      "prompt_tokens": 236,
+      "generated_tokens": 386,
+      "source_id": "pHqpYzv_0"
+    },
+    {
+      "id": 789,
+      "ta": 114.69917959852968,
+      "dur": 16.573457719775703,
+      "L": 1213,
+      "M": 4096,
+      "prompt_tokens": 788,
+      "generated_tokens": 425,
+      "source_id": "YeoNsEt_7"
+    },
+    {
+      "id": 790,
+      "ta": 114.7372509037257,
+      "dur": 21.379191802570368,
+      "L": 729,
+      "M": 4096,
+      "prompt_tokens": 661,
+      "generated_tokens": 68,
+      "source_id": "6tyaegh_12"
+    },
+    {
+      "id": 791,
+      "ta": 114.80777031980239,
+      "dur": 16.9270901577827,
+      "L": 1405,
+      "M": 4096,
+      "prompt_tokens": 1096,
+      "generated_tokens": 309,
+      "source_id": "01gVJ2y_0"
+    },
+    {
+      "id": 792,
+      "ta": 114.85861731199932,
+      "dur": 18.98445435269746,
+      "L": 1392,
+      "M": 4096,
+      "prompt_tokens": 1049,
+      "generated_tokens": 343,
+      "source_id": "HBdUXCh_0"
+    },
+    {
+      "id": 793,
+      "ta": 114.87538642654367,
+      "dur": 18.875832553102587,
+      "L": 586,
+      "M": 4096,
+      "prompt_tokens": 97,
+      "generated_tokens": 489,
+      "source_id": "mf9wIYd_0"
+    },
+    {
+      "id": 794,
+      "ta": 114.97552161779781,
+      "dur": 16.977708177475325,
+      "L": 750,
+      "M": 4096,
+      "prompt_tokens": 547,
+      "generated_tokens": 203,
+      "source_id": "q0WCosY_0"
+    },
+    {
+      "id": 795,
+      "ta": 115.01344912556088,
+      "dur": 17.039398774732472,
+      "L": 417,
+      "M": 4096,
+      "prompt_tokens": 282,
+      "generated_tokens": 135,
+      "source_id": "auw4Kmn_0"
+    },
+    {
+      "id": 796,
+      "ta": 115.43309849114222,
+      "dur": 16.941018145572798,
+      "L": 680,
+      "M": 4096,
+      "prompt_tokens": 398,
+      "generated_tokens": 282,
+      "source_id": "5hdCHod_0"
+    },
+    {
+      "id": 797,
+      "ta": 115.44054329671322,
+      "dur": 15.79387493525708,
+      "L": 625,
+      "M": 4096,
+      "prompt_tokens": 514,
+      "generated_tokens": 111,
+      "source_id": "tB6eFqE_39"
+    },
+    {
+      "id": 798,
+      "ta": 115.45574882459718,
+      "dur": 13.666800357597122,
+      "L": 1851,
+      "M": 4096,
+      "prompt_tokens": 1197,
+      "generated_tokens": 654,
+      "source_id": "Cd0RHo3_17"
+    },
+    {
+      "id": 799,
+      "ta": 115.54889175504032,
+      "dur": 9.263855371756595,
+      "L": 535,
+      "M": 4096,
+      "prompt_tokens": 517,
+      "generated_tokens": 18,
+      "source_id": "HloIYDc_34"
+    }
+  ]
+}

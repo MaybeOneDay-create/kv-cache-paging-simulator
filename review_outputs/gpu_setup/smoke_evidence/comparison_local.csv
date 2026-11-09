@@ -1,0 +1,2 @@
+﻿batch_size,hf_completed,vllm_completed,hf_tokens_per_s,vllm_tokens_per_s,hf_peak_device_memory_mib,vllm_peak_device_memory_mib,hf_error_kind,vllm_error_kind,hf_error,vllm_error
+1,1,1,34.644209925308004,61.38210093553738,3565,13165,,,,

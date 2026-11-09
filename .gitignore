@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# 历史未拆分输出；正式结果保留在命名子目录中
+/review_outputs/comparison.png
+/review_outputs/results.csv
+/review_outputs/comparison.svg
+/review_outputs/experiment_config.json
+/review_outputs/fragmentation.csv
+/review_outputs/long_context.csv
+data/
+review_outputs/gpu_setup/*.png
+review_outputs/gpu_setup/*.zip
+review_outputs/gpu_validation_bundle.zip
+review_outputs/coverage/
+.ppt_build/node_modules/
+.ppt_build/*.pptx
+.ppt_build/*.inspect.ndjson
+.ppt_build/*.png
+.ppt_output/
+ppt_output/*.inspect.ndjson
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

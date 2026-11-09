@@ -1,0 +1,61 @@
+{
+  "trace_sha256": "52dd1a1c7d41f0f40ee6a2f7dbfb6c647a9f86fecba526d8e57cbfef516929ad",
+  "source_metadata": {
+    "dataset_id": "anon8231489123/ShareGPT_Vicuna_unfiltered",
+    "dataset_revision": "192ab2185289094fc556ec8ce5ce1e8e587154ca",
+    "dataset_file": "ShareGPT_V3_unfiltered_cleaned_split.json",
+    "dataset_sha256": "35f0e213ce091ed9b9af2a1f0755e9d39f9ccec34ab281cd4ca60d70f6479ba4",
+    "tokenizer_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "tokenizer_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "requests": 800,
+    "seed": 42,
+    "min_total_tokens": 128,
+    "max_context": 4096,
+    "arrival_mean": 0.15,
+    "duration_range": [
+      8.0,
+      25.0
+    ],
+    "timing": "synthetic Poisson arrivals and uniform durations"
+  },
+  "requests": 800,
+  "block_size": 16,
+  "capacities": [
+    500,
+    1000,
+    2000,
+    3000,
+    6000,
+    9000,
+    12000,
+    16000,
+    20000,
+    24000,
+    28000,
+    32000
+  ],
+  "modes": [
+    "naive",
+    "paged",
+    "paged_dynamic"
+  ],
+  "length_buckets": [
+    [
+      128,
+      511
+    ],
+    [
+      512,
+      1023
+    ],
+    [
+      1024,
+      2047
+    ],
+    [
+      2048,
+      4096
+    ]
+  ],
+  "method": "same arrival/duration trace for each allocator"
+}

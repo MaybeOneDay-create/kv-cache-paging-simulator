@@ -1,0 +1,3 @@
+﻿mode,reserved_token_slots,useful_token_slots,unused_token_slots,internal_waste_ratio
+naive,3276800,887800,2389000,0.72906494140625
+paged,893872,887800,6072,0.006792918896665294

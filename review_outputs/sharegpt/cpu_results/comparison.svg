@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;font-size:13px;fill:#243044}.title{font-size:18px;font-weight:bold}</style>
+<text class="title" x="55" y="35">OOM 失败率 (%)</text>
+<path d="M55,65v260h305" fill="none" stroke="#65758a"/>
+<path d="M55,325.0h305" stroke="#e5e9ee"/>
+<text x="20" y="329.0">0</text>
+<path d="M55,260.0h305" stroke="#e5e9ee"/>
+<text x="20" y="264.0">25</text>
+<path d="M55,195.0h305" stroke="#e5e9ee"/>
+<text x="20" y="199.0">50</text>
+<path d="M55,130.0h305" stroke="#e5e9ee"/>
+<text x="20" y="134.0">75</text>
+<path d="M55,65.0h305" stroke="#e5e9ee"/>
+<text x="20" y="69.0">100</text>
+<text x="37.0" y="345">500</text>
+<text x="148.3" y="345">12000</text>
+<text x="342.0" y="345">32000</text>
+<polyline points="55.0,67.6 59.8,72.5 69.5,81.9 79.2,90.7 108.3,119.9 137.3,147.9 166.3,172.6 205.1,207.0 243.8,241.8 282.5,271.7 321.3,298.0 360.0,315.6" fill="none" stroke="#b83b36" stroke-width="2.5"/>
+<path d="M55,372h22" stroke="#b83b36" stroke-width="3"/>
+<text x="83" y="376">连续预留</text>
+<polyline points="55.0,102.0 59.8,127.1 69.5,168.0 79.2,198.6 108.3,275.3 137.3,319.5 166.3,325.0 205.1,325.0 243.8,325.0 282.5,325.0 321.3,325.0 360.0,325.0" fill="none" stroke="#2474b6" stroke-width="2.5"/>
+<path d="M55,390h22" stroke="#2474b6" stroke-width="3"/>
+<text x="83" y="394">一次性分页</text>
+<polyline points="55.0,105.6 59.8,124.5 69.5,171.3 79.2,208.0 108.3,293.5 137.3,324.4 166.3,325.0 205.1,325.0 243.8,325.0 282.5,325.0 321.3,325.0 360.0,325.0" fill="none" stroke="#23845b" stroke-width="2.5"/>
+<path d="M55,408h22" stroke="#23845b" stroke-width="3"/>
+<text x="83" y="412">逐步扩页</text>
+<text class="title" x="425" y="35">时间加权 GPU 块占用率 (%)</text>
+<path d="M425,65v260h305" fill="none" stroke="#65758a"/>
+<path d="M425,325.0h305" stroke="#e5e9ee"/>
+<text x="390" y="329.0">0</text>
+<path d="M425,260.0h305" stroke="#e5e9ee"/>
+<text x="390" y="264.0">25</text>
+<path d="M425,195.0h305" stroke="#e5e9ee"/>
+<text x="390" y="199.0">50</text>
+<path d="M425,130.0h305" stroke="#e5e9ee"/>
+<text x="390" y="134.0">75</text>
+<path d="M425,65.0h305" stroke="#e5e9ee"/>
+<text x="390" y="69.0">100</text>
+<text x="407.0" y="345">500</text>
+<text x="518.3" y="345">12000</text>
+<text x="712.0" y="345">32000</text>
+<polyline points="425.0,200.5 429.8,144.2 439.5,119.6 449.2,110.7 478.3,101.9 507.3,97.1 536.3,103.4 575.1,106.4 613.8,107.8 652.5,113.2 691.3,120.9 730.0,133.4" fill="none" stroke="#b83b36" stroke-width="2.5"/>
+<path d="M425,372h22" stroke="#b83b36" stroke-width="3"/>
+<text x="453" y="376">连续预留</text>
+<polyline points="425.0,105.2 429.8,97.4 439.5,99.6 449.2,102.5 478.3,111.6 507.3,139.4 536.3,180.4 575.1,216.6 613.8,238.3 652.5,252.7 691.3,263.0 730.0,270.8" fill="none" stroke="#2474b6" stroke-width="2.5"/>
+<path d="M425,390h22" stroke="#2474b6" stroke-width="3"/>
+<text x="453" y="394">一次性分页</text>
+<polyline points="425.0,93.1 429.8,97.0 439.5,100.3 449.2,105.4 478.3,117.8 507.3,161.4 536.3,202.0 575.1,232.7 613.8,251.2 652.5,263.5 691.3,272.3 730.0,278.9" fill="none" stroke="#23845b" stroke-width="2.5"/>
+<path d="M425,408h22" stroke="#23845b" stroke-width="3"/>
+<text x="453" y="412">逐步扩页</text>
+<text class="title" x="815" y="35">累计预留块需求</text>
+<text x="815" y="90">连续预留: 204,800</text>
+<rect x="815" y="100" width="220.0" height="45" fill="#b83b36"/>
+<text x="815" y="215">按实际长度: 55,867</text>
+<rect x="815" y="225" width="60.0" height="45" fill="#2474b6"/>
+<text x="815" y="365">减少 72.7%（非实测碎片率）</text>
+</svg>

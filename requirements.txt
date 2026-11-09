@@ -1,0 +1,3 @@
+# CPU 仿真、CSV、SVG 和测试仅使用 Python 标准库。
+# 可选 PNG 出图：pip install matplotlib>=3.7
+# 云端 GPU A/B 的 PyTorch、Transformers、vLLM 按实例环境单独安装。
