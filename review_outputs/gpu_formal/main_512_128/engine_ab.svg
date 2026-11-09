@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="445" viewBox="0 0 1120 445">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#243044}.panel{font-size:18px;font-weight:bold}.tick{font-size:12px}.note{font-size:12px}</style>
+<text class="panel" x="75" y="58">输出吞吐（token/s，均值 ± 标准差）</text>
+<path d="M75,84v245h480" fill="none" stroke="#63748a"/>
+<path d="M75,329.0h480" stroke="#e7ebf0"/>
+<text class="tick" x="63" y="333.0" text-anchor="end">0</text>
+<path d="M75,274.6h480" stroke="#e7ebf0"/>
+<text class="tick" x="63" y="278.6" text-anchor="end">100</text>
+<path d="M75,220.1h480" stroke="#e7ebf0"/>
+<text class="tick" x="63" y="224.1" text-anchor="end">200</text>
+<path d="M75,165.7h480" stroke="#e7ebf0"/>
+<text class="tick" x="63" y="169.7" text-anchor="end">300</text>
+<path d="M75,111.2h480" stroke="#e7ebf0"/>
+<text class="tick" x="63" y="115.2" text-anchor="end">400</text>
+<text class="tick" x="123.0" y="351" text-anchor="middle">1</text>
+<rect x="91.0" y="310.3" width="30" height="18.7" fill="#3b75af"/>
+<path d="M106.0,309.8V310.9m-5,0h10m-10,-1.2h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="125.0" y="297.5" width="30" height="31.5" fill="#d17a32"/>
+<path d="M140.0,297.1V298.0m-5,0h10m-10,-0.9h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<text class="tick" x="219.0" y="351" text-anchor="middle">2</text>
+<rect x="187.0" y="297.7" width="30" height="31.3" fill="#3b75af"/>
+<path d="M202.0,296.9V298.6m-5,0h10m-10,-1.8h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="221.0" y="270.3" width="30" height="58.7" fill="#d17a32"/>
+<path d="M236.0,269.9V270.6m-5,0h10m-10,-0.8h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<text class="tick" x="315.0" y="351" text-anchor="middle">4</text>
+<rect x="283.0" y="283.2" width="30" height="45.8" fill="#3b75af"/>
+<path d="M298.0,282.7V283.7m-5,0h10m-10,-1.0h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="317.0" y="228.0" width="30" height="101.0" fill="#d17a32"/>
+<path d="M332.0,227.3V228.7m-5,0h10m-10,-1.4h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<text class="tick" x="411.0" y="351" text-anchor="middle">8</text>
+<rect x="379.0" y="275.3" width="30" height="53.7" fill="#3b75af"/>
+<path d="M394.0,275.1V275.6m-5,0h10m-10,-0.5h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="413.0" y="171.6" width="30" height="157.4" fill="#d17a32"/>
+<path d="M428.0,171.2V172.1m-5,0h10m-10,-0.9h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<text class="tick" x="507.0" y="351" text-anchor="middle">16</text>
+<rect x="475.0" y="266.1" width="30" height="62.9" fill="#3b75af"/>
+<path d="M490.0,266.0V266.2m-5,0h10m-10,-0.2h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="509.0" y="109.5" width="30" height="219.5" fill="#d17a32"/>
+<path d="M524.0,105.1V113.9m-5,0h10m-10,-8.8h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<text class="tick" x="315.0" y="377" text-anchor="middle">提交批量（请求数）</text>
+<text class="panel" x="635" y="58">设备已用峰值（MiB，含预热）</text>
+<path d="M635,84v245h480" fill="none" stroke="#63748a"/>
+<path d="M635,329.0h480" stroke="#e7ebf0"/>
+<text class="tick" x="623" y="333.0" text-anchor="end">0</text>
+<path d="M635,281.1h480" stroke="#e7ebf0"/>
+<text class="tick" x="623" y="285.1" text-anchor="end">3000</text>
+<path d="M635,233.3h480" stroke="#e7ebf0"/>
+<text class="tick" x="623" y="237.3" text-anchor="end">6000</text>
+<path d="M635,185.4h480" stroke="#e7ebf0"/>
+<text class="tick" x="623" y="189.4" text-anchor="end">9000</text>
+<path d="M635,137.6h480" stroke="#e7ebf0"/>
+<text class="tick" x="623" y="141.6" text-anchor="end">12000</text>
+<path d="M635,89.7h480" stroke="#e7ebf0"/>
+<text class="tick" x="623" y="93.7" text-anchor="end">15000</text>
+<text class="tick" x="683.0" y="351" text-anchor="middle">1</text>
+<rect x="651.0" y="271.8" width="30" height="57.2" fill="#3b75af"/>
+<rect x="685.0" y="119.0" width="30" height="210.0" fill="#d17a32"/>
+<text class="tick" x="779.0" y="351" text-anchor="middle">2</text>
+<rect x="747.0" y="265.7" width="30" height="63.3" fill="#3b75af"/>
+<path d="M762.0,265.4V266.0m-5,0h10m-10,-0.6h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="781.0" y="118.3" width="30" height="210.7" fill="#d17a32"/>
+<path d="M796.0,118.0V118.7m-5,0h10m-10,-0.7h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<text class="tick" x="875.0" y="351" text-anchor="middle">4</text>
+<rect x="843.0" y="258.8" width="30" height="70.2" fill="#3b75af"/>
+<path d="M858.0,257.9V259.7m-5,0h10m-10,-1.8h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="877.0" y="117.3" width="30" height="211.7" fill="#d17a32"/>
+<text class="tick" x="971.0" y="351" text-anchor="middle">8</text>
+<rect x="939.0" y="244.8" width="30" height="84.2" fill="#3b75af"/>
+<path d="M954.0,244.3V245.3m-5,0h10m-10,-1.0h10" fill="none" stroke="#1d2733" stroke-width="1.5"/>
+<rect x="973.0" y="114.3" width="30" height="214.7" fill="#d17a32"/>
+<text class="tick" x="1067.0" y="351" text-anchor="middle">16</text>
+<rect x="1035.0" y="215.1" width="30" height="113.9" fill="#3b75af"/>
+<rect x="1069.0" y="108.0" width="30" height="221.0" fill="#d17a32"/>
+<text class="tick" x="875.0" y="377" text-anchor="middle">提交批量（请求数）</text>
+<rect x="80" y="403" width="16" height="12" fill="#3b75af"/>
+<text class="note" x="103" y="414">Transformers StaticCache</text>
+<rect x="330" y="403" width="16" height="12" fill="#d17a32"/>
+<text class="note" x="353" y="414">vLLM</text>
+<text class="note" x="605" y="414">同卡三轮；引擎 A/B，不能归因于分页单因素</text>
+</svg>
