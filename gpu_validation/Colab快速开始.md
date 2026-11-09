@@ -1,6 +1,6 @@
 # Colab 免费 GPU 快速开始
 
-本页记录 Colab 上的安装、smoke test、三轮引擎 A/B 与证据下载命令。2026-11-09 的 Tesla T4 主负载结果和原始文件已保存于 `review_outputs/gpu_formal/main_512_128/`；新会话仍需先检查实际 GPU 与环境。长上下文和压力测试计划见 `docs/云端GPU验证记录模板.md`。
+本页记录 Colab 上的安装、smoke test、三轮引擎 A/B 与证据下载命令。2026-11-09 的 Tesla T4 主负载结果和原始文件已保存于 `review_outputs/gpu_formal/main_512_128/`；新会话仍需先检查实际 GPU 与环境。长上下文和压力测试计划见 `docs/GPU长上下文与压力测试计划.md`。
 
 ## 1. 打开 GPU
 
@@ -55,7 +55,7 @@ with zipfile.ZipFile("gpu_validation_bundle.zip") as archive:
 !CUDA_VISIBLE_DEVICES=0 VLLM_WORKER_MULTIPROC_METHOD=spawn /content/kv_task/.venv/bin/python gpu_validation/run_ab.py --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 2 4 8 16 --batch-warmups 2 --repetitions 3 --gpu-index 0 --output-dir /content/kv_task/gpu_results/main_512_128
 ```
 
-只在两种 smoke test 均通过后运行。运行结束应显示 `Saved 3 paired runs to ...`。随后按 512、1024、2048、4096 token 长度档与不同 KV 预算做压力测试。只在实测后写入 GPU 结论。Colab 免费会话可能中断，需及时下载每轮原始文件。
+只在两种 smoke test 均通过后运行。运行结束应显示 `Saved 3 paired runs to ...`。每次扫描使用新的空输出目录。长上下文与容量压力运行使用 `--continue-on-failure`，失败与未运行批量记录在 `pressure_summary.csv`；命令见 `docs/GPU长上下文与压力测试计划.md`。只在实测后写入 GPU 结论。Colab 免费会话可能中断，需及时下载每轮原始文件。
 
 ## 结果带回本地
 
