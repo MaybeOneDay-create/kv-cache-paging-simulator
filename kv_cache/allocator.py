@@ -13,6 +13,51 @@ def blocks_for(tokens: int) -> int:
 class AllocError(RuntimeError):
     pass
 
+
+class BitmapFramePool:
+    """O(1) fixed-frame allocation with an explicit free bitmap.
+
+    The stack identifies the next free frame; the bitmap is the authoritative
+    free/occupied state and rejects duplicate or out-of-range returns.
+    """
+
+    def __init__(self, capacity: int):
+        if capacity <= 0:
+            raise ValueError("invalid frame capacity")
+        self.capacity = capacity
+        self.bitmap = bytearray([0xFF]) * ((capacity + 7) // 8)
+        if capacity % 8:
+            self.bitmap[-1] &= (1 << (capacity % 8)) - 1
+        self._free_stack = list(range(capacity))
+
+    def __len__(self) -> int:
+        return len(self._free_stack)
+
+    def __iter__(self):
+        return iter(self._free_stack)
+
+    def pop(self) -> int:
+        if not self._free_stack:
+            raise AllocError("no free GPU frames")
+        frame = self._free_stack.pop()
+        if not self.is_free(frame):
+            raise RuntimeError("bitmap/free-stack disagreement")
+        self.bitmap[frame // 8] &= ~(1 << (frame % 8))
+        return frame
+
+    def append(self, frame: int) -> None:
+        if not isinstance(frame, int) or not 0 <= frame < self.capacity:
+            raise ValueError("frame outside pool")
+        if self.is_free(frame):
+            raise ValueError("frame already free")
+        self.bitmap[frame // 8] |= 1 << (frame % 8)
+        self._free_stack.append(frame)
+
+    def is_free(self, frame: int) -> bool:
+        if not 0 <= frame < self.capacity:
+            raise IndexError("frame outside pool")
+        return bool(self.bitmap[frame // 8] & (1 << (frame % 8)))
+
 @dataclass
 class Block:
     block_id: int
@@ -42,7 +87,7 @@ class KVBlockAllocator:
             raise ValueError("invalid capacity")
         self.capacity = capacity_blocks
         self.cpu_capacity = cpu_capacity_blocks
-        self.pool = list(range(capacity_blocks))
+        self.pool = BitmapFramePool(capacity_blocks)
         self.page_tables: dict[int, PageTable] = {}
         self.blocks: dict[int, Block] = {}
         self.cpu_blocks: set[int] = set()

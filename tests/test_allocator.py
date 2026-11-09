@@ -1,9 +1,29 @@
 import unittest
 
-from kv_cache.allocator import AllocError, BLOCK_SIZE, KVBlockAllocator, NaiveContiguousAllocator, blocks_for
+from kv_cache.allocator import (AllocError, BLOCK_SIZE, BitmapFramePool,
+                                KVBlockAllocator, NaiveContiguousAllocator, blocks_for)
 
 
 class PagingTests(unittest.TestCase):
+    def test_bitmap_pool_reuse_and_invalid_release(self):
+        pool = BitmapFramePool(3)
+        self.assertEqual([pool.pop() for _ in range(3)], [2, 1, 0])
+        self.assertEqual(bytes(pool.bitmap), b"\x00")
+        with self.assertRaises(AllocError):
+            pool.pop()
+        pool.append(1)
+        self.assertTrue(pool.is_free(1))
+        with self.assertRaises(ValueError):
+            pool.append(1)
+        with self.assertRaises(ValueError):
+            pool.append(3)
+        self.assertEqual(pool.pop(), 1)
+        self.assertFalse(pool.is_free(1))
+        packed = BitmapFramePool(10)
+        self.assertEqual(bytes(packed.bitmap), b"\xff\x03")
+        self.assertEqual(packed.pop(), 9)
+        self.assertEqual(bytes(packed.bitmap), b"\xff\x01")
+
     def test_validation_and_manual_eviction(self):
         with self.assertRaises(ValueError):
             blocks_for(-1)

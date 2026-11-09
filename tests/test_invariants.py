@@ -15,6 +15,9 @@ def assert_invariants(test, alloc):
     frames = [block.frame for block in alloc.blocks.values() if block.frame is not None]
     test.assertEqual(len(frames), len(set(frames)))
     test.assertEqual(len(alloc.pool), len(set(alloc.pool)))
+    test.assertEqual(len(alloc.pool.bitmap), (alloc.capacity + 7) // 8)
+    test.assertEqual({i for i in range(alloc.capacity) if alloc.pool.is_free(i)},
+                     set(alloc.pool))
     test.assertEqual(set(frames) & set(alloc.pool), set())
     test.assertEqual(set(frames) | set(alloc.pool), set(range(alloc.capacity)))
     test.assertLessEqual(len(alloc.cpu_blocks), alloc.cpu_capacity)
