@@ -151,7 +151,7 @@ python run_experiment.py
 
 **长上下文压测**：`review_outputs/formal_50pct/long_context.csv` 在每个长度档使用 100 条请求，共 400 条；每个容量、每种方案各输出一行失败数和失败率。逐步扩页的请求可能在已经运行后因扩页失败，因此某些长请求的完成率会低于一次性准入；解读结果时要同时考虑准入策略和已消耗的计算时间。此处的 CPU 侧“换出”仅保存块元数据，尚未代表真实 KV 张量搬运。
 
-**回归与覆盖率**：在项目根目录执行 `python -m unittest discover -s tests -v` 和 `python tests/measure_coverage.py`。2026-11-09 在本地 Python 3.11 上，37 个单测通过；按标准库 `trace` 计算整个 `kv_cache` 包的可执行行覆盖为 477/629（75.8%）。覆盖率脚本会在低于 70% 时返回非零状态。
+**回归与覆盖率**：在项目根目录执行 `python -m unittest discover -s tests -v` 和 `python tests/measure_coverage.py`。2026-11-09 在本地 Python 3.11 上，38 个单测通过；按标准库 `trace` 计算整个 `kv_cache` 包的可执行行覆盖为 477/629（75.8%）。覆盖率脚本会在低于 70% 时返回非零状态。
 
 **ShareGPT 长度轨迹**：固定数据集 SHA-256 和 Qwen tokenizer revision 后，`gpu_validation/prepare_sharegpt_trace.py` 已生成 800 条数值请求（`review_outputs/sharegpt/trace.json`），`run_trace_experiment.py` 的三方案结果见 `review_outputs/sharegpt/cpu_results/`。真实对话提供 prompt/回复 token 长度；到达与持续时间是合成的。该轨迹的 prompt 占比为 69.7%，应与正式 50% prompt 合成主实验分别解读。复跑命令与来源哈希见 `docs/量化评测报告.md`。云端引擎 A/B 的原始数据见 `review_outputs/gpu_formal/main_512_128/`。
 

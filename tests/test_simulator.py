@@ -19,6 +19,19 @@ class SimulatorTests(unittest.TestCase):
         self.assertEqual(result["oom_rate"], 0)
         self.assertEqual(result["avg_util"], 0)
 
+    def test_departure_frees_capacity_before_same_time_arrival(self):
+        workload = [
+            {"id": 1, "ta": 0, "dur": 1, "L": 16, "M": 16,
+             "prompt_tokens": 8, "generated_tokens": 8},
+            {"id": 2, "ta": 1, "dur": 1, "L": 16, "M": 16,
+             "prompt_tokens": 8, "generated_tokens": 8},
+        ]
+        for mode in ("naive", "paged", "paged_dynamic"):
+            with self.subTest(mode=mode):
+                result = simulate(workload, 1, mode)
+                self.assertEqual(result["rejected"], 0)
+                self.assertEqual(result["peak_concurrency"], 1)
+
     def test_dynamic_growth_can_fail_after_admission(self):
         workload = [
             {"id": 1, "ta": 0, "dur": 10, "L": 32, "M": 32},

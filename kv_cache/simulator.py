@@ -35,7 +35,8 @@ def simulate(workload, capacity, mode):
     for s in workload:
         events.append((s["ta"], "arr", s))
         events.append((s["ta"] + s["dur"], "dep", s))
-    events.sort(key=lambda e: e[0])
+    # Release departing requests before admitting arrivals at the same time.
+    events.sort(key=lambda e: (e[0], 0 if e[1] == "dep" else 1))
 
     rejected = 0
     rejected_ids = set()
@@ -87,7 +88,8 @@ def simulate_dynamic(workload, capacity):
         generated = s.get("generated_tokens", s["L"])
         if prompt < 0 or generated < 0 or prompt + generated != s["L"]:
             raise ValueError("prompt + generated must equal total L")
-        events.append((s["ta"], 0, s["id"], "arr", 0))
+        # At equal timestamps, finish token growth, then release, then admit.
+        events.append((s["ta"], 3, s["id"], "arr", 0))
         completed = 0
         while completed < generated:
             count = min(generated - completed,
