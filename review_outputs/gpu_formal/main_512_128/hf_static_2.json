@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "backend": "hf_static",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "dtype": "float16",
+  "input_tokens": 512,
+  "output_tokens": 128,
+  "prompt_ids_sha256": "dcfabcee843e67d741efaf2e4e9ac4c9f42cef4d6eba0b072c96ade6deca558d",
+  "max_model_len": 4096,
+  "block_size": 16,
+  "batch_warmups": 2,
+  "planned_batch_sizes": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "gpu_memory_utilization": 0.9,
+  "python": "3.13.16",
+  "torch": "2.14.0+cu132",
+  "transformers": "5.20.2",
+  "engine_version": "5.20.2",
+  "gpu_name": "Tesla T4",
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-1d320edd-f5e3-da67-7540-e7d84812a199",
+  "gpu_total_memory_mib": 15360,
+  "results": [
+    {
+      "batch_size": 1,
+      "completed": 1,
+      "generated_tokens": 128,
+      "elapsed_s": 3.817535002999648,
+      "output_tokens_per_s": 33.529489552662476,
+      "peak_device_memory_mib": 3585,
+      "error_kind": null,
+      "error": null
+    },
+    {
+      "batch_size": 2,
+      "completed": 2,
+      "generated_tokens": 256,
+      "elapsed_s": 4.566941088999556,
+      "output_tokens_per_s": 56.05502567498192,
+      "peak_device_memory_mib": 3969,
+      "error_kind": null,
+      "error": null
+    },
+    {
+      "batch_size": 4,
+      "completed": 4,
+      "generated_tokens": 512,
+      "elapsed_s": 6.104046870000275,
+      "output_tokens_per_s": 83.87877925976295,
+      "peak_device_memory_mib": 4433,
+      "error_kind": null,
+      "error": null
+    },
+    {
+      "batch_size": 8,
+      "completed": 8,
+      "generated_tokens": 1024,
+      "elapsed_s": 10.400208408999788,
+      "output_tokens_per_s": 98.45956539812076,
+      "peak_device_memory_mib": 5261,
+      "error_kind": null,
+      "error": null
+    },
+    {
+      "batch_size": 16,
+      "completed": 16,
+      "generated_tokens": 2048,
+      "elapsed_s": 17.72925685000064,
+      "output_tokens_per_s": 115.51527609573361,
+      "peak_device_memory_mib": 7139,
+      "error_kind": null,
+      "error": null
+    }
+  ]
+}

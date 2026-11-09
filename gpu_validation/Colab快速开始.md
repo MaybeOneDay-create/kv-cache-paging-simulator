@@ -1,6 +1,6 @@
 # Colab 免费 GPU 快速开始
 
-本页用于拿到第一组**真实 GPU** smoke test。免费 GPU 的可用性与型号由 Colab 分配；Qwen2.5-1.5B-Instruct 是待现场核对的候选模型，不预先填写测量结果。正式三轮扫描、长上下文和结果解释见 `docs/云端GPU验证记录模板.md`。
+本页记录 Colab 上的安装、smoke test、三轮引擎 A/B 与证据下载命令。2026-11-09 的 Tesla T4 主负载结果和原始文件已保存于 `review_outputs/gpu_formal/main_512_128/`；新会话仍需先检查实际 GPU 与环境。长上下文和压力测试计划见 `docs/云端GPU验证记录模板.md`。
 
 ## 1. 打开 GPU
 
@@ -39,7 +39,7 @@ with zipfile.ZipFile("gpu_validation_bundle.zip") as archive:
 !uv pip install --python /content/kv_task/.venv/bin/python vllm transformers --torch-backend=auto
 !uv pip freeze --python /content/kv_task/.venv/bin/python > environment.txt
 !CUDA_VISIBLE_DEVICES=0 /content/kv_task/.venv/bin/python gpu_validation/bench.py --backend hf_static --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 --gpu-index 0 --output hf_smoke.json
-!CUDA_VISIBLE_DEVICES=0 /content/kv_task/.venv/bin/python gpu_validation/bench.py --backend vllm --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 --gpu-index 0 --output vllm_smoke.json
+!CUDA_VISIBLE_DEVICES=0 VLLM_WORKER_MULTIPROC_METHOD=spawn /content/kv_task/.venv/bin/python gpu_validation/bench.py --backend vllm --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 --gpu-index 0 --output vllm_smoke.json
 !/content/kv_task/.venv/bin/python gpu_validation/compare.py --hf hf_smoke.json --vllm vllm_smoke.json --output smoke_comparison.csv
 ```
 
@@ -50,15 +50,29 @@ with zipfile.ZipFile("gpu_validation_bundle.zip") as archive:
 按 `docs/云端GPU验证记录模板.md` 的同卡、同模型、同 dtype、同长度、同批大小要求，各引擎至少三轮。`gpu_validation/run_ab.py` 自动为两种引擎分别启动全新进程，保存每轮原始 JSON、完整日志、`nvidia-smi` 快照、比较 CSV、环境版本和汇总表。示例：
 
 ```python
-!CUDA_VISIBLE_DEVICES=0 /content/kv_task/.venv/bin/python gpu_validation/run_ab.py --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 2 4 8 16 --repetitions 3 --gpu-index 0 --output-dir /content/kv_task/gpu_results/main
+!CUDA_VISIBLE_DEVICES=0 VLLM_WORKER_MULTIPROC_METHOD=spawn /content/kv_task/.venv/bin/python gpu_validation/run_ab.py --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --dtype float16 --input-tokens 512 --output-tokens 128 --max-model-len 4096 --batch-sizes 1 2 4 8 16 --batch-warmups 2 --repetitions 3 --gpu-index 0 --output-dir /content/kv_task/gpu_results/main_512_128
 ```
 
-只在两种 smoke test 均通过后运行。随后按 512、1024、2048、4096 token 长度档与不同 KV 预算做压力测试。只在实测后写入 GPU 结论。Colab 免费会话可能中断，需及时下载每轮原始文件。
+只在两种 smoke test 均通过后运行。运行结束应显示 `Saved 3 paired runs to ...`。随后按 512、1024、2048、4096 token 长度档与不同 KV 预算做压力测试。只在实测后写入 GPU 结论。Colab 免费会话可能中断，需及时下载每轮原始文件。
 
 ## 结果带回本地
 
+正式实验完成后，将整个结果目录打包下载，保留六轮原始 JSON、日志、配置、`nvidia-smi` 快照和比较 CSV：
+
 ```python
+import shutil
 from google.colab import files
+
+archive = shutil.make_archive(
+    "/content/main_512_128_evidence", "zip",
+    "/content/kv_task/gpu_results", "main_512_128"
+)
+files.download(archive)
+```
+
+smoke test 的单独文件也可按需下载：
+
+```python
 for name in ["hf_smoke.json", "vllm_smoke.json", "smoke_comparison.csv", "environment.txt"]:
     files.download(name)
 ```

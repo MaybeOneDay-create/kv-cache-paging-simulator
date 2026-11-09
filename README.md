@@ -6,7 +6,7 @@
 
 > **课程**：2026 专业实习 —— A 类选题 **A1：面向大模型推理优化的操作系统级任务**
 > **模块**：任务一（4 个任务中任选其一，本仓库完成“任务一”）
-> **定位**：先用 CPU 离散事件仿真器研究 KV Cache 分页机制，再做云端 GPU 端到端验证。正式 CPU 合成实验已按 50% prompt 比例重算；GPU 阶段尚无实测数据。
+> **定位**：用 CPU 离散事件仿真器研究 KV Cache 分页机制，并在云端 GPU 上比较真实推理引擎。正式 CPU 合成实验采用 50% prompt；Colab T4 上已完成 512+128 token 的三轮引擎 A/B，长上下文与压力边界待测。
 
 逐项验收状态见 [任务一验收清单](docs/任务一验收清单.md)。
 
@@ -151,9 +151,9 @@ python run_experiment.py
 
 **长上下文压测**：`review_outputs/formal_50pct/long_context.csv` 在每个长度档使用 100 条请求，共 400 条；每个容量、每种方案各输出一行失败数和失败率。逐步扩页的请求可能在已经运行后因扩页失败，因此某些长请求的完成率会低于一次性准入；解读结果时要同时考虑准入策略和已消耗的计算时间。此处的 CPU 侧“换出”仅保存块元数据，尚未代表真实 KV 张量搬运。
 
-**回归与覆盖率**：在项目根目录执行 `python -m unittest discover -s tests -v` 和 `python tests/measure_coverage.py`。2026-11-09 在本地 Python 3.11 上，33 个单测通过；按标准库 `trace` 计算 `kv_cache` 四个核心模块的可执行行覆盖为 364/484（75.2%）。覆盖率脚本会在低于 70% 时返回非零状态。
+**回归与覆盖率**：在项目根目录执行 `python -m unittest discover -s tests -v` 和 `python tests/measure_coverage.py`。2026-11-09 在本地 Python 3.11 上，33 个单测通过；按标准库 `trace` 计算整个 `kv_cache` 包的可执行行覆盖为 455/597（76.2%）。覆盖率脚本会在低于 70% 时返回非零状态。
 
-**ShareGPT 长度轨迹**：固定数据集 SHA-256 和 Qwen tokenizer revision 后，`gpu_validation/prepare_sharegpt_trace.py` 已生成 800 条数值请求（`review_outputs/sharegpt/trace.json`），`run_trace_experiment.py` 的三方案结果见 `review_outputs/sharegpt/cpu_results/`。真实对话提供 prompt/回复 token 长度；到达与持续时间是合成的。该轨迹的 prompt 占比为 69.7%，应与正式 50% prompt 合成主实验分别解读。复跑命令与来源哈希见 `docs/量化评测报告.md`。云端真实引擎 A/B 仍待运行。
+**ShareGPT 长度轨迹**：固定数据集 SHA-256 和 Qwen tokenizer revision 后，`gpu_validation/prepare_sharegpt_trace.py` 已生成 800 条数值请求（`review_outputs/sharegpt/trace.json`），`run_trace_experiment.py` 的三方案结果见 `review_outputs/sharegpt/cpu_results/`。真实对话提供 prompt/回复 token 长度；到达与持续时间是合成的。该轨迹的 prompt 占比为 69.7%，应与正式 50% prompt 合成主实验分别解读。复跑命令与来源哈希见 `docs/量化评测报告.md`。云端引擎 A/B 的原始数据见 `review_outputs/gpu_formal/main_512_128/`。
 
 ---
 
@@ -162,9 +162,9 @@ python run_experiment.py
 | 评分点 | 本仓库如何体现 |
 |---|---|
 | 预留浪费下降 | 按实际长度比按最大长度少预留 71.1% 的块；内部未用 token 槽比例 71.5%→1.3% |
-| 单卡并发序列数提升 | 峰值并发 23→93（同 3000 块）；零 OOM 容量 20000→6000 |
-| 长上下文 OOM 比例下降 | OOM 率随容量变化曲线：同容量下分页 OOM 率远低于朴素 |
-| 新技术 / 场景覆盖 | PagedAttention 思想 + OS 虚拟内存类比；分配器提供 COW、前缀共享和模拟换出；云端引擎 A/B 待实测 |
+| 单卡并发序列数提升 | CPU 仿真峰值活跃序列 23→93（同 3000 块）；零 OOM 扫描容量 20000→6000。真实 GPU 同时活跃序列数待测 |
+| 长上下文 OOM 比例下降 | CPU 各长度档结果见 `long_context.csv`；逐步扩页可能在运行中失败，不能保证每档都优于连续预留。真实 GPU 长上下文边界待测 |
+| 新技术 / 场景覆盖 | PagedAttention 思想 + OS 虚拟内存类比；分配器提供 COW、前缀共享和模拟换出；云端引擎完成 512+128 token 三轮 A/B |
 
 ---
 
@@ -175,6 +175,8 @@ python run_experiment.py
 - `KVBlockAllocator.evict(...)` / `translate(...)` —— 模拟换出和访问时换入；仅保存块元数据，不保存真实 KV 张量
 
 LRU 换出已在元数据层实现。已确认的 GPU 验证方式是使用真实推理引擎做 A/B，同时用本项目仿真器验证机制；本分配器不会直接管理真实 KV 张量。设计与评测细节见 `docs/系统设计文档.md` 和 `docs/量化评测报告.md`。
+
+Colab T4 的环境检查、两引擎单批 smoke test 和 512 输入 + 128 输出的三轮配对 A/B 已完成。正式原始证据在 `review_outputs/gpu_formal/main_512_128/`，汇总与解释在 `docs/量化评测报告.md`；复跑方法见 `gpu_validation/Colab快速开始.md`。这组数据比较的是完整引擎，长上下文和容量压力仍待实测。
 
 ---
 

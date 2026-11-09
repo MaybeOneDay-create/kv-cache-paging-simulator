@@ -89,10 +89,10 @@ function bullet(slide,x,y,w,title,body,accent=C.red){
  bullet(s,70,165,520,'共享与 COW','块引用计数支撑共享释放；分支写入部分末块时分配新块。');
  bullet(s,70,270,520,'模拟 LRU 换出','按访问顺序选择块，访问换出块触发换入；CPU 侧仅保存元数据。');
  bullet(s,70,375,520,'逐 token 扩页','跨 16-token 边界才分配新块；记录中途扩页失败。');
- bullet(s,70,480,520,'验证现状','33 个单测通过，核心模块行覆盖 75.2%；真实 GPU A/B 仍待执行。');
+ bullet(s,70,480,520,'验证现状','33 个单测通过，仿真器全包行覆盖 76.2%；T4 单批验证通过。');
  box(s,{x:680,y:180,w:470,h:355,fill:C.light,line:C.line,radius:'rounded-xl'});
  box(s,{x:720,y:210,w:390,h:30,text:'下一阶段需完成',fs:20,color:C.red,bold:true,align:'center'});
- const fixes=['1 确认免费云 GPU 实例','2 跑通两种引擎的 smoke test','3 GPU 长度档与批量扫描','4 补充实测图表与演示录屏'];
+ const fixes=['1 完成三轮 GPU A/B','2 扩展长度档与批量扫描','3 核对原始日志及结果','4 补充实测图表与演示录屏'];
  fixes.forEach((t,i)=>{const y=270+i*58; box(s,{x:735,y,w:350,h:38,text:t,fs:17,color:C.navy,bold:i<2,valign:'center'});});
 }
 // 6 plan

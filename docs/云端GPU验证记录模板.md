@@ -1,6 +1,6 @@
-# 云端 GPU 验证记录模板（待实际运行）
+# 云端 GPU 验证记录与后续实验计划
 
-本文件是待执行的实验记录规范，不包含 GPU 推理实测结果。已确认先尝试免费 GPU。2026-11-09 的 Colab `nvidia-smi` 截图已显示单张 Tesla T4、15,360 MiB 显存、驱动 580.82.07、空闲 0 MiB 使用量；这只证明运行时已分配 GPU，不证明模型或 A/B 已跑通。模型候选为固定 revision 的 Qwen2.5-1.5B-Instruct，仍须现场 smoke test。不能把 `review_outputs/formal_50pct` 中的 CPU 仿真数字填写为 GPU 测量值。
+本文件保留云端验证方法和后续实验计划。已在免费 Colab Tesla T4 上完成 Qwen2.5-1.5B-Instruct 的单批 smoke test 与三轮 512+128 token 正式引擎 A/B；原始证据在 `review_outputs/gpu_formal/main_512_128/`，数值见 `docs/量化评测报告.md`。长上下文、KV 预算和压力边界尚待实测。不能把 `review_outputs/formal_50pct` 中的 CPU 仿真数字填写为 GPU 测量值。
 
 **免费环境（2026-11-09 核查）**：先尝试 Google Colab 免费 GPU；其资源类型和用量不保证。Kaggle 可作备选，但 P100 已于 2026-09-15 退役，不能照旧文档指定 P100；T4×2 实例需要只暴露其中一张卡。实际会话先运行 `nvidia-smi` 确认 GPU、空闲显存和驱动，再按 vLLM 官方安装指南选择兼容版本。[Colab FAQ](https://research.google.com/colaboratory/intl/en-GB/faq.html)、[Kaggle P100 退役公告](https://www.kaggle.com/product-announcements/735239)、[Kaggle Notebook 说明](https://www.kaggle.com/docs/notebooks)、[vLLM GPU 安装](https://docs.vllm.ai/en/latest/getting_started/installation/gpu/)
 
@@ -36,7 +36,7 @@ python gpu_validation/summarize_runs.py --pairs hf_1.json vllm_1.json hf_2.json 
 
 汇总表分别给出成功、失败、未运行轮数，以及成功轮次吞吐和设备显存的均值、标准差。失败轮次不会被当作零吞吐并入均值；报告必须同时展示失败轮数。三轮配置或引擎版本不一致会被拒绝。初始化失败的记录也会被拒绝，需单独列入环境或模型加载失败清单。
 
-脚本使用同一 tokenizer 生成固定 token ID 输入，先预热并校验实际输出 token 数，再记录批量完成数、生成 token/s、耗时、`nvidia-smi` 采样到的设备显存峰值和错误。正式版在每个批大小的计时前额外预热两次，避免把首次 shape 的 Triton JIT 编译混入吞吐；预热失败会作为该批次失败记录。比较脚本拒绝模型、revision、精度、长度、预热次数、prompt token ID 哈希或 GPU 型号不一致的结果，并区分失败批次与尚未运行的批次。`hf_static` 为每批显式构造 Transformers `StaticCache(config=model.config, max_cache_len=max_model_len)` 并交给 `generate`；`vllm` 使用 16-token block。2026-11-09 的 Colab T4 单批 smoke test 两后端均成功，但正式扫描尚未运行。[Transformers 缓存参数](https://huggingface.co/docs/transformers/main_classes/text_generation)、[vLLM 离线推理示例](https://docs.vllm.ai/en/latest/examples/basic/offline_inference/)、[vLLM token ID 输入格式](https://docs.vllm.ai/en/stable/api/vllm/inputs/)
+脚本使用同一 tokenizer 生成固定 token ID 输入，先预热并校验实际输出 token 数，再记录批量完成数、生成 token/s、耗时、`nvidia-smi` 采样到的设备显存峰值和错误。正式版在每个批大小的计时前额外预热两次，以降低首次 shape 的 Triton JIT 编译对吞吐的干扰；预热失败会作为该批次失败记录。比较脚本拒绝模型、revision、精度、长度、预热次数、prompt token ID 哈希或 GPU 型号不一致的结果，并区分失败批次与尚未运行的批次。`hf_static` 为每批显式构造 Transformers `StaticCache(config=model.config, max_cache_len=max_model_len)` 并交给 `generate`；`vllm` 使用 16-token block。2026-11-09 的 Colab T4 主负载三轮扫描已完成，但三份 vLLM 日志仍有 Triton JIT 提示，须在报告中保留此限制。[Transformers 缓存参数](https://huggingface.co/docs/transformers/main_classes/text_generation)、[vLLM 离线推理示例](https://docs.vllm.ai/en/latest/examples/basic/offline_inference/)、[vLLM token ID 输入格式](https://docs.vllm.ai/en/stable/api/vllm/inputs/)
 
 ## 固定配置
 
@@ -53,7 +53,7 @@ python gpu_validation/summarize_runs.py --pairs hf_1.json vllm_1.json hf_2.json 
 
 | run_id | 配置哈希 | 实际完成/总请求 | 吞吐 token/s | GPU 峰值显存 | 有效 KV 容量或占用 | 最大成功并发 | 抢占/换出次数 | OOM 分类 |
 |---|---|---:|---:|---:|---:|---:|---:|---|
-| 待运行 | 待填写 | 待填写 | 待填写 | 待填写 | 待填写 | 待填写 | 待填写 | 待填写 |
+| 主负载结果见 `review_outputs/gpu_formal/main_512_128/` | `run_config.json` | 各批均 3/3 | `summary.csv` | `summary.csv` | 仅提交批量 ≤16 | 未测实际活跃并发 | 日志无抢占事件记录 | 各批无 OOM |
 
 保存原始请求级 JSON/CSV、监控样本和启动日志；图表应由原始数据重新生成。汇总数字须注明多轮重复的均值和波动，不只展示表现最好的一轮。
 

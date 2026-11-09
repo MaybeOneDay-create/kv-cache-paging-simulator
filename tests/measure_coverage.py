@@ -6,8 +6,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-SOURCES = [ROOT / "kv_cache" / name for name in
-           ("allocator.py", "simulator.py", "workload.py", "experiments.py")]
+SOURCES = sorted((ROOT / "kv_cache").glob("*.py"))
 
 suite = unittest.defaultTestLoader.discover(str(ROOT / "tests"), pattern="test_*.py")
 tracer = trace.Trace(count=True, trace=False)
