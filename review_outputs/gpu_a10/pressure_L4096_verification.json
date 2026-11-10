@@ -1,0 +1,184 @@
+{
+  "status": "verified",
+  "directory": "E:\\任务一_KV_Cache分页仿真器_完整源代码\\review_outputs\\gpu_a10\\pressure_L4096_A10_20261110_135138",
+  "repetitions": 3,
+  "batch_sizes": [
+    16,
+    32,
+    64
+  ],
+  "gpu_uuid": "GPU-12d68d23-3fc9-d906-8511-69fb30f853b8",
+  "result_rows": 3,
+  "files": [
+    {
+      "name": "run_config.json",
+      "bytes": 13569,
+      "sha256": "3b1bf313a3c563313387d0d244cd25730a6b16b640338870fd6ce8b7fda89ee1"
+    },
+    {
+      "name": "nvidia_smi_before.txt",
+      "bytes": 1778,
+      "sha256": "171e4ac9ae76a9282c4ff7d690d38cbca3580bc1c885389fc53c886712c51fed"
+    },
+    {
+      "name": "hf_static_1.json",
+      "bytes": 2218,
+      "sha256": "832a4b77d077f3c0224a6bc90aff7cbc0d3d0502ae4430f24579dded5e1a73e4"
+    },
+    {
+      "name": "hf_static_1.command.json",
+      "bytes": 664,
+      "sha256": "7aa6c4927ebdf66290a37dc6333416b2c108ad913b614cc5fdefd651895cc687"
+    },
+    {
+      "name": "hf_static_1.log",
+      "bytes": 1369,
+      "sha256": "9ebc27a1ac7245911f5c77176adcd27dede475d902c6df324b33ef0a646ba926"
+    },
+    {
+      "name": "nvidia_smi_after_hf_static_1.txt",
+      "bytes": 1778,
+      "sha256": "0365af87c2340cb4f1ad2d5ef0ad22d9dc5ec5408c96a6fa4f530c54ffd7297d"
+    },
+    {
+      "name": "vllm_1.json",
+      "bytes": 1607,
+      "sha256": "b1fcb13063016fca6d250f00513bc13e5c1807dd67564f17eefc65c55e830082"
+    },
+    {
+      "name": "vllm_1.command.json",
+      "bytes": 654,
+      "sha256": "affc845ca4e531e7cffd09d903b03b3e8244b8e4c820122fa84d006179c99c38"
+    },
+    {
+      "name": "vllm_1.log",
+      "bytes": 15679,
+      "sha256": "86521ee7286444904555ba2ee92ee14c87a51269edcac4eac754bba02bbc89ee"
+    },
+    {
+      "name": "nvidia_smi_after_vllm_1.txt",
+      "bytes": 1778,
+      "sha256": "784dd4030f652e074738d64a5531011ec695ec6d856efaabc8e56ad220369368"
+    },
+    {
+      "name": "comparison_1.csv",
+      "bytes": 994,
+      "sha256": "bb28688af28a16b5b662936a77ad1059749a0f52623a997c18b78830b12026a7"
+    },
+    {
+      "name": "comparison_1.log",
+      "bytes": 202,
+      "sha256": "a5673966b887ba7ab66dbf44fc9405936ecbfe22b686d99c0457c3848c864871"
+    },
+    {
+      "name": "hf_static_2.json",
+      "bytes": 2216,
+      "sha256": "d25221524ed748fae865cdb08fdb6e1bbcbbfde55c1aebfaf5abc582a2db4961"
+    },
+    {
+      "name": "hf_static_2.command.json",
+      "bytes": 664,
+      "sha256": "d9299a1fdae69840fb57b4b10e88f7e2f969f8b2aa76049206551a5d2876aaa6"
+    },
+    {
+      "name": "hf_static_2.log",
+      "bytes": 1373,
+      "sha256": "e2a3f58bb6fe46ef6167e2ad2644b207177f6e293aaffd45fb6f72b5b860dbf4"
+    },
+    {
+      "name": "nvidia_smi_after_hf_static_2.txt",
+      "bytes": 1778,
+      "sha256": "7d65ca84ac9af84d7b42aac9eb852b01af77bdcdd2fa8172f4628f452f5085e5"
+    },
+    {
+      "name": "vllm_2.json",
+      "bytes": 1607,
+      "sha256": "49d3792ecb7ba1530032e8465ac60d1a9c3096faf59ed6f513de4ebb91bf0157"
+    },
+    {
+      "name": "vllm_2.command.json",
+      "bytes": 654,
+      "sha256": "8744ab506bdd6e03346e4576e1cee619a86d30a6a8d837dbf3a8614fd1bf2a48"
+    },
+    {
+      "name": "vllm_2.log",
+      "bytes": 15770,
+      "sha256": "74db83afb05ca79ae2b32b8bc20cd8968ac931e6918a3890e5537ed4649a3b7f"
+    },
+    {
+      "name": "nvidia_smi_after_vllm_2.txt",
+      "bytes": 1778,
+      "sha256": "0b8b31546d5186477384d122543a8f79bb164d45d0fb7f541b2769f5f6155bac"
+    },
+    {
+      "name": "comparison_2.csv",
+      "bytes": 993,
+      "sha256": "306f0de1c2f0d7b69b96e1cae9abe2f6a9806135e63f28da94ed196d88946b35"
+    },
+    {
+      "name": "comparison_2.log",
+      "bytes": 202,
+      "sha256": "17287364e229ff671f71bbe7fbf90bf72f88151dd300c70c7d17fb2af1e27e01"
+    },
+    {
+      "name": "hf_static_3.json",
+      "bytes": 2219,
+      "sha256": "22f0b0c6ec12e7ca503d26fcde416d7e4c8b62bbd51f028e24af685c61041e70"
+    },
+    {
+      "name": "hf_static_3.command.json",
+      "bytes": 664,
+      "sha256": "88f1ae0662dc606a8c3250de04522369278801b7ece66c0907748fbf0914d65d"
+    },
+    {
+      "name": "hf_static_3.log",
+      "bytes": 1369,
+      "sha256": "624999f512a5d5af2084644a192e5edf7cb219dc301227aaedb510e58781120b"
+    },
+    {
+      "name": "nvidia_smi_after_hf_static_3.txt",
+      "bytes": 1778,
+      "sha256": "167aa075be807850905368b9f3dcdc8ba2dfb643643b3a956bf67092b656801b"
+    },
+    {
+      "name": "vllm_3.json",
+      "bytes": 1606,
+      "sha256": "d77eccfcbb10191ec2c13e7ae9ea0c76810a48c7f1759d82bcdff06d13d9bdd9"
+    },
+    {
+      "name": "vllm_3.command.json",
+      "bytes": 654,
+      "sha256": "9136dd76dca5c01becc7f5d0f733c96b5ef3661e0911bd206fb68dbc147f88e3"
+    },
+    {
+      "name": "vllm_3.log",
+      "bytes": 15675,
+      "sha256": "f5fa90ab8b389a8cfdb8f1d79845ad8baa46864fb2d9438d6e78eced8d11e385"
+    },
+    {
+      "name": "nvidia_smi_after_vllm_3.txt",
+      "bytes": 1778,
+      "sha256": "b5084fe11b38d580e3ceed6586ae9bc1fe961643d9c23044c29c486295187956"
+    },
+    {
+      "name": "comparison_3.csv",
+      "bytes": 994,
+      "sha256": "c569f91438b1e2b84dbdaf55afe8d08e74dc4919b0517b31859641f034c0e852"
+    },
+    {
+      "name": "comparison_3.log",
+      "bytes": 202,
+      "sha256": "5df85177b767abce9eb0209e0c673517b9a642f9f334fad7fb55f629b77189ad"
+    },
+    {
+      "name": "summary.csv",
+      "bytes": 608,
+      "sha256": "9fa3cb75e7ed59d041739e1d9612e77c10525e387555a089d5081cbbe1e8c993"
+    },
+    {
+      "name": "summary.log",
+      "bytes": 46,
+      "sha256": "7a749b60e79957eb28d47ff06940d2df86c57ccb4352a680969acb404a893ef3"
+    }
+  ]
+}

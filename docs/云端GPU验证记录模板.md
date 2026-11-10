@@ -1,6 +1,6 @@
 # 云端 GPU 验证记录与后续实验计划
 
-本文件保留云端验证方法和后续实验计划。已在免费 Colab Tesla T4 上完成 Qwen2.5-1.5B-Instruct 的单批 smoke test 与三轮 512+128 token 正式引擎 A/B；原始证据在 `review_outputs/gpu_formal/main_512_128/`，数值见 `docs/量化评测报告.md`。长上下文、KV 预算和压力边界尚待实测。不能把 `review_outputs/formal_50pct` 中的 CPU 仿真数字填写为 GPU 测量值。
+本文件保留云端验证方法和实验计划。免费 Colab Tesla T4 上完成 Qwen2.5-1.5B-Instruct 的单批 smoke test 与三轮 512+128 token 正式引擎 A/B，证据在 `review_outputs/gpu_formal/main_512_128/`。随后在魔搭 A10 上完成四档长上下文、L=4096 压力和 KV 预算实验，证据在 `review_outputs/gpu_a10/`，数值见 `docs/A10_GPU长上下文与压力实验记录_2026-11-10.md`。不能把 `review_outputs/formal_50pct` 中的 CPU 仿真数字填写为 GPU 测量值。
 
 **免费环境（2026-11-09 核查）**：先尝试 Google Colab 免费 GPU；其资源类型和用量不保证。Kaggle 可作备选，但 P100 已于 2026-09-15 退役，不能照旧文档指定 P100；T4×2 实例需要只暴露其中一张卡。实际会话先运行 `nvidia-smi` 确认 GPU、空闲显存和驱动，再按 vLLM 官方安装指南选择兼容版本。[Colab FAQ](https://research.google.com/colaboratory/intl/en-GB/faq.html)、[Kaggle P100 退役公告](https://www.kaggle.com/product-announcements/735239)、[Kaggle Notebook 说明](https://www.kaggle.com/docs/notebooks)、[vLLM GPU 安装](https://docs.vllm.ai/en/latest/getting_started/installation/gpu/)
 
